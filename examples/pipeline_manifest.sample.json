@@ -1,0 +1,65 @@
+{
+  "run_id": "20260925T134002-2552385",
+  "started_at": "2026-09-25T13:40:02",
+  "finished_at": "2026-09-25T13:41:20",
+  "status": "ok",
+  "critical_failure": false,
+  "stages": [
+    {
+      "name": "sentiment",
+      "status": "ok",
+      "critical": false,
+      "duration_seconds": 0,
+      "finished_at": "2026-09-25T13:40:02",
+      "error_summary": ""
+    },
+    {
+      "name": "dynamic_pool",
+      "status": "ok",
+      "critical": true,
+      "duration_seconds": 5,
+      "finished_at": "2026-09-25T13:40:07",
+      "error_summary": ""
+    },
+    {
+      "name": "fundamental",
+      "status": "ok",
+      "critical": false,
+      "duration_seconds": 1,
+      "finished_at": "2026-09-25T13:40:08",
+      "error_summary": ""
+    },
+    {
+      "name": "intraday",
+      "status": "ok",
+      "critical": true,
+      "duration_seconds": 2,
+      "finished_at": "2026-09-25T13:40:10",
+      "error_summary": ""
+    },
+    {
+      "name": "shadow",
+      "status": "ok",
+      "critical": true,
+      "duration_seconds": 68,
+      "finished_at": "2026-09-25T13:41:18",
+      "error_summary": ""
+    },
+    {
+      "name": "board_strength",
+      "status": "ok",
+      "critical": false,
+      "duration_seconds": 1,
+      "finished_at": "2026-09-25T13:41:19",
+      "error_summary": ""
+    },
+    {
+      "name": "recommendation",
+      "status": "ok",
+      "critical": true,
+      "duration_seconds": 1,
+      "finished_at": "2026-09-25T13:41:20",
+      "error_summary": ""
+    }
+  ]
+}

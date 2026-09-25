@@ -1,0 +1,1294 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-25T13:40:11",
+  "market_session": true,
+  "source_scope": "configured_pool",
+  "symbols_expected": 15,
+  "symbols_available": 15,
+  "directions": [
+    {
+      "direction": "家电行业",
+      "score": 71.0,
+      "breadth_pct": 100.0,
+      "median_change_pct": 2.28,
+      "active_count": 0,
+      "overheated_count": 1,
+      "member_count": 3,
+      "best_symbol": "002035",
+      "best_name": "华帝股份"
+    },
+    {
+      "direction": "服装鞋类",
+      "score": 68.36,
+      "breadth_pct": 100.0,
+      "median_change_pct": 3.59,
+      "active_count": 0,
+      "overheated_count": 1,
+      "member_count": 3,
+      "best_symbol": "002640",
+      "best_name": "跨境通"
+    },
+    {
+      "direction": "煤炭行业",
+      "score": 62.8,
+      "breadth_pct": 66.7,
+      "median_change_pct": 1.87,
+      "active_count": 0,
+      "overheated_count": 0,
+      "member_count": 3,
+      "best_symbol": "000034",
+      "best_name": "神州数码"
+    },
+    {
+      "direction": "家具行业",
+      "score": 60.6,
+      "breadth_pct": 66.7,
+      "median_change_pct": 2.43,
+      "active_count": 0,
+      "overheated_count": 0,
+      "member_count": 3,
+      "best_symbol": "002718",
+      "best_name": "友邦吊顶"
+    },
+    {
+      "direction": "纺织机械",
+      "score": 49.5,
+      "breadth_pct": 66.7,
+      "median_change_pct": 0.4,
+      "active_count": 0,
+      "overheated_count": 0,
+      "member_count": 3,
+      "best_symbol": "300384",
+      "best_name": "三联虹普"
+    }
+  ],
+  "candidates": [
+    {
+      "direction": "煤炭行业",
+      "symbol": "000034",
+      "name": "神州数码",
+      "type": "stock",
+      "role": "leader",
+      "stage": "watch",
+      "stage_label": "观察",
+      "score": 75.07,
+      "price": 24.15,
+      "low": 23.03,
+      "high": 24.28,
+      "volume_available": true,
+      "previous_high": 24.28,
+      "high20": 24.45,
+      "change_pct": 3.74,
+      "same_time_volume_ratio": 2.63,
+      "expected_volume_fraction": 0.654,
+      "ma5_bias_pct": 2.34,
+      "ma20_bias_pct": 2.83,
+      "rsi_live": 53.49,
+      "breakout_prev_high_pct": -0.54,
+      "close_position": 0.9,
+      "range20_pct": 9.35,
+      "technical_score": 75.0,
+      "technical_trend": "mixed",
+      "support_price": 23.598,
+      "resistance_price": 24.45,
+      "technical_diagnosis": {
+        "technical_score": 75.0,
+        "trend": "mixed",
+        "trend_periods": {
+          "short": "bullish",
+          "medium": "bullish",
+          "long": "bearish"
+        },
+        "support_name": "MA5",
+        "support_price": 23.598,
+        "support_distance_pct": 2.34,
+        "resistance_name": "20日高点",
+        "resistance_price": 24.45,
+        "resistance_distance_pct": 1.24,
+        "unfilled_gaps": [],
+        "overhead_supply_zone": {
+          "low": 26.39,
+          "high": 26.838,
+          "volume_share_pct": 16.6
+        },
+        "metrics": {
+          "ma5": 23.598,
+          "ma10": 23.335,
+          "ma20": 23.484,
+          "ma60": 24.877,
+          "ma20_slope_pct": 0.24,
+          "ma60_slope_pct": -1.14,
+          "atr14": 0.51,
+          "atr14_pct": 2.11,
+          "volatility20_pct": 23.56,
+          "return5_pct": 2.85,
+          "high20": 24.45,
+          "low20": 22.36,
+          "high60": 30.58,
+          "low60": 22.36
+        },
+        "support_evidence": [
+          "短期均线多头排列",
+          "价格站上上行MA20",
+          "距MA5支撑2.3%",
+          "5日涨幅2.9%仍属温和"
+        ],
+        "opposing_evidence": [
+          "距20日高点压力仅1.2%"
+        ],
+        "missing_data": [],
+        "data_quality": "complete"
+      },
+      "reasons": [
+        "20日波动收敛至9.3%",
+        "同期量比2.63",
+        "日内位置0.90"
+      ]
+    },
+    {
+      "direction": "家具行业",
+      "symbol": "002718",
+      "name": "友邦吊顶",
+      "type": "stock",
+      "role": "core",
+      "stage": "watch",
+      "stage_label": "观察",
+      "score": 72.03,
+      "price": 85.96,
+      "low": 81.22,
+      "high": 87.52,
+      "volume_available": true,
+      "previous_high": 87.52,
+      "high20": 90.0,
+      "change_pct": 3.29,
+      "same_time_volume_ratio": 3.35,
+      "expected_volume_fraction": 0.654,
+      "ma5_bias_pct": 1.57,
+      "ma20_bias_pct": 1.7,
+      "rsi_live": 51.33,
+      "breakout_prev_high_pct": -1.78,
+      "close_position": 0.75,
+      "range20_pct": 12.67,
+      "technical_score": 71.0,
+      "technical_trend": "mixed",
+      "support_price": 84.632,
+      "resistance_price": 88.315,
+      "technical_diagnosis": {
+        "technical_score": 71.0,
+        "trend": "mixed",
+        "trend_periods": {
+          "short": "bullish",
+          "medium": "mixed",
+          "long": "bearish"
+        },
+        "support_name": "MA5",
+        "support_price": 84.632,
+        "support_distance_pct": 1.57,
+        "resistance_name": "MA60",
+        "resistance_price": 88.315,
+        "resistance_distance_pct": 2.74,
+        "unfilled_gaps": [],
+        "overhead_supply_zone": {
+          "low": 100.137,
+          "high": 102.162,
+          "volume_share_pct": 22.0
+        },
+        "metrics": {
+          "ma5": 84.632,
+          "ma10": 84.186,
+          "ma20": 84.52,
+          "ma60": 88.315,
+          "ma20_slope_pct": -0.06,
+          "ma60_slope_pct": -2.37,
+          "atr14": 3.556,
+          "atr14_pct": 4.14,
+          "volatility20_pct": 31.05,
+          "return5_pct": 1.19,
+          "high20": 90.0,
+          "low20": 79.88,
+          "high60": 115.7,
+          "low60": 74.44
+        },
+        "support_evidence": [
+          "短期均线多头排列",
+          "距MA5支撑1.6%",
+          "5日涨幅1.2%仍属温和"
+        ],
+        "opposing_evidence": [],
+        "missing_data": [],
+        "data_quality": "complete"
+      },
+      "reasons": [
+        "20日波动收敛至12.7%",
+        "同期量比3.35",
+        "日内位置0.75"
+      ]
+    },
+    {
+      "direction": "纺织机械",
+      "symbol": "300384",
+      "name": "三联虹普",
+      "type": "stock",
+      "role": "leader",
+      "stage": "watch",
+      "stage_label": "观察",
+      "score": 67.76,
+      "price": 12.24,
+      "low": 11.85,
+      "high": 12.54,
+      "volume_available": true,
+      "previous_high": 12.54,
+      "high20": 12.54,
+      "change_pct": 2.86,
+      "same_time_volume_ratio": 3.59,
+      "expected_volume_fraction": 0.654,
+      "ma5_bias_pct": 2.91,
+      "ma20_bias_pct": 2.29,
+      "rsi_live": 57.11,
+      "breakout_prev_high_pct": -2.39,
+      "close_position": 0.57,
+      "range20_pct": 10.19,
+      "technical_score": 75.0,
+      "technical_trend": "bullish",
+      "support_price": 12.02,
+      "resistance_price": 12.54,
+      "technical_diagnosis": {
+        "technical_score": 75.0,
+        "trend": "bullish",
+        "trend_periods": {
+          "short": "bullish",
+          "medium": "mixed",
+          "long": "bullish"
+        },
+        "support_name": "MA60",
+        "support_price": 12.02,
+        "support_distance_pct": 1.83,
+        "resistance_name": "20日高点",
+        "resistance_price": 12.54,
+        "resistance_distance_pct": 2.45,
+        "unfilled_gaps": [],
+        "overhead_supply_zone": {
+          "low": 12.327,
+          "high": 12.37,
+          "volume_share_pct": 33.9
+        },
+        "metrics": {
+          "ma5": 11.894,
+          "ma10": 11.76,
+          "ma20": 11.966,
+          "ma60": 12.02,
+          "ma20_slope_pct": -0.83,
+          "ma60_slope_pct": 0.36,
+          "atr14": 0.294,
+          "atr14_pct": 2.4,
+          "volatility20_pct": 23.62,
+          "return5_pct": 5.79,
+          "high20": 12.54,
+          "low20": 11.38,
+          "high60": 13.07,
+          "low60": 11.1
+        },
+        "support_evidence": [
+          "短期均线多头排列",
+          "价格站上上行MA60",
+          "距MA60支撑1.8%",
+          "5日涨幅5.8%仍属温和"
+        ],
+        "opposing_evidence": [
+          "上方3%内存在高成交量套牢区"
+        ],
+        "missing_data": [],
+        "data_quality": "complete"
+      },
+      "reasons": [
+        "20日波动收敛至10.2%",
+        "同期量比3.59"
+      ]
+    },
+    {
+      "direction": "家电行业",
+      "symbol": "002035",
+      "name": "华帝股份",
+      "type": "stock",
+      "role": "catch_up",
+      "stage": "watch",
+      "stage_label": "观察",
+      "score": 61.44,
+      "price": 4.83,
+      "low": 4.62,
+      "high": 5.05,
+      "volume_available": true,
+      "previous_high": 5.05,
+      "high20": 5.05,
+      "change_pct": 3.21,
+      "same_time_volume_ratio": 3.32,
+      "expected_volume_fraction": 0.654,
+      "ma5_bias_pct": 3.6,
+      "ma20_bias_pct": 4.35,
+      "rsi_live": 60.47,
+      "breakout_prev_high_pct": -4.36,
+      "close_position": 0.49,
+      "range20_pct": 13.48,
+      "technical_score": 75.0,
+      "technical_trend": "bullish",
+      "support_price": 4.723,
+      "resistance_price": 5.05,
+      "technical_diagnosis": {
+        "technical_score": 75.0,
+        "trend": "bullish",
+        "trend_periods": {
+          "short": "bullish",
+          "medium": "mixed",
+          "long": "bullish"
+        },
+        "support_name": "MA60",
+        "support_price": 4.723,
+        "support_distance_pct": 2.28,
+        "resistance_name": "20日高点",
+        "resistance_price": 5.05,
+        "resistance_distance_pct": 4.55,
+        "unfilled_gaps": [],
+        "overhead_supply_zone": {
+          "low": 4.858,
+          "high": 4.867,
+          "volume_share_pct": 26.8
+        },
+        "metrics": {
+          "ma5": 4.662,
+          "ma10": 4.604,
+          "ma20": 4.629,
+          "ma60": 4.723,
+          "ma20_slope_pct": -0.46,
+          "ma60_slope_pct": 0.2,
+          "atr14": 0.129,
+          "atr14_pct": 2.66,
+          "volatility20_pct": 22.55,
+          "return5_pct": 6.86,
+          "high20": 5.05,
+          "low20": 4.45,
+          "high60": 5.05,
+          "low60": 4.45
+        },
+        "support_evidence": [
+          "短期均线多头排列",
+          "价格站上上行MA60",
+          "距MA60支撑2.3%",
+          "5日涨幅6.9%仍属温和"
+        ],
+        "opposing_evidence": [
+          "上方3%内存在高成交量套牢区"
+        ],
+        "missing_data": [],
+        "data_quality": "complete"
+      },
+      "reasons": [
+        "20日波动收敛至13.5%",
+        "同期量比3.32"
+      ]
+    },
+    {
+      "direction": "煤炭行业",
+      "symbol": "600546",
+      "name": "山煤国际",
+      "type": "stock",
+      "role": "catch_up",
+      "stage": "watch",
+      "stage_label": "观察",
+      "score": 42.51,
+      "price": 13.36,
+      "low": 13.23,
+      "high": 13.52,
+      "volume_available": true,
+      "previous_high": 13.52,
+      "high20": 14.54,
+      "change_pct": -0.07,
+      "same_time_volume_ratio": 1.2,
+      "expected_volume_fraction": 0.654,
+      "ma5_bias_pct": -0.85,
+      "ma20_bias_pct": -0.54,
+      "rsi_live": 51.24,
+      "breakout_prev_high_pct": -1.18,
+      "close_position": 0.45,
+      "range20_pct": 13.59,
+      "technical_score": 44.0,
+      "technical_trend": "mixed",
+      "support_price": 13.33,
+      "resistance_price": 13.432,
+      "technical_diagnosis": {
+        "technical_score": 44.0,
+        "trend": "mixed",
+        "trend_periods": {
+          "short": "bearish",
+          "medium": "bearish",
+          "long": "bullish"
+        },
+        "support_name": "MA10",
+        "support_price": 13.33,
+        "support_distance_pct": 0.23,
+        "resistance_name": "MA20",
+        "resistance_price": 13.432,
+        "resistance_distance_pct": 0.54,
+        "unfilled_gaps": [],
+        "overhead_supply_zone": {
+          "low": 13.492,
+          "high": 13.558,
+          "volume_share_pct": 30.4
+        },
+        "metrics": {
+          "ma5": 13.474,
+          "ma10": 13.33,
+          "ma20": 13.432,
+          "ma60": 12.899,
+          "ma20_slope_pct": -0.12,
+          "ma60_slope_pct": 1.65,
+          "atr14": 0.44,
+          "atr14_pct": 3.29,
+          "volatility20_pct": 34.39,
+          "return5_pct": -0.22,
+          "high20": 14.54,
+          "low20": 12.8,
+          "high60": 14.54,
+          "low60": 11.3
+        },
+        "support_evidence": [
+          "价格站上上行MA60",
+          "距MA10支撑0.2%"
+        ],
+        "opposing_evidence": [
+          "价格仍在MA20下方",
+          "距MA20压力仅0.5%",
+          "上方3%内存在高成交量套牢区"
+        ],
+        "missing_data": [],
+        "data_quality": "complete"
+      },
+      "reasons": [
+        "20日波动收敛至13.6%",
+        "同期量比1.20"
+      ]
+    },
+    {
+      "direction": "服装鞋类",
+      "symbol": "601566",
+      "name": "九牧王",
+      "type": "stock",
+      "role": "core",
+      "stage": "overheated",
+      "stage_label": "过热",
+      "score": 43.87,
+      "price": 9.67,
+      "low": 9.0,
+      "high": 9.88,
+      "volume_available": true,
+      "previous_high": 9.88,
+      "high20": 11.5,
+      "change_pct": 6.85,
+      "same_time_volume_ratio": 2.85,
+      "expected_volume_fraction": 0.654,
+      "ma5_bias_pct": 4.56,
+      "ma20_bias_pct": 1.11,
+      "rsi_live": 56.98,
+      "breakout_prev_high_pct": -2.13,
+      "close_position": 0.76,
+      "range20_pct": 38.06,
+      "technical_score": 85.0,
+      "technical_trend": "bullish",
+      "support_price": 9.564,
+      "resistance_price": 11.5,
+      "technical_diagnosis": {
+        "technical_score": 85.0,
+        "trend": "bullish",
+        "trend_periods": {
+          "short": "bullish",
+          "medium": "bullish",
+          "long": "bullish"
+        },
+        "support_name": "MA20",
+        "support_price": 9.564,
+        "support_distance_pct": 1.11,
+        "resistance_name": "20日高点",
+        "resistance_price": 11.5,
+        "resistance_distance_pct": 18.92,
+        "unfilled_gaps": [],
+        "overhead_supply_zone": {
+          "low": 10.668,
+          "high": 10.778,
+          "volume_share_pct": 30.9
+        },
+        "metrics": {
+          "ma5": 9.248,
+          "ma10": 9.13,
+          "ma20": 9.564,
+          "ma60": 8.726,
+          "ma20_slope_pct": 2.36,
+          "ma60_slope_pct": 0.98,
+          "atr14": 0.591,
+          "atr14_pct": 6.12,
+          "volatility20_pct": 68.5,
+          "return5_pct": 7.21,
+          "high20": 11.5,
+          "low20": 8.33,
+          "high60": 11.5,
+          "low60": 7.4
+        },
+        "support_evidence": [
+          "短期均线多头排列",
+          "价格站上上行MA20",
+          "价格站上上行MA60",
+          "距MA20支撑1.1%",
+          "5日涨幅7.2%仍属温和"
+        ],
+        "opposing_evidence": [
+          "ATR14达6.1%，波动偏高"
+        ],
+        "missing_data": [],
+        "data_quality": "complete"
+      },
+      "reasons": [
+        "同期量比2.85",
+        "日内位置0.76",
+        "追涨风险偏高"
+      ]
+    },
+    {
+      "direction": "家电行业",
+      "symbol": "603519",
+      "name": "立霸股份",
+      "type": "stock",
+      "role": "core",
+      "stage": "overheated",
+      "stage_label": "过热",
+      "score": 36.54,
+      "price": 17.58,
+      "low": 17.08,
+      "high": 18.92,
+      "volume_available": true,
+      "previous_high": 18.92,
+      "high20": 18.92,
+      "change_pct": 2.09,
+      "same_time_volume_ratio": 3.1,
+      "expected_volume_fraction": 0.654,
+      "ma5_bias_pct": 6.11,
+      "ma20_bias_pct": 11.16,
+      "rsi_live": 68.03,
+      "breakout_prev_high_pct": -7.08,
+      "close_position": 0.27,
+      "range20_pct": 31.02,
+      "technical_score": 68.0,
+      "technical_trend": "bullish",
+      "support_price": 16.568,
+      "resistance_price": 18.92,
+      "technical_diagnosis": {
+        "technical_score": 68.0,
+        "trend": "bullish",
+        "trend_periods": {
+          "short": "bullish",
+          "medium": "mixed",
+          "long": "bullish"
+        },
+        "support_name": "MA5",
+        "support_price": 16.568,
+        "support_distance_pct": 6.11,
+        "resistance_name": "20日高点",
+        "resistance_price": 18.92,
+        "resistance_distance_pct": 7.62,
+        "unfilled_gaps": [],
+        "overhead_supply_zone": null,
+        "metrics": {
+          "ma5": 16.568,
+          "ma10": 15.701,
+          "ma20": 15.816,
+          "ma60": 15.484,
+          "ma20_slope_pct": -0.35,
+          "ma60_slope_pct": 1.2,
+          "atr14": 0.646,
+          "atr14_pct": 3.67,
+          "volatility20_pct": 41.65,
+          "return5_pct": 13.05,
+          "high20": 18.92,
+          "low20": 14.44,
+          "high60": 18.92,
+          "low60": 12.83
+        },
+        "support_evidence": [
+          "短期均线多头排列",
+          "价格站上上行MA60"
+        ],
+        "opposing_evidence": [],
+        "missing_data": [],
+        "data_quality": "complete"
+      },
+      "reasons": [
+        "同期量比3.10",
+        "追涨风险偏高"
+      ]
+    },
+    {
+      "direction": "服装鞋类",
+      "symbol": "002640",
+      "name": "跨境通",
+      "type": "stock",
+      "role": "leader",
+      "stage": "dormant",
+      "stage_label": "休眠",
+      "score": 52.55,
+      "price": 3.6,
+      "low": 3.45,
+      "high": 3.8,
+      "volume_available": true,
+      "previous_high": 3.8,
+      "high20": 3.87,
+      "change_pct": 2.56,
+      "same_time_volume_ratio": 1.67,
+      "expected_volume_fraction": 0.654,
+      "ma5_bias_pct": -1.91,
+      "ma20_bias_pct": 2.62,
+      "rsi_live": 53.86,
+      "breakout_prev_high_pct": -5.26,
+      "close_position": 0.43,
+      "range20_pct": 20.94,
+      "technical_score": 64.0,
+      "technical_trend": "bullish",
+      "support_price": 3.563,
+      "resistance_price": 3.67,
+      "technical_diagnosis": {
+        "technical_score": 64.0,
+        "trend": "bullish",
+        "trend_periods": {
+          "short": "bearish",
+          "medium": "bullish",
+          "long": "bullish"
+        },
+        "support_name": "MA10",
+        "support_price": 3.563,
+        "support_distance_pct": 1.04,
+        "resistance_name": "MA5",
+        "resistance_price": 3.67,
+        "resistance_distance_pct": 1.94,
+        "unfilled_gaps": [
+          {
+            "date": "2026-07-15",
+            "type": "up",
+            "low": 2.85,
+            "high": 2.93
+          }
+        ],
+        "overhead_supply_zone": {
+          "low": 3.759,
+          "high": 3.773,
+          "volume_share_pct": 31.7
+        },
+        "metrics": {
+          "ma5": 3.67,
+          "ma10": 3.563,
+          "ma20": 3.508,
+          "ma60": 3.322,
+          "ma20_slope_pct": 2.78,
+          "ma60_slope_pct": 1.57,
+          "atr14": 0.199,
+          "atr14_pct": 5.54,
+          "volatility20_pct": 56.39,
+          "return5_pct": -2.7,
+          "high20": 3.87,
+          "low20": 3.2,
+          "high60": 3.87,
+          "low60": 2.72
+        },
+        "support_evidence": [
+          "价格站上上行MA20",
+          "价格站上上行MA60",
+          "距MA10支撑1.0%"
+        ],
+        "opposing_evidence": [
+          "ATR14达5.5%，波动偏高",
+          "距MA5压力仅1.9%"
+        ],
+        "missing_data": [],
+        "data_quality": "complete"
+      },
+      "reasons": [
+        "同期量比1.67"
+      ]
+    },
+    {
+      "direction": "家电行业",
+      "symbol": "002403",
+      "name": "爱仕达",
+      "type": "stock",
+      "role": "leader",
+      "stage": "dormant",
+      "stage_label": "休眠",
+      "score": 51.48,
+      "price": 10.33,
+      "low": 10.07,
+      "high": 10.68,
+      "volume_available": true,
+      "previous_high": 10.68,
+      "high20": 13.7,
+      "change_pct": 2.28,
+      "same_time_volume_ratio": 1.61,
+      "expected_volume_fraction": 0.654,
+      "ma5_bias_pct": 2.01,
+      "ma20_bias_pct": -0.99,
+      "rsi_live": 51.97,
+      "breakout_prev_high_pct": -3.28,
+      "close_position": 0.43,
+      "range20_pct": 51.21,
+      "technical_score": 55.0,
+      "technical_trend": "bullish",
+      "support_price": 10.126,
+      "resistance_price": 10.433,
+      "technical_diagnosis": {
+        "technical_score": 55.0,
+        "trend": "bullish",
+        "trend_periods": {
+          "short": "bullish",
+          "medium": "bearish",
+          "long": "bullish"
+        },
+        "support_name": "MA5",
+        "support_price": 10.126,
+        "support_distance_pct": 2.01,
+        "resistance_name": "MA20",
+        "resistance_price": 10.433,
+        "resistance_distance_pct": 1.0,
+        "unfilled_gaps": [],
+        "overhead_supply_zone": {
+          "low": 10.847,
+          "high": 11.106,
+          "volume_share_pct": 23.2
+        },
+        "metrics": {
+          "ma5": 10.126,
+          "ma10": 9.97,
+          "ma20": 10.433,
+          "ma60": 9.677,
+          "ma20_slope_pct": 1.93,
+          "ma60_slope_pct": 0.82,
+          "atr14": 0.844,
+          "atr14_pct": 8.17,
+          "volatility20_pct": 93.98,
+          "return5_pct": 6.71,
+          "high20": 13.7,
+          "low20": 9.06,
+          "high60": 13.7,
+          "low60": 7.67
+        },
+        "support_evidence": [
+          "短期均线多头排列",
+          "价格站上上行MA60",
+          "距MA5支撑2.0%",
+          "5日涨幅6.7%仍属温和"
+        ],
+        "opposing_evidence": [
+          "价格仍在MA20下方",
+          "ATR14达8.2%，波动偏高",
+          "距MA20压力仅1.0%"
+        ],
+        "missing_data": [],
+        "data_quality": "complete"
+      },
+      "reasons": [
+        "同期量比1.61"
+      ]
+    },
+    {
+      "direction": "服装鞋类",
+      "symbol": "002687",
+      "name": "乔治白",
+      "type": "stock",
+      "role": "catch_up",
+      "stage": "dormant",
+      "stage_label": "休眠",
+      "score": 46.84,
+      "price": 5.77,
+      "low": 5.51,
+      "high": 5.88,
+      "volume_available": true,
+      "previous_high": 5.88,
+      "high20": 6.75,
+      "change_pct": 3.59,
+      "same_time_volume_ratio": 1.45,
+      "expected_volume_fraction": 0.654,
+      "ma5_bias_pct": -5.16,
+      "ma20_bias_pct": -7.05,
+      "rsi_live": 45.35,
+      "breakout_prev_high_pct": -1.87,
+      "close_position": 0.7,
+      "range20_pct": 22.73,
+      "technical_score": 40.0,
+      "technical_trend": "bearish",
+      "support_price": 5.755,
+      "resistance_price": 6.084,
+      "technical_diagnosis": {
+        "technical_score": 40.0,
+        "trend": "bearish",
+        "trend_periods": {
+          "short": "bearish",
+          "medium": "bearish",
+          "long": "bullish"
+        },
+        "support_name": "MA60",
+        "support_price": 5.755,
+        "support_distance_pct": 0.26,
+        "resistance_name": "MA5",
+        "resistance_price": 6.084,
+        "resistance_distance_pct": 5.44,
+        "unfilled_gaps": [],
+        "overhead_supply_zone": {
+          "low": 6.175,
+          "high": 6.243,
+          "volume_share_pct": 18.2
+        },
+        "metrics": {
+          "ma5": 6.084,
+          "ma10": 6.119,
+          "ma20": 6.207,
+          "ma60": 5.755,
+          "ma20_slope_pct": -0.98,
+          "ma60_slope_pct": 1.39,
+          "atr14": 0.34,
+          "atr14_pct": 5.89,
+          "volatility20_pct": 58.35,
+          "return5_pct": -9.28,
+          "high20": 6.75,
+          "low20": 5.5,
+          "high60": 6.75,
+          "low60": 4.5
+        },
+        "support_evidence": [
+          "价格站上上行MA60",
+          "距MA60支撑0.3%"
+        ],
+        "opposing_evidence": [
+          "两个以上周期处于空头结构",
+          "ATR14达5.9%，波动偏高"
+        ],
+        "missing_data": [],
+        "data_quality": "complete"
+      },
+      "reasons": [
+        "同期量比1.45",
+        "日内位置0.70"
+      ]
+    },
+    {
+      "direction": "家具行业",
+      "symbol": "002631",
+      "name": "德尔未来",
+      "type": "stock",
+      "role": "leader",
+      "stage": "dormant",
+      "stage_label": "休眠",
+      "score": 44.45,
+      "price": 13.93,
+      "low": 13.18,
+      "high": 14.09,
+      "volume_available": true,
+      "previous_high": 14.09,
+      "high20": 14.75,
+      "change_pct": 2.43,
+      "same_time_volume_ratio": 1.5,
+      "expected_volume_fraction": 0.654,
+      "ma5_bias_pct": 0.9,
+      "ma20_bias_pct": 22.12,
+      "rsi_live": 70.7,
+      "breakout_prev_high_pct": -1.14,
+      "close_position": 0.82,
+      "range20_pct": 65.54,
+      "technical_score": 85.0,
+      "technical_trend": "bullish",
+      "support_price": 13.806,
+      "resistance_price": 14.75,
+      "technical_diagnosis": {
+        "technical_score": 85.0,
+        "trend": "bullish",
+        "trend_periods": {
+          "short": "bullish",
+          "medium": "bullish",
+          "long": "bullish"
+        },
+        "support_name": "MA5",
+        "support_price": 13.806,
+        "support_distance_pct": 0.9,
+        "resistance_name": "20日高点",
+        "resistance_price": 14.75,
+        "resistance_distance_pct": 5.89,
+        "unfilled_gaps": [],
+        "overhead_supply_zone": null,
+        "metrics": {
+          "ma5": 13.806,
+          "ma10": 12.124,
+          "ma20": 11.407,
+          "ma60": 9.275,
+          "ma20_slope_pct": 11.72,
+          "ma60_slope_pct": 2.71,
+          "atr14": 0.83,
+          "atr14_pct": 5.96,
+          "volatility20_pct": 92.93,
+          "return5_pct": 5.29,
+          "high20": 14.75,
+          "low20": 8.91,
+          "high60": 14.75,
+          "low60": 5.91
+        },
+        "support_evidence": [
+          "短期均线多头排列",
+          "价格站上上行MA20",
+          "价格站上上行MA60",
+          "距MA5支撑0.9%",
+          "5日涨幅5.3%仍属温和"
+        ],
+        "opposing_evidence": [
+          "ATR14达6.0%，波动偏高"
+        ],
+        "missing_data": [],
+        "data_quality": "complete"
+      },
+      "reasons": [
+        "同期量比1.50",
+        "日内位置0.82"
+      ]
+    },
+    {
+      "direction": "煤炭行业",
+      "symbol": "600121",
+      "name": "郑州煤电",
+      "type": "stock",
+      "role": "core",
+      "stage": "dormant",
+      "stage_label": "休眠",
+      "score": 42.68,
+      "price": 4.9,
+      "low": 4.81,
+      "high": 5.13,
+      "volume_available": true,
+      "previous_high": 5.13,
+      "high20": 6.25,
+      "change_pct": 1.87,
+      "same_time_volume_ratio": 1.54,
+      "expected_volume_fraction": 0.654,
+      "ma5_bias_pct": -1.76,
+      "ma20_bias_pct": -3.96,
+      "rsi_live": 51.63,
+      "breakout_prev_high_pct": -4.48,
+      "close_position": 0.28,
+      "range20_pct": 46.71,
+      "technical_score": 28.0,
+      "technical_trend": "mixed",
+      "support_price": 4.26,
+      "resistance_price": 4.976,
+      "technical_diagnosis": {
+        "technical_score": 28.0,
+        "trend": "mixed",
+        "trend_periods": {
+          "short": "bearish",
+          "medium": "bearish",
+          "long": "bullish"
+        },
+        "support_name": "20日低点",
+        "support_price": 4.26,
+        "support_distance_pct": 15.02,
+        "resistance_name": "MA10",
+        "resistance_price": 4.976,
+        "resistance_distance_pct": 1.55,
+        "unfilled_gaps": [],
+        "overhead_supply_zone": {
+          "low": 4.899,
+          "high": 4.973,
+          "volume_share_pct": 22.6
+        },
+        "metrics": {
+          "ma5": 4.988,
+          "ma10": 4.976,
+          "ma20": 5.102,
+          "ma60": 4.251,
+          "ma20_slope_pct": 4.39,
+          "ma60_slope_pct": 2.75,
+          "atr14": 0.442,
+          "atr14_pct": 9.02,
+          "volatility20_pct": 95.77,
+          "return5_pct": -1.01,
+          "high20": 6.25,
+          "low20": 4.26,
+          "high60": 6.25,
+          "low60": 3.34
+        },
+        "support_evidence": [
+          "价格站上上行MA60"
+        ],
+        "opposing_evidence": [
+          "价格仍在MA20下方",
+          "ATR14达9.0%，波动偏高",
+          "距MA10压力仅1.6%",
+          "上方3%内存在高成交量套牢区"
+        ],
+        "missing_data": [],
+        "data_quality": "complete"
+      },
+      "reasons": [
+        "同期量比1.54"
+      ]
+    },
+    {
+      "direction": "纺织机械",
+      "symbol": "002196",
+      "name": "方正电机",
+      "type": "stock",
+      "role": "core",
+      "stage": "dormant",
+      "stage_label": "休眠",
+      "score": 36.4,
+      "price": 10.13,
+      "low": 10.03,
+      "high": 10.46,
+      "volume_available": true,
+      "previous_high": 10.46,
+      "high20": 11.65,
+      "change_pct": 0.4,
+      "same_time_volume_ratio": 1.57,
+      "expected_volume_fraction": 0.654,
+      "ma5_bias_pct": -0.51,
+      "ma20_bias_pct": -2.73,
+      "rsi_live": 42.53,
+      "breakout_prev_high_pct": -3.15,
+      "close_position": 0.23,
+      "range20_pct": 19.98,
+      "technical_score": 25.0,
+      "technical_trend": "bearish",
+      "support_price": 10.081,
+      "resistance_price": 10.182,
+      "technical_diagnosis": {
+        "technical_score": 25.0,
+        "trend": "bearish",
+        "trend_periods": {
+          "short": "bearish",
+          "medium": "bearish",
+          "long": "bearish"
+        },
+        "support_name": "MA10",
+        "support_price": 10.081,
+        "support_distance_pct": 0.49,
+        "resistance_name": "MA5",
+        "resistance_price": 10.182,
+        "resistance_distance_pct": 0.51,
+        "unfilled_gaps": [
+          {
+            "date": "2026-07-13",
+            "type": "down",
+            "low": 11.8,
+            "high": 11.84
+          },
+          {
+            "date": "2026-09-18",
+            "type": "up",
+            "low": 10.01,
+            "high": 10.08
+          }
+        ],
+        "overhead_supply_zone": {
+          "low": 11.034,
+          "high": 11.336,
+          "volume_share_pct": 24.8
+        },
+        "metrics": {
+          "ma5": 10.182,
+          "ma10": 10.081,
+          "ma20": 10.415,
+          "ma60": 10.749,
+          "ma20_slope_pct": -0.66,
+          "ma60_slope_pct": -1.6,
+          "atr14": 0.319,
+          "atr14_pct": 3.14,
+          "volatility20_pct": 34.34,
+          "return5_pct": -0.1,
+          "high20": 11.65,
+          "low20": 9.71,
+          "high60": 14.2,
+          "low60": 9.03
+        },
+        "support_evidence": [
+          "距MA10支撑0.5%"
+        ],
+        "opposing_evidence": [
+          "两个以上周期处于空头结构",
+          "距MA5压力仅0.5%",
+          "上方存在未回补向下缺口"
+        ],
+        "missing_data": [],
+        "data_quality": "complete"
+      },
+      "reasons": [
+        "同期量比1.57"
+      ]
+    },
+    {
+      "direction": "家具行业",
+      "symbol": "002259",
+      "name": "升达林业",
+      "type": "stock",
+      "role": "catch_up",
+      "stage": "dormant",
+      "stage_label": "休眠",
+      "score": 26.33,
+      "price": 4.74,
+      "low": 4.58,
+      "high": 4.78,
+      "volume_available": true,
+      "previous_high": 4.78,
+      "high20": 5.14,
+      "change_pct": -0.84,
+      "same_time_volume_ratio": 1.19,
+      "expected_volume_fraction": 0.654,
+      "ma5_bias_pct": 2.51,
+      "ma20_bias_pct": 8.65,
+      "rsi_live": 64.65,
+      "breakout_prev_high_pct": -0.84,
+      "close_position": 0.8,
+      "range20_pct": 27.54,
+      "technical_score": 76.0,
+      "technical_trend": "bullish",
+      "support_price": 4.624,
+      "resistance_price": 5.14,
+      "technical_diagnosis": {
+        "technical_score": 76.0,
+        "trend": "bullish",
+        "trend_periods": {
+          "short": "bullish",
+          "medium": "bullish",
+          "long": "bullish"
+        },
+        "support_name": "MA5",
+        "support_price": 4.624,
+        "support_distance_pct": 2.51,
+        "resistance_name": "20日高点",
+        "resistance_price": 5.14,
+        "resistance_distance_pct": 8.44,
+        "unfilled_gaps": [
+          {
+            "date": "2026-09-22",
+            "type": "up",
+            "low": 4.52,
+            "high": 4.67
+          }
+        ],
+        "overhead_supply_zone": null,
+        "metrics": {
+          "ma5": 4.624,
+          "ma10": 4.385,
+          "ma20": 4.362,
+          "ma60": 3.963,
+          "ma20_slope_pct": 3.6,
+          "ma60_slope_pct": 1.64,
+          "atr14": 0.207,
+          "atr14_pct": 4.37,
+          "volatility20_pct": 58.71,
+          "return5_pct": 15.33,
+          "high20": 5.14,
+          "low20": 4.03,
+          "high60": 5.14,
+          "low60": 3.14
+        },
+        "support_evidence": [
+          "短期均线多头排列",
+          "价格站上上行MA20",
+          "价格站上上行MA60",
+          "距MA5支撑2.5%"
+        ],
+        "opposing_evidence": [
+          "5日累计上涨15.3%，追涨风险高"
+        ],
+        "missing_data": [],
+        "data_quality": "complete"
+      },
+      "reasons": [
+        "同期量比1.19",
+        "日内位置0.80"
+      ]
+    },
+    {
+      "direction": "纺织机械",
+      "symbol": "600610",
+      "name": "中毅达",
+      "type": "stock",
+      "role": "catch_up",
+      "stage": "dormant",
+      "stage_label": "休眠",
+      "score": 7.05,
+      "price": 7.47,
+      "low": 7.44,
+      "high": 7.64,
+      "volume_available": true,
+      "previous_high": 7.64,
+      "high20": 9.93,
+      "change_pct": -1.71,
+      "same_time_volume_ratio": 0.92,
+      "expected_volume_fraction": 0.654,
+      "ma5_bias_pct": -3.11,
+      "ma20_bias_pct": -10.23,
+      "rsi_live": 43.31,
+      "breakout_prev_high_pct": -2.23,
+      "close_position": 0.15,
+      "range20_pct": 35.1,
+      "technical_score": 50.0,
+      "technical_trend": "mixed",
+      "support_price": 7.435,
+      "resistance_price": 7.641,
+      "technical_diagnosis": {
+        "technical_score": 50.0,
+        "trend": "mixed",
+        "trend_periods": {
+          "short": "bearish",
+          "medium": "bearish",
+          "long": "bullish"
+        },
+        "support_name": "MA60",
+        "support_price": 7.435,
+        "support_distance_pct": 0.48,
+        "resistance_name": "MA10",
+        "resistance_price": 7.641,
+        "resistance_distance_pct": 2.29,
+        "unfilled_gaps": [],
+        "overhead_supply_zone": {
+          "low": 8.874,
+          "high": 9.05,
+          "volume_share_pct": 18.1
+        },
+        "metrics": {
+          "ma5": 7.71,
+          "ma10": 7.641,
+          "ma20": 8.322,
+          "ma60": 7.435,
+          "ma20_slope_pct": -2.91,
+          "ma60_slope_pct": 1.22,
+          "atr14": 0.401,
+          "atr14_pct": 5.36,
+          "volatility20_pct": 77.85,
+          "return5_pct": -1.58,
+          "high20": 9.93,
+          "low20": 7.35,
+          "high60": 9.93,
+          "low60": 5.96
+        },
+        "support_evidence": [
+          "价格站上上行MA60",
+          "距MA60支撑0.5%"
+        ],
+        "opposing_evidence": [
+          "价格仍在MA20下方",
+          "ATR14达5.4%，波动偏高"
+        ],
+        "missing_data": [],
+        "data_quality": "complete"
+      },
+      "reasons": []
+    }
+  ],
+  "stage_counts": {
+    "watch": 5,
+    "starting": 0,
+    "confirmed": 0,
+    "overheated": 2,
+    "dormant": 8
+  }
+}

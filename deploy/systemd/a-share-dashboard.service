@@ -1,0 +1,21 @@
+[Unit]
+Description=A Share Read-only Dashboard
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/a-share-dashboard
+EnvironmentFile=/etc/a-share-dashboard.env
+ExecStart=/usr/local/lib/hermes-agent/venv/bin/uvicorn dashboard_app:app --host DASHBOARD_HOST --port 18765 --ssl-keyfile /etc/a-share-dashboard/tls.key --ssl-certfile /etc/a-share-dashboard/tls.crt
+Restart=always
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=read-only
+ProtectSystem=strict
+ReadOnlyPaths=/root/.hermes/scripts /usr/local/lib/hermes-agent
+StateDirectory=a-share-dashboard
+
+[Install]
+WantedBy=multi-user.target

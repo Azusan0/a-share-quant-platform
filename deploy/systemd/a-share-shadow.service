@@ -1,0 +1,10 @@
+[Unit]
+Description=A Share Shadow Signal Scanner
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/usr/local/lib/hermes-agent/a_share_alert_template/shadow_runner.sh
+TimeoutStartSec=270
+Nice=10

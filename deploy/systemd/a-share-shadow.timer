@@ -1,0 +1,10 @@
+[Unit]
+Description=Run A Share Shadow Signal Scanner
+
+[Timer]
+OnCalendar=Mon..Fri *-*-* *:0/5:00
+Persistent=false
+AccuracySec=5s
+
+[Install]
+WantedBy=timers.target

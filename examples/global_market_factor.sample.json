@@ -1,0 +1,1812 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-25T13:40:02",
+  "providers": [
+    "腾讯全球指数",
+    "腾讯海外行情",
+    "东方财富全球7x24",
+    "华尔街见闻美股"
+  ],
+  "indices": [
+    {
+      "code": "DJI",
+      "qtcode": "s_usDJI",
+      "name": "道琼斯",
+      "display": "道琼斯",
+      "country": "美国",
+      "price": 51349.98,
+      "change_pct": -0.31,
+      "state": "close",
+      "region": "common"
+    },
+    {
+      "code": "IXIC",
+      "qtcode": "s_usIXIC",
+      "name": "纳斯达克",
+      "display": "纳斯达克",
+      "country": "美国",
+      "price": 26939.37,
+      "change_pct": 0.01,
+      "state": "close",
+      "region": "common"
+    },
+    {
+      "code": "INX",
+      "qtcode": "s_usINX",
+      "name": "标普500",
+      "display": "标普500",
+      "country": "美国",
+      "price": 7704.13,
+      "change_pct": -0.02,
+      "state": "close",
+      "region": "common"
+    },
+    {
+      "code": "N225",
+      "qtcode": "gzN225",
+      "name": "日经225指数",
+      "display": "日经225",
+      "country": "日本",
+      "price": 66369.7,
+      "change_pct": 1.31,
+      "state": "open",
+      "region": "common"
+    },
+    {
+      "code": "KS11",
+      "qtcode": "gzKS11",
+      "name": "韩国首尔综合",
+      "display": "韩国综合",
+      "country": "韩国",
+      "price": 7080.92,
+      "change_pct": 0.9,
+      "state": "close",
+      "region": "asia"
+    },
+    {
+      "code": "XIN9",
+      "qtcode": "ftXIN9",
+      "name": "富时中国A50指数",
+      "display": "富时中国A50",
+      "country": "中国离岸",
+      "price": 14310.03,
+      "change_pct": -1.58,
+      "state": "close",
+      "region": "asia"
+    }
+  ],
+  "proxies": [
+    {
+      "symbol": "usSOXX",
+      "country": "美国",
+      "name": "费城半导体ETF-iShares",
+      "exchange_code": "SOXX.OQ",
+      "price": 566.07,
+      "previous_close": 565.72,
+      "open": 554.9,
+      "volume": 4925918,
+      "quote_time": "2026-09-24 16:00:01",
+      "change_pct": 0.06,
+      "sectors": {
+        "半导体": 1.0,
+        "人工智能/算力": 0.35
+      }
+    },
+    {
+      "symbol": "usSMH",
+      "country": "美国",
+      "name": "半导体指数ETF-VanEck",
+      "exchange_code": "SMH.OQ",
+      "price": 600.52,
+      "previous_close": 601.41,
+      "open": 591.62,
+      "volume": 5645417,
+      "quote_time": "2026-09-24 16:00:01",
+      "change_pct": -0.15,
+      "sectors": {
+        "半导体": 1.0,
+        "人工智能/算力": 0.35
+      }
+    },
+    {
+      "symbol": "usNVDA",
+      "country": "美国",
+      "name": "英伟达",
+      "exchange_code": "NVDA.OQ",
+      "price": 224.58,
+      "previous_close": 225.51,
+      "open": 222.08,
+      "volume": 77469856,
+      "quote_time": "2026-09-24 16:00:01",
+      "change_pct": -0.41,
+      "sectors": {
+        "人工智能/算力": 0.8,
+        "半导体": 0.45
+      }
+    },
+    {
+      "symbol": "usMU",
+      "country": "美国",
+      "name": "美光科技",
+      "exchange_code": "MU.OQ",
+      "price": 1080.53,
+      "previous_close": 1071.88,
+      "open": 1049.75,
+      "volume": 22069916,
+      "quote_time": "2026-09-24 16:00:01",
+      "change_pct": 0.81,
+      "sectors": {
+        "存储芯片": 0.9,
+        "半导体": 0.45
+      }
+    },
+    {
+      "symbol": "usTSM",
+      "country": "美国",
+      "name": "台积电",
+      "exchange_code": "TSM.N",
+      "price": 451.15,
+      "previous_close": 446.57,
+      "open": 441.8,
+      "volume": 7720294,
+      "quote_time": "2026-09-24 16:05:11",
+      "change_pct": 1.03,
+      "sectors": {
+        "半导体": 0.65
+      }
+    },
+    {
+      "symbol": "usTAN",
+      "country": "美国",
+      "name": "全球太阳能ETF-Invesco",
+      "exchange_code": "TAN.AM",
+      "price": 43.47,
+      "previous_close": 45.05,
+      "open": 44.08,
+      "volume": 947775,
+      "quote_time": "2026-09-24 16:00:01",
+      "change_pct": -3.51,
+      "sectors": {
+        "光伏": 1.0
+      }
+    },
+    {
+      "symbol": "usLIT",
+      "country": "美国",
+      "name": "锂电池ETF-Global X",
+      "exchange_code": "LIT.AM",
+      "price": 68.82,
+      "previous_close": 69.58,
+      "open": 69.13,
+      "volume": 108873,
+      "quote_time": "2026-09-24 16:00:01",
+      "change_pct": -1.09,
+      "sectors": {
+        "锂电池": 0.9,
+        "新能源车": 0.35
+      }
+    },
+    {
+      "symbol": "usTSLA",
+      "country": "美国",
+      "name": "特斯拉",
+      "exchange_code": "TSLA.OQ",
+      "price": 377.94,
+      "previous_close": 380.12,
+      "open": 377.35,
+      "volume": 26165727,
+      "quote_time": "2026-09-24 16:00:01",
+      "change_pct": -0.57,
+      "sectors": {
+        "新能源车": 0.8,
+        "机器人/自动化": 0.3
+      }
+    },
+    {
+      "symbol": "usXLE",
+      "country": "美国",
+      "name": "能源精选ETF-SPDR",
+      "exchange_code": "XLE.AM",
+      "price": 62.6,
+      "previous_close": 62.37,
+      "open": 63.07,
+      "volume": 38168904,
+      "quote_time": "2026-09-24 16:00:01",
+      "change_pct": 0.37,
+      "sectors": {
+        "油气": 1.0
+      }
+    },
+    {
+      "symbol": "usXLB",
+      "country": "美国",
+      "name": "基础材料ETF-SPDR",
+      "exchange_code": "XLB.AM",
+      "price": 49.68,
+      "previous_close": 50.28,
+      "open": 50.14,
+      "volume": 12868183,
+      "quote_time": "2026-09-24 16:00:01",
+      "change_pct": -1.19,
+      "sectors": {
+        "有色/化工": 0.9
+      }
+    },
+    {
+      "symbol": "usXLV",
+      "country": "美国",
+      "name": "医疗保健精选行业ETF-SPDR",
+      "exchange_code": "XLV.AM",
+      "price": 169.87,
+      "previous_close": 168.8,
+      "open": 168.85,
+      "volume": 8877110,
+      "quote_time": "2026-09-24 16:00:01",
+      "change_pct": 0.63,
+      "sectors": {
+        "医药生物": 1.0
+      }
+    },
+    {
+      "symbol": "usXLF",
+      "country": "美国",
+      "name": "金融行业ETF-SPDR",
+      "exchange_code": "XLF.AM",
+      "price": 54.53,
+      "previous_close": 54.54,
+      "open": 54.61,
+      "volume": 28808024,
+      "quote_time": "2026-09-24 16:00:01",
+      "change_pct": -0.02,
+      "sectors": {
+        "金融": 1.0
+      }
+    },
+    {
+      "symbol": "usXLI",
+      "country": "美国",
+      "name": "工业ETF-SPDR",
+      "exchange_code": "XLI.AM",
+      "price": 168.83,
+      "previous_close": 170.1,
+      "open": 168.75,
+      "volume": 8599603,
+      "quote_time": "2026-09-24 16:00:01",
+      "change_pct": -0.75,
+      "sectors": {
+        "工业制造": 0.9,
+        "机器人/自动化": 0.35
+      }
+    },
+    {
+      "symbol": "usITA",
+      "country": "美国",
+      "name": "美国航空航天与国防ETF-iShares",
+      "exchange_code": "ITA.AM",
+      "price": 212.76,
+      "previous_close": 213.92,
+      "open": 212.77,
+      "volume": 676635,
+      "quote_time": "2026-09-24 16:00:01",
+      "change_pct": -0.54,
+      "sectors": {
+        "军工": 1.0
+      }
+    },
+    {
+      "symbol": "usGDX",
+      "country": "美国",
+      "name": "金矿开采商ETF-VanEck",
+      "exchange_code": "GDX.AM",
+      "price": 92.35,
+      "previous_close": 93.56,
+      "open": 92.52,
+      "volume": 21881760,
+      "quote_time": "2026-09-24 16:00:01",
+      "change_pct": -1.29,
+      "sectors": {
+        "黄金": 1.0,
+        "有色/化工": 0.3
+      }
+    },
+    {
+      "symbol": "usKWEB",
+      "country": "美国",
+      "name": "中国海外互联网ETF-KraneShares",
+      "exchange_code": "KWEB.AM",
+      "price": 24.69,
+      "previous_close": 24.85,
+      "open": 24.84,
+      "volume": 12682894,
+      "quote_time": "2026-09-24 16:00:01",
+      "change_pct": -0.64,
+      "sectors": {
+        "软件/互联网": 0.7,
+        "传媒": 0.45
+      }
+    },
+    {
+      "symbol": "jp8035",
+      "country": "日本",
+      "name": "Tokyo Electron Limited",
+      "exchange_code": "8035.T",
+      "price": 56090.0,
+      "previous_close": 53920.0,
+      "open": 54330.0,
+      "volume": 2595400,
+      "quote_time": "2026-09-25 13:22:46",
+      "change_pct": 4.024,
+      "sectors": {
+        "半导体": 0.9
+      }
+    },
+    {
+      "symbol": "jp6857",
+      "country": "日本",
+      "name": "Advantest Corporation",
+      "exchange_code": "6857.T",
+      "price": 33840.0,
+      "previous_close": 33060.0,
+      "open": 33130.0,
+      "volume": 6178900,
+      "quote_time": "2026-09-25 13:22:52",
+      "change_pct": 2.359,
+      "sectors": {
+        "半导体": 0.85,
+        "人工智能/算力": 0.25
+      }
+    },
+    {
+      "symbol": "jp6723",
+      "country": "日本",
+      "name": "Renesas Electronics Corporation",
+      "exchange_code": "6723.T",
+      "price": 3458.0,
+      "previous_close": 3490.0,
+      "open": 3458.0,
+      "volume": 5330200,
+      "quote_time": "2026-09-25 13:22:51",
+      "change_pct": -0.917,
+      "sectors": {
+        "半导体": 0.75,
+        "汽车电子": 0.25
+      }
+    },
+    {
+      "symbol": "jp6758",
+      "country": "日本",
+      "name": "Sony Group Corporation",
+      "exchange_code": "6758.T",
+      "price": 3718.0,
+      "previous_close": 3663.0,
+      "open": 3697.0,
+      "volume": 7498200,
+      "quote_time": "2026-09-25 13:22:52",
+      "change_pct": 1.502,
+      "sectors": {
+        "消费电子": 0.8
+      }
+    },
+    {
+      "symbol": "jp7203",
+      "country": "日本",
+      "name": "Toyota Motor Corp.",
+      "exchange_code": "7203.T",
+      "price": 2996.0,
+      "previous_close": 2969.0,
+      "open": 2990.0,
+      "volume": 12252500,
+      "quote_time": "2026-09-25 13:22:49",
+      "change_pct": 0.909,
+      "sectors": {
+        "汽车": 0.85
+      }
+    },
+    {
+      "symbol": "jp9984",
+      "country": "日本",
+      "name": "SoftBank Group Corp.",
+      "exchange_code": "9984.T",
+      "price": 6190.0,
+      "previous_close": 6352.0,
+      "open": 6180.0,
+      "volume": 51727500,
+      "quote_time": "2026-09-25 13:22:52",
+      "change_pct": -2.55,
+      "sectors": {
+        "人工智能/算力": 0.45,
+        "软件/互联网": 0.35
+      }
+    },
+    {
+      "symbol": "kr005930",
+      "country": "韩国",
+      "name": "Samsung Electronics Co., Ltd.",
+      "exchange_code": "005930.KS",
+      "price": 285500.0,
+      "previous_close": 276500.0,
+      "open": 284500.0,
+      "volume": 22362127,
+      "quote_time": "2026-09-23 14:30:06",
+      "change_pct": 3.255,
+      "sectors": {
+        "半导体": 0.75,
+        "存储芯片": 0.65,
+        "消费电子": 0.35
+      }
+    },
+    {
+      "symbol": "kr000660",
+      "country": "韩国",
+      "name": "SK hynix Inc.",
+      "exchange_code": "000660.KS",
+      "price": 1862000.0,
+      "previous_close": 1840000.0,
+      "open": 1899000.0,
+      "volume": 3131146,
+      "quote_time": "2026-09-23 14:30:08",
+      "change_pct": 1.196,
+      "sectors": {
+        "存储芯片": 1.0,
+        "半导体": 0.65
+      }
+    },
+    {
+      "symbol": "kr051910",
+      "country": "韩国",
+      "name": "LG Chem, Ltd.",
+      "exchange_code": "051910.KS",
+      "price": 252500.0,
+      "previous_close": 254000.0,
+      "open": 256500.0,
+      "volume": 156357,
+      "quote_time": "2026-09-23 14:30:30",
+      "change_pct": -0.591,
+      "sectors": {
+        "锂电池": 0.75,
+        "有色/化工": 0.25
+      }
+    },
+    {
+      "symbol": "kr006400",
+      "country": "韩国",
+      "name": "Samsung SDI Co., Ltd.",
+      "exchange_code": "006400.KS",
+      "price": 521000.0,
+      "previous_close": 529000.0,
+      "open": 529000.0,
+      "volume": 390069,
+      "quote_time": "2026-09-23 14:30:22",
+      "change_pct": -1.512,
+      "sectors": {
+        "锂电池": 0.85
+      }
+    },
+    {
+      "symbol": "kr005380",
+      "country": "韩国",
+      "name": "Hyundai Motor Company",
+      "exchange_code": "005380.KS",
+      "price": 353500.0,
+      "previous_close": 360500.0,
+      "open": 364000.0,
+      "volume": 594033,
+      "quote_time": "2026-09-23 14:30:24",
+      "change_pct": -1.942,
+      "sectors": {
+        "汽车": 0.8,
+        "新能源车": 0.3
+      }
+    }
+  ],
+  "news": [
+    {
+      "title": "印尼客轮倾覆事故死亡人数升至52人",
+      "summary": "【印尼客轮倾覆事故死亡人数升至52人】当地时间9月25日，印尼国家搜救局官员沙非称，截至目前，爪哇海海域发生的客轮倾覆事故遇难者人数升至52人，另有83人失联，108人获救。",
+      "time": "2026-09-25 13:36:06",
+      "source": "东方财富全球7x24",
+      "sectors": [],
+      "sentiment": 0
+    },
+    {
+      "title": "WTI原油期货跌幅扩大至2%",
+      "summary": "WTI原油期货跌幅扩大至2%，报92.71美元/桶。",
+      "time": "2026-09-25 13:33:35",
+      "source": "东方财富全球7x24",
+      "sectors": [
+        "油气"
+      ],
+      "sentiment": 0
+    },
+    {
+      "title": "Nanexa与诺和诺德就长效注射剂达成11.65亿欧元全球许可和合作协议",
+      "summary": "【Nanexa与诺和诺德就长效注射剂达成11.65亿欧元全球许可和合作协议】当地时间9月24日，瑞典药物递送平台公司Nanexa宣布，已与诺和诺德就使用PharmaShell技术平台针对某些靶向肥胖、2型糖尿病和其他心脏代谢适应症的肽类药物达成全球独家许可和合作协议。该协议包括最多五个开发项目，并涵盖不同的给药频率方案，以每月和每季度给药为目标方案。",
+      "time": "2026-09-25 13:31:12",
+      "source": "东方财富全球7x24",
+      "sectors": [],
+      "sentiment": 0
+    },
+    {
+      "title": "汇丰将雪佛龙目标价从218美元上调至250美元",
+      "summary": "【汇丰将雪佛龙目标价从218美元上调至250美元】汇丰将雪佛龙目标价从218美元上调至250美元，将壳牌目标价从3650便士上调至4240便士。",
+      "time": "2026-09-25 13:23:31",
+      "source": "东方财富全球7x24",
+      "sectors": [],
+      "sentiment": 1
+    },
+    {
+      "title": "特斯拉Semi电动卡车开启量产交付",
+      "summary": "【特斯拉Semi电动卡车开启量产交付】9月25日，特斯拉宣布Semi电动卡车开启量产交付。据马斯克介绍，该车搭载特斯拉辅助驾驶功能，Megacharger可提供兆瓦级充电功率。",
+      "time": "2026-09-25 13:05:48",
+      "source": "东方财富全球7x24",
+      "sectors": [
+        "新能源车"
+      ],
+      "sentiment": 0
+    },
+    {
+      "title": "国家药监局局长黄果率团访问英国 与英国药品与健康产品管理局签署合作意向书",
+      "summary": "【国家药监局局长黄果率团访问英国 与英国药品与健康产品管理局签署合作意向书】9月21日至24日，为落实中英两国领导人达成的共识，加强中英药品监管交流合作，国家药监局局长黄果应邀率团赴英国进行工作访问。",
+      "time": "2026-09-25 12:59:48",
+      "source": "东方财富全球7x24",
+      "sectors": [
+        "医药生物"
+      ],
+      "sentiment": 0
+    },
+    {
+      "title": "日均240万人次 中秋、国庆假期民航旅客量将再创同期新高",
+      "summary": "【日均240万人次 中秋、国庆假期民航旅客量将再创同期新高】民航局相关负责人表示，中秋、国庆假期也是民航旅客出行的高峰，环线游、出境游增速非常明显。假日出行还呈现出去程渐次达峰、回程集中抵离的特点。民航的旅客量有望再创历史同期新高。中国民航局副局长马兵介绍，整体来看，从9月25日到10月7日，全国民航预计运输旅客量3119万人次，日均240万人次，增长率3.6%。单日峰值有望突破260万人次，超过去年同期水平。",
+      "time": "2026-09-25 12:53:40",
+      "source": "东方财富全球7x24",
+      "sectors": [],
+      "sentiment": 1
+    },
+    {
+      "title": "梅卡曼德上市后首份半年报：营收增逾五成、在手订单翻倍 称当前“增长优先”",
+      "summary": "【梅卡曼德上市后首份半年报：营收增逾五成、在手订单翻倍 称当前“增长优先”】9月24日晚间，港股“具身智能眼脑手第一股”梅卡曼德（雄安）机器人科技股份有限公司发布2026年中期报告。上半年，公司实现收入2.37亿元，同比增长54.7%；毛利1.54亿元，同比增长63.6%，毛利率由上年同期的61.4%升至65%；亏损约1亿元，上年同期亏损约1.03亿元；经调整EBITDA亏损3295.7万元，上年同期为3944万元；新签订单金额3.35亿元，同比增长75.3%；截至6月末，在",
+      "time": "2026-09-25 12:45:00",
+      "source": "东方财富全球7x24",
+      "sectors": [
+        "机器人/自动化",
+        "金融"
+      ],
+      "sentiment": 0
+    },
+    {
+      "title": "联合国秘书长古特雷斯：2024年全球海平面升6毫米创纪录",
+      "summary": "【联合国秘书长古特雷斯：2024年全球海平面升6毫米创纪录】当地时间9月24日，联合国秘书长古特雷斯在纽约举行的海平面上升问题高级别会议上表示，全球海平面上升速度正在加快，对沿海城市、经济发展和部分国家领土完整构成日益严峻的威胁。古特雷斯说，2024年全球海平面上升近6毫米，创有记录以来年度最大升幅。他呼吁国际社会加快行动，作出回应。此次高级别会议是第81届联合国大会高级别周活动之一，旨在加强国际合作和集体行动，应对海平面上升带来的影响。",
+      "time": "2026-09-25 12:38:11",
+      "source": "东方财富全球7x24",
+      "sectors": [],
+      "sentiment": 0
+    },
+    {
+      "title": "形式多样，港股迎来新一轮分拆上市热潮",
+      "summary": "【形式多样，港股迎来新一轮分拆上市热潮】9月21日，港交所发布了第二阶段上市机制竞争力评估咨询文件，就分拆上市相关规则公开征求意见。港交所的建议包括简化分拆监管程序，为符合资格的发行人引入自行评估机制。港交所还建议，将母公司上市后不可提交分拆上市申请的限制期，由三年缩短至一年。港交所认为，这样有助于企业更灵活地应对上市后的业务发展、战略调整及融资需要。",
+      "time": "2026-09-25 12:36:47",
+      "source": "东方财富全球7x24",
+      "sectors": [],
+      "sentiment": -1
+    },
+    {
+      "title": "2026中秋档票房破6000万",
+      "summary": "【2026中秋档票房破6000万】9月25日，据猫眼专业版数据，2026年中秋档档期（9月25日-9月27日）票房破6000万，《复仇者联盟4：终局之战（加码臻享版）》《欢迎来龙餐馆》《八仙！》暂列中秋档票房榜前三位。",
+      "time": "2026-09-25 12:36:11",
+      "source": "东方财富全球7x24",
+      "sectors": [],
+      "sentiment": 0
+    },
+    {
+      "title": "Windsor Capital以5000万美元战略投资Space Labs",
+      "summary": "【Windsor Capital以5000万美元战略投资Space Labs】9月25日，WindsorCapital宣布，已完成对斯洛文尼亚科技公司SpaceLabsd.o.o.的5000万美元战略投资。此次投资取得SpaceLabs4.9%的少数股权，对应投后估值约为10.2亿美元。作为双方初期商业合作的一部分，SpaceLabs与WindsorCapital正依托Windsor的国际汽车及工业网络建立车辆分销渠道，并分阶段在多个国际市场开展分销。",
+      "time": "2026-09-25 12:36:11",
+      "source": "东方财富全球7x24",
+      "sectors": [],
+      "sentiment": 0
+    },
+    {
+      "title": "小米汽车将参加2026天津车展",
+      "summary": "【小米汽车将参加2026天津车展】9月25日，小米汽车宣布，全系产品将于9月30日–10月6日亮相2026天津国际车展。",
+      "time": "2026-09-25 12:28:11",
+      "source": "东方财富全球7x24",
+      "sectors": [],
+      "sentiment": 0
+    },
+    {
+      "title": "翼菲科技机器人进入PCB产线，已在多家厂商批量落地",
+      "summary": "【翼菲科技机器人进入PCB产线，已在多家厂商批量落地】9月25日，界面新闻获悉，翼菲科技机器人已在PCB生产环节批量落地，覆盖收放板、清洗上下料、检测搬运等工序。目前，其客户包括景旺电子、生益科技、崇达技术、鹏鼎控股、世运电路等PCB厂商。",
+      "time": "2026-09-25 12:18:23",
+      "source": "东方财富全球7x24",
+      "sectors": [
+        "机器人/自动化"
+      ],
+      "sentiment": 0
+    },
+    {
+      "title": "宇树科技王兴兴：机器人核心瓶颈是能否解决几毫米的工作误差",
+      "summary": "【宇树科技王兴兴：机器人核心瓶颈是能否解决几毫米的工作误差】9月24日，第五届全球数字贸易博览会在杭州举行，宇树科技创始人王兴兴发表《从机械到灵智—具身未来进化论》主题演讲。延续一贯的演讲风格，他以公司产品为切入点，系统梳理了公司机器人最新技术进展与行业发展趋势。",
+      "time": "2026-09-25 12:04:34",
+      "source": "东方财富全球7x24",
+      "sectors": [
+        "机器人/自动化"
+      ],
+      "sentiment": 0
+    },
+    {
+      "title": "港股午评：恒生指数跌1.69% 恒生科技指数跌2.14%",
+      "summary": "【港股午评：恒生指数跌1.69% 恒生科技指数跌2.14%】港股午间收盘，恒生指数跌1.69%，恒生科技指数跌2.14%。大型科网股普跌，小米集团跌逾3%，阿里巴巴、百度集团、美团、京东跌超2%。内房股走弱，融创中国跌近7%，万科企业、富力地产跌超5%，龙湖集团、碧桂园跌近5%。",
+      "time": "2026-09-25 12:02:34",
+      "source": "东方财富全球7x24",
+      "sectors": [],
+      "sentiment": -1
+    },
+    {
+      "title": "五芳斋拟410万元再卖上海房产 此前已卖12间产生利润1120万元",
+      "summary": "【五芳斋拟410万元再卖上海房产 此前已卖12间产生利润1120万元】24日晚间，五芳斋（603237.SH）公告称，为进一步优化资产结构和资源配置，减少维护成本，拟出售一套上海房产，出售价格为410万元（含税）。公告介绍，该房产位于上海市普陀区云岭东路，房屋类型为办公楼，建筑面积为124m2，系五芳斋于2015年12月通过拍卖取得，购入成本为372.32万元。截至2026年8月，累计折旧100.05万元，净值为272.27万元。",
+      "time": "2026-09-25 11:55:32",
+      "source": "东方财富全球7x24",
+      "sectors": [],
+      "sentiment": 0
+    },
+    {
+      "title": "映射Meta催化！花旗看好微信“小微”成终极AI Agent",
+      "summary": "【映射Meta催化！花旗看好微信“小微”成终极AI Agent】受Meta新品及商业化预期提振，腾讯控股(00700.HK)本周表现强势，盘中股价一度触及463.40港元，创下8月12日以来的阶段新高。截至发稿，股价在433港元附近整固。",
+      "time": "2026-09-25 11:51:00",
+      "source": "东方财富全球7x24",
+      "sectors": [
+        "人工智能/算力"
+      ],
+      "sentiment": 0
+    },
+    {
+      "title": "霍尔木兹海峡大宗商品船只通行量降至个位数",
+      "summary": "船舶轨迹初步数据显示，霍尔木兹海峡大宗商品船只通行量降至个位数。",
+      "time": "2026-09-25 11:47:18",
+      "source": "东方财富全球7x24",
+      "sectors": [],
+      "sentiment": 0
+    },
+    {
+      "title": "工信部副部长余晓晖：夯实数智底座 推动算力设施扩容提质",
+      "summary": "【工信部副部长余晓晖：夯实数智底座 推动算力设施扩容提质】近日，工业和信息化部副部长余晓晖在2026年中国国际信息通信展览会开幕式上表示，要把握新一代通信网建设的战略机遇，夯实数智底座。系统推进新一代通信网建设，推动宽带网络向“双万兆”演进，推进低轨卫星互联网系统建设，统筹优化国际海陆缆网络布局，推动算力设施扩容提质。",
+      "time": "2026-09-25 11:46:16",
+      "source": "东方财富全球7x24",
+      "sectors": [
+        "人工智能/算力",
+        "软件/互联网"
+      ],
+      "sentiment": 0
+    },
+    {
+      "title": "受天气影响，新疆独库公路部分路段实施临时管制",
+      "summary": "【受天气影响，新疆独库公路部分路段实施临时管制】据新疆维吾尔自治区交通运输厅应急指挥与联网收费中心，2026年9月25日，受天气影响，独库公路乌苏段哈希勒根达坂仍有降雪，部分路段出现大雾、能见度较低，暂不具备安全通行条件。",
+      "time": "2026-09-25 11:39:52",
+      "source": "东方财富全球7x24",
+      "sectors": [],
+      "sentiment": 0
+    },
+    {
+      "title": "印度10年期基准国债收益率为7.1347%",
+      "summary": "印度10年期基准国债收益率为7.1347%，升至5月20日以来的最高水平。",
+      "time": "2026-09-25 11:35:37",
+      "source": "东方财富全球7x24",
+      "sectors": [],
+      "sentiment": 0
+    },
+    {
+      "title": "报道称深圳传音控股计划下周启动香港上市推介",
+      "summary": "报道称深圳传音控股计划下周启动香港上市推介。",
+      "time": "2026-09-25 11:29:07",
+      "source": "东方财富全球7x24",
+      "sectors": [],
+      "sentiment": 0
+    },
+    {
+      "title": "港元1个月期HIBOR升至1月以来最高水平",
+      "summary": "港元1个月期HIBOR升至1月以来最高水平。",
+      "time": "2026-09-25 11:28:00",
+      "source": "东方财富全球7x24",
+      "sectors": [],
+      "sentiment": 0
+    },
+    {
+      "title": "世界技能组织CEO：专家喜欢预测哪些技能会被AI取代 但往往都不太准",
+      "summary": "【世界技能组织CEO：专家喜欢预测哪些技能会被AI取代 但往往都不太准】9月24日，在第48届世界技能大赛期间，记者旁听了一场由世界技能组织首席执行官大卫·霍伊（DavidHoey）参与的早餐会。整场早餐会气氛轻松活泼，大家畅所欲言，并把问题抛给AI时代：技能教育到底该教什么？“决定AI成败的，不是技术，而是使用技术的人。”大卫·霍伊认真地说。",
+      "time": "2026-09-25 11:19:04",
+      "source": "东方财富全球7x24",
+      "sectors": [
+        "人工智能/算力"
+      ],
+      "sentiment": 0
+    },
+    {
+      "title": "中国足协党委书记：坚决杜绝国家队建设急功近利 防范职业足球领域重蹈金元足球覆辙",
+      "summary": "【中国足协党委书记：坚决杜绝国家队建设急功近利 防范职业足球领域重蹈金元足球覆辙】中国足协9月24日召开党建工作专题会议。体育总局副局长、中国足协党委书记张家胜主持会议并讲话。张家胜指出，要把牢政治方向，坚持以足协高质量党建引领足球事业高质量发展，坚守中国足协履职尽责的正确方向，坚决杜绝国家队建设急功近利、走捷径的老路，防范职业足球领域重蹈金元足球覆辙，预防和纠正社会足球偏离草根性质的倾向。",
+      "time": "2026-09-25 11:15:42",
+      "source": "东方财富全球7x24",
+      "sectors": [],
+      "sentiment": 0
+    },
+    {
+      "title": "新能源大基地转型：告别规模竞赛 转向价值经营",
+      "summary": "【新能源大基地转型：告别规模竞赛 转向价值经营】伴随新能源全面入市落地，行业旧有开发模式面临全新挑战。近日，在“十五五”新能源基地化发展论坛上，国家能源局信息中心原主任、中国信息协会能源工委首席专家、中国能源研究会电能专委会顾问梁建勇在致辞中表示，当前新能源绿色生态、系统调节、灵活支撑价值尚未完全市场化，行业陷入“增量不增效、增产不增收”的结构性困境。",
+      "time": "2026-09-25 11:07:57",
+      "source": "东方财富全球7x24",
+      "sectors": [],
+      "sentiment": 0
+    },
+    {
+      "title": "“双节”后行情怎么看？反弹仍待四大变量验证",
+      "summary": "【“双节”后行情怎么看？反弹仍待四大变量验证】中秋、国庆“双节”临近，多家机构对后续市场做出研判。综合券商研报，市场普遍认为部分悲观预期已经得到市场定价，A股迎来阶段性修复机会，但全面趋势性上行仍需多重条件共振，结构性机会集中于高景气AI产业链，后续行情依赖事件催化与业绩兑现。",
+      "time": "2026-09-25 11:02:00",
+      "source": "东方财富全球7x24",
+      "sectors": [
+        "人工智能/算力"
+      ],
+      "sentiment": 1
+    },
+    {
+      "title": "突发公告！A股万亿巨头大动作！加码AI、半导体",
+      "summary": "【突发公告！A股万亿巨头 大动作！加码AI、半导体】“耐心资本”险资持续投向人工智能、半导体行业。9月24日晚，中国人寿公告一项投资信息。该公司拟与相关方订立合伙协议，成立青岛城鑫致达股权投资中心（有限合伙），重点投资于人工智能和半导体领域的优质未上市股权。全体合伙人拟认缴出资总额不超过60亿元，其中，中国人寿拟出资额不超过45亿元。",
+      "time": "2026-09-25 10:59:58",
+      "source": "东方财富全球7x24",
+      "sectors": [
+        "半导体",
+        "人工智能/算力"
+      ],
+      "sentiment": 0
+    },
+    {
+      "title": "成渝中线高铁重庆段铺轨完成",
+      "summary": "【成渝中线高铁重庆段铺轨完成】据央视新闻，记者从长江沿岸铁路集团重庆公司获悉，9月25日，在重庆市两江新区成渝中线高铁人和隧道施工现场，随着最后一组500米长钢轨稳稳落下，成渝中线高铁重庆段铺轨工程完工。据介绍，成渝中线高铁全线铺轨（含站线）总里程共约585公里，其中正线约568公里，站线约17公里，并包含66组无砟道岔等施工内容。",
+      "time": "2026-09-25 10:55:55",
+      "source": "东方财富全球7x24",
+      "sectors": [],
+      "sentiment": 0
+    }
+  ],
+  "sector_factors": [
+    {
+      "sector": "光伏",
+      "score": 21.9,
+      "impact": "negative",
+      "weighted_change_pct": -3.51,
+      "confidence": 46,
+      "countries": [
+        "美国"
+      ],
+      "source_count": 1,
+      "drivers": [
+        "美国全球太阳能ETF-Invesco-3.51%"
+      ],
+      "news": []
+    },
+    {
+      "sector": "消费电子",
+      "score": 63.4,
+      "impact": "positive",
+      "weighted_change_pct": 1.673,
+      "confidence": 72,
+      "countries": [
+        "日本",
+        "美国",
+        "韩国"
+      ],
+      "source_count": 5,
+      "drivers": [
+        "日本Sony Group Corporation+1.50%",
+        "韩国Samsung Electronics Co., Ltd.+3.25%",
+        "日本日经225+1.31%",
+        "韩国韩国综合+0.90%"
+      ],
+      "news": []
+    },
+    {
+      "sector": "存储芯片",
+      "score": 62.1,
+      "impact": "positive",
+      "weighted_change_pct": 1.517,
+      "confidence": 70,
+      "countries": [
+        "美国",
+        "韩国"
+      ],
+      "source_count": 4,
+      "drivers": [
+        "韩国Samsung Electronics Co., Ltd.+3.25%",
+        "韩国SK hynix Inc.+1.20%",
+        "美国美光科技+0.81%",
+        "韩国韩国综合+0.90%",
+        "消息面中性"
+      ],
+      "news": [
+        {
+          "title": "报道称SK海力士、三星敲定全南-光州芯片项目规划",
+          "time": "2026-09-25 10:15:28",
+          "source": "东方财富全球7x24",
+          "sentiment": 0
+        }
+      ]
+    },
+    {
+      "sector": "黄金",
+      "score": 39.7,
+      "impact": "negative",
+      "weighted_change_pct": -1.29,
+      "confidence": 46,
+      "countries": [
+        "美国"
+      ],
+      "source_count": 1,
+      "drivers": [
+        "美国金矿开采商ETF-VanEck-1.29%"
+      ],
+      "news": []
+    },
+    {
+      "sector": "半导体",
+      "score": 59.2,
+      "impact": "positive",
+      "weighted_change_pct": 1.155,
+      "confidence": 95,
+      "countries": [
+        "日本",
+        "美国",
+        "韩国"
+      ],
+      "source_count": 13,
+      "drivers": [
+        "日本Tokyo Electron Limited+4.02%",
+        "韩国Samsung Electronics Co., Ltd.+3.25%",
+        "日本Advantest Corporation+2.36%",
+        "韩国SK hynix Inc.+1.20%",
+        "消息面中性"
+      ],
+      "news": [
+        {
+          "title": "突发公告！A股万亿巨头大动作！加码AI、半导体",
+          "time": "2026-09-25 10:59:58",
+          "source": "东方财富全球7x24",
+          "sentiment": 0
+        },
+        {
+          "title": "AI芯片初创企业DensityAI正进入融资谈判后期 投后估值接近100亿美元",
+          "time": "2026-09-25 10:52:07",
+          "source": "东方财富全球7x24",
+          "sentiment": 0
+        },
+        {
+          "title": "报道称SK海力士、三星敲定全南-光州芯片项目规划",
+          "time": "2026-09-25 10:15:28",
+          "source": "东方财富全球7x24",
+          "sentiment": 0
+        }
+      ]
+    },
+    {
+      "sector": "有色/化工",
+      "score": 41.1,
+      "impact": "negative",
+      "weighted_change_pct": -1.107,
+      "confidence": 68,
+      "countries": [
+        "美国",
+        "韩国"
+      ],
+      "source_count": 3,
+      "drivers": [
+        "美国基础材料ETF-SPDR-1.19%",
+        "美国金矿开采商ETF-VanEck-1.29%",
+        "韩国LG Chem, Ltd.-0.59%"
+      ],
+      "news": []
+    },
+    {
+      "sector": "软件/互联网",
+      "score": 41.8,
+      "impact": "negative",
+      "weighted_change_pct": -1.029,
+      "confidence": 66,
+      "countries": [
+        "日本",
+        "美国"
+      ],
+      "source_count": 3,
+      "drivers": [
+        "日本SoftBank Group Corp.-2.55%",
+        "美国中国海外互联网ETF-KraneShares-0.64%",
+        "美国纳斯达克+0.01%",
+        "消息面中性"
+      ],
+      "news": [
+        {
+          "title": "工信部副部长余晓晖：夯实数智底座 推动算力设施扩容提质",
+          "time": "2026-09-25 11:46:16",
+          "source": "东方财富全球7x24",
+          "sentiment": 0
+        },
+        {
+          "title": "AI芯片初创企业DensityAI正进入融资谈判后期 投后估值接近100亿美元",
+          "time": "2026-09-25 10:52:07",
+          "source": "东方财富全球7x24",
+          "sentiment": 0
+        }
+      ]
+    },
+    {
+      "sector": "新能源车",
+      "score": 42.2,
+      "impact": "neutral",
+      "weighted_change_pct": -0.979,
+      "confidence": 76,
+      "countries": [
+        "美国",
+        "韩国"
+      ],
+      "source_count": 3,
+      "drivers": [
+        "韩国Hyundai Motor Company-1.94%",
+        "美国特斯拉-0.57%",
+        "美国锂电池ETF-Global X-1.09%",
+        "消息面中性"
+      ],
+      "news": [
+        {
+          "title": "特斯拉Semi电动卡车开启量产交付",
+          "time": "2026-09-25 13:05:48",
+          "source": "东方财富全球7x24",
+          "sentiment": 0
+        },
+        {
+          "title": "AI芯片初创企业DensityAI正进入融资谈判后期 投后估值接近100亿美元",
+          "time": "2026-09-25 10:52:07",
+          "source": "东方财富全球7x24",
+          "sentiment": 0
+        },
+        {
+          "title": "最高立减7000元，特斯拉再次降价促销",
+          "time": "2026-09-25T10:51:45",
+          "source": "华尔街见闻美股",
+          "sentiment": 0
+        }
+      ]
+    },
+    {
+      "sector": "锂电池",
+      "score": 42.2,
+      "impact": "neutral",
+      "weighted_change_pct": -0.979,
+      "confidence": 68,
+      "countries": [
+        "美国",
+        "韩国"
+      ],
+      "source_count": 4,
+      "drivers": [
+        "韩国Samsung SDI Co., Ltd.-1.51%",
+        "美国锂电池ETF-Global X-1.09%",
+        "韩国LG Chem, Ltd.-0.59%",
+        "韩国韩国综合+0.90%"
+      ],
+      "news": []
+    },
+    {
+      "sector": "汽车电子",
+      "score": 42.7,
+      "impact": "neutral",
+      "weighted_change_pct": -0.917,
+      "confidence": 46,
+      "countries": [
+        "日本"
+      ],
+      "source_count": 1,
+      "drivers": [
+        "日本Renesas Electronics Corporation-0.92%"
+      ],
+      "news": []
+    },
+    {
+      "sector": "传媒",
+      "score": 44.9,
+      "impact": "neutral",
+      "weighted_change_pct": -0.64,
+      "confidence": 46,
+      "countries": [
+        "美国"
+      ],
+      "source_count": 1,
+      "drivers": [
+        "美国中国海外互联网ETF-KraneShares-0.64%"
+      ],
+      "news": []
+    },
+    {
+      "sector": "医药生物",
+      "score": 54.6,
+      "impact": "neutral",
+      "weighted_change_pct": 0.571,
+      "confidence": 48,
+      "countries": [
+        "美国"
+      ],
+      "source_count": 2,
+      "drivers": [
+        "美国医疗保健精选行业ETF-SPDR+0.63%",
+        "美国标普500-0.02%",
+        "消息面中性"
+      ],
+      "news": [
+        {
+          "title": "国家药监局局长黄果率团访问英国 与英国药品与健康产品管理局签署合作意向书",
+          "time": "2026-09-25 12:59:48",
+          "source": "东方财富全球7x24",
+          "sentiment": 0
+        }
+      ]
+    },
+    {
+      "sector": "军工",
+      "score": 45.7,
+      "impact": "neutral",
+      "weighted_change_pct": -0.54,
+      "confidence": 48,
+      "countries": [
+        "美国"
+      ],
+      "source_count": 1,
+      "drivers": [
+        "美国美国航空航天与国防ETF-iShares-0.54%",
+        "消息面中性"
+      ],
+      "news": [
+        {
+          "title": "俄称控制多个定居点，乌称击落多架无人机",
+          "time": "2026-09-25T06:58:46",
+          "source": "华尔街见闻美股",
+          "sentiment": 0
+        }
+      ]
+    },
+    {
+      "sector": "工业制造",
+      "score": 46.9,
+      "impact": "neutral",
+      "weighted_change_pct": -0.386,
+      "confidence": 56,
+      "countries": [
+        "日本",
+        "美国"
+      ],
+      "source_count": 4,
+      "drivers": [
+        "美国工业ETF-SPDR-0.75%",
+        "日本日经225+1.31%",
+        "美国道琼斯-0.31%",
+        "美国标普500-0.02%"
+      ],
+      "news": []
+    },
+    {
+      "sector": "油气",
+      "score": 53.0,
+      "impact": "neutral",
+      "weighted_change_pct": 0.37,
+      "confidence": 52,
+      "countries": [
+        "美国"
+      ],
+      "source_count": 1,
+      "drivers": [
+        "美国能源精选ETF-SPDR+0.37%",
+        "消息面中性"
+      ],
+      "news": [
+        {
+          "title": "WTI原油期货跌幅扩大至2%",
+          "time": "2026-09-25 13:33:35",
+          "source": "东方财富全球7x24",
+          "sentiment": 0
+        },
+        {
+          "title": "华尔街见闻早餐 | 2026年9月25日",
+          "time": "2026-09-25T07:30:15",
+          "source": "华尔街见闻美股",
+          "sentiment": 0
+        },
+        {
+          "title": "周五亚太盘初，NYMEX天然气期货跌4%，至3.156美元/百万英热单位单位附近。",
+          "time": "2026-09-25T06:46:24",
+          "source": "华尔街见闻美股",
+          "sentiment": 0
+        }
+      ]
+    },
+    {
+      "sector": "机器人/自动化",
+      "score": 47.1,
+      "impact": "neutral",
+      "weighted_change_pct": -0.359,
+      "confidence": 72,
+      "countries": [
+        "日本",
+        "美国"
+      ],
+      "source_count": 3,
+      "drivers": [
+        "美国工业ETF-SPDR-0.75%",
+        "美国特斯拉-0.57%",
+        "日本日经225+1.31%",
+        "消息面中性"
+      ],
+      "news": [
+        {
+          "title": "梅卡曼德上市后首份半年报：营收增逾五成、在手订单翻倍 称当前“增长优先”",
+          "time": "2026-09-25 12:45:00",
+          "source": "东方财富全球7x24",
+          "sentiment": 0
+        },
+        {
+          "title": "翼菲科技机器人进入PCB产线，已在多家厂商批量落地",
+          "time": "2026-09-25 12:18:23",
+          "source": "东方财富全球7x24",
+          "sentiment": 0
+        },
+        {
+          "title": "宇树科技王兴兴：机器人核心瓶颈是能否解决几毫米的工作误差",
+          "time": "2026-09-25 12:04:34",
+          "source": "东方财富全球7x24",
+          "sentiment": 0
+        }
+      ]
+    },
+    {
+      "sector": "人工智能/算力",
+      "score": 47.9,
+      "impact": "neutral",
+      "weighted_change_pct": -0.366,
+      "confidence": 90,
+      "countries": [
+        "日本",
+        "美国"
+      ],
+      "source_count": 6,
+      "drivers": [
+        "日本SoftBank Group Corp.-2.55%",
+        "日本Advantest Corporation+2.36%",
+        "美国英伟达-0.41%",
+        "美国半导体指数ETF-VanEck-0.15%",
+        "消息面偏多"
+      ],
+      "news": [
+        {
+          "title": "映射Meta催化！花旗看好微信“小微”成终极AI Agent",
+          "time": "2026-09-25 11:51:00",
+          "source": "东方财富全球7x24",
+          "sentiment": 0
+        },
+        {
+          "title": "工信部副部长余晓晖：夯实数智底座 推动算力设施扩容提质",
+          "time": "2026-09-25 11:46:16",
+          "source": "东方财富全球7x24",
+          "sentiment": 0
+        },
+        {
+          "title": "世界技能组织CEO：专家喜欢预测哪些技能会被AI取代 但往往都不太准",
+          "time": "2026-09-25 11:19:04",
+          "source": "东方财富全球7x24",
+          "sentiment": 0
+        }
+      ]
+    },
+    {
+      "sector": "汽车",
+      "score": 48.2,
+      "impact": "neutral",
+      "weighted_change_pct": -0.22,
+      "confidence": 62,
+      "countries": [
+        "日本",
+        "韩国"
+      ],
+      "source_count": 4,
+      "drivers": [
+        "韩国Hyundai Motor Company-1.94%",
+        "日本Toyota Motor Corp.+0.91%",
+        "日本日经225+1.31%",
+        "韩国韩国综合+0.90%"
+      ],
+      "news": []
+    },
+    {
+      "sector": "金融",
+      "score": 50.3,
+      "impact": "neutral",
+      "weighted_change_pct": -0.064,
+      "confidence": 56,
+      "countries": [
+        "美国"
+      ],
+      "source_count": 3,
+      "drivers": [
+        "美国道琼斯-0.31%",
+        "美国金融行业ETF-SPDR-0.02%",
+        "美国标普500-0.02%",
+        "消息面偏多"
+      ],
+      "news": [
+        {
+          "title": "梅卡曼德上市后首份半年报：营收增逾五成、在手订单翻倍 称当前“增长优先”",
+          "time": "2026-09-25 12:45:00",
+          "source": "东方财富全球7x24",
+          "sentiment": 0
+        },
+        {
+          "title": "上市后首份中报来了！梅卡曼德机器人亏损收窄",
+          "time": "2026-09-25 10:25:00",
+          "source": "东方财富全球7x24",
+          "sentiment": 0
+        },
+        {
+          "title": "华尔街见闻早餐 | 2026年9月25日",
+          "time": "2026-09-25T07:30:15",
+          "source": "华尔街见闻美股",
+          "sentiment": 0
+        }
+      ]
+    }
+  ],
+  "market_summary": {
+    "us_change_pct": -0.107,
+    "us_score": 49.1,
+    "us_state": "close",
+    "asia_change_pct": 1.105,
+    "asia_score": 58.8,
+    "asia_state": "close/open",
+    "global_score": 53.5,
+    "risk_level": "neutral"
+  },
+  "source_health": {
+    "ok": true,
+    "errors": {},
+    "index_count": 6,
+    "proxy_count": 27,
+    "news_count": 60
+  },
+  "missing_data": [],
+  "stock_bindings": [
+    {
+      "symbol": "603519",
+      "name": "立霸股份",
+      "labels": [
+        "家电行业",
+        "家电零部件Ⅲ",
+        "家电零部件Ⅱ",
+        "家用电器",
+        "碳化硅",
+        "第三代半导体",
+        "国产芯片"
+      ],
+      "checked_at": "2026-09-25T13:40:02",
+      "global_affected": true,
+      "global_sector_score": 59.2,
+      "global_impact": "positive",
+      "global_confidence": 95,
+      "global_sectors": [
+        "半导体"
+      ],
+      "global_drivers": [
+        "日本Tokyo Electron Limited+4.02%",
+        "韩国Samsung Electronics Co., Ltd.+3.25%",
+        "日本Advantest Corporation+2.36%",
+        "韩国SK hynix Inc.+1.20%",
+        "消息面中性"
+      ]
+    },
+    {
+      "symbol": "601898",
+      "name": "中煤能源",
+      "labels": [
+        "煤炭",
+        "动力煤",
+        "煤炭开采",
+        "煤化工概念",
+        "AH股",
+        "中字头",
+        "央国企改革",
+        "中特估",
+        "反内卷概念",
+        "周期股",
+        "大盘价值",
+        "趋势股",
+        "证金持股"
+      ],
+      "checked_at": "2026-09-25T13:40:02",
+      "global_affected": true,
+      "global_sector_score": 41.1,
+      "global_impact": "negative",
+      "global_confidence": 68,
+      "global_sectors": [
+        "有色/化工"
+      ],
+      "global_drivers": [
+        "美国基础材料ETF-SPDR-1.19%",
+        "美国金矿开采商ETF-VanEck-1.29%",
+        "韩国LG Chem, Ltd.-0.59%"
+      ]
+    },
+    {
+      "symbol": "600610",
+      "name": "中毅达",
+      "labels": [
+        "纺织机械",
+        "其他化学原料",
+        "基础化工",
+        "化学原料",
+        "高市净率",
+        "长江三角",
+        "西部大开发",
+        "AB股"
+      ],
+      "checked_at": "2026-09-25T13:40:02",
+      "global_affected": true,
+      "global_sector_score": 41.1,
+      "global_impact": "negative",
+      "global_confidence": 68,
+      "global_sectors": [
+        "有色/化工"
+      ],
+      "global_drivers": [
+        "美国基础材料ETF-SPDR-1.19%",
+        "美国金矿开采商ETF-VanEck-1.29%",
+        "韩国LG Chem, Ltd.-0.59%"
+      ]
+    },
+    {
+      "symbol": "300384",
+      "name": "三联虹普",
+      "labels": [
+        "纺织机械",
+        "化学工程",
+        "专业工程",
+        "建筑装饰",
+        "创投",
+        "大数据",
+        "互联网金融",
+        "创业板综",
+        "AI智能体",
+        "工业互联网",
+        "垃圾分类",
+        "降解塑料",
+        "华为昇腾",
+        "AI应用",
+        "破增发价股",
+        "华为概念"
+      ],
+      "checked_at": "2026-09-25T13:40:02",
+      "global_affected": true,
+      "global_sector_score": 45.3,
+      "global_impact": "neutral",
+      "global_confidence": 90,
+      "global_sectors": [
+        "人工智能/算力",
+        "软件/互联网"
+      ],
+      "global_drivers": [
+        "日本SoftBank Group Corp.-2.55%",
+        "日本Advantest Corporation+2.36%",
+        "美国英伟达-0.41%",
+        "美国半导体指数ETF-VanEck-0.15%",
+        "消息面偏多"
+      ]
+    },
+    {
+      "symbol": "002747",
+      "name": "埃斯顿",
+      "labels": [
+        "机器人",
+        "自动化设备",
+        "机械设备",
+        "AH股",
+        "养老概念",
+        "医疗器械概念",
+        "人工智能",
+        "工业互联网",
+        "机器视觉",
+        "工业母机",
+        "专精特新",
+        "机器人概念",
+        "人形机器人",
+        "2026中报预增"
+      ],
+      "checked_at": "2026-09-25T13:40:02",
+      "global_affected": true,
+      "global_sector_score": 45.9,
+      "global_impact": "neutral",
+      "global_confidence": 90,
+      "global_sectors": [
+        "人工智能/算力",
+        "软件/互联网",
+        "机器人/自动化"
+      ],
+      "global_drivers": [
+        "日本SoftBank Group Corp.-2.55%",
+        "日本Advantest Corporation+2.36%",
+        "美国英伟达-0.41%",
+        "美国半导体指数ETF-VanEck-0.15%",
+        "消息面偏多"
+      ]
+    },
+    {
+      "symbol": "002640",
+      "name": "跨境通",
+      "labels": [
+        "服装鞋类",
+        "跨境电商",
+        "互联网电商",
+        "商贸零售",
+        "婴童概念",
+        "电商概念",
+        "无线耳机",
+        "网红经济",
+        "拼多多概念",
+        "消费电子概念",
+        "破增发价股",
+        "股权分散",
+        "2026中报扭亏",
+        "内贸流通"
+      ],
+      "checked_at": "2026-09-25T13:40:02",
+      "global_affected": true,
+      "global_sector_score": 53.1,
+      "global_impact": "neutral",
+      "global_confidence": 72,
+      "global_sectors": [
+        "消费电子",
+        "软件/互联网"
+      ],
+      "global_drivers": [
+        "日本Sony Group Corporation+1.50%",
+        "韩国Samsung Electronics Co., Ltd.+3.25%",
+        "日本日经225+1.31%",
+        "韩国韩国综合+0.90%",
+        "日本SoftBank Group Corp.-2.55%"
+      ]
+    },
+    {
+      "symbol": "002403",
+      "name": "爱仕达",
+      "labels": [
+        "家电行业",
+        "厨房小家电",
+        "小家电",
+        "家用电器",
+        "2026中报首亏",
+        "破发股",
+        "跨境电商",
+        "减速器",
+        "机器人概念",
+        "换电概念",
+        "土地流转",
+        "参股保险",
+        "长江三角"
+      ],
+      "checked_at": "2026-09-25T13:40:02",
+      "global_affected": true,
+      "global_sector_score": 47.1,
+      "global_impact": "neutral",
+      "global_confidence": 72,
+      "global_sectors": [
+        "机器人/自动化"
+      ],
+      "global_drivers": [
+        "美国工业ETF-SPDR-0.75%",
+        "美国特斯拉-0.57%",
+        "日本日经225+1.31%",
+        "消息面中性"
+      ]
+    },
+    {
+      "symbol": "002259",
+      "name": "升达林业",
+      "labels": [
+        "家具行业",
+        "燃气Ⅲ",
+        "燃气Ⅱ",
+        "公用事业",
+        "破增发价股",
+        "油气资源",
+        "最近多板",
+        "天然气",
+        "新能源"
+      ],
+      "checked_at": "2026-09-25T13:40:02",
+      "global_affected": true,
+      "global_sector_score": 53.0,
+      "global_impact": "neutral",
+      "global_confidence": 52,
+      "global_sectors": [
+        "油气"
+      ],
+      "global_drivers": [
+        "美国能源精选ETF-SPDR+0.37%",
+        "消息面中性"
+      ]
+    },
+    {
+      "symbol": "002196",
+      "name": "方正电机",
+      "labels": [
+        "纺织机械",
+        "电机Ⅲ",
+        "电力设备",
+        "电机Ⅱ",
+        "2026中报扭亏",
+        "股权分散",
+        "人形机器人",
+        "机器人概念",
+        "新能源车",
+        "一带一路",
+        "无人机",
+        "央国企改革",
+        "特斯拉概念",
+        "长江三角"
+      ],
+      "checked_at": "2026-09-25T13:40:02",
+      "global_affected": true,
+      "global_sector_score": 44.6,
+      "global_impact": "neutral",
+      "global_confidence": 76,
+      "global_sectors": [
+        "新能源车",
+        "机器人/自动化"
+      ],
+      "global_drivers": [
+        "韩国Hyundai Motor Company-1.94%",
+        "美国特斯拉-0.57%",
+        "美国锂电池ETF-Global X-1.09%",
+        "消息面中性",
+        "美国工业ETF-SPDR-0.75%"
+      ]
+    },
+    {
+      "symbol": "002035",
+      "name": "华帝股份",
+      "labels": [
+        "家电行业",
+        "家用电器",
+        "厨房电器",
+        "厨卫电器",
+        "新能源",
+        "创投",
+        "光伏概念",
+        "电商概念",
+        "智能家居",
+        "体育产业",
+        "新零售",
+        "快手概念",
+        "机器视觉",
+        "净水概念",
+        "机器人概念",
+        "空气能热泵",
+        "新型工业化",
+        "小红书概念"
+      ],
+      "checked_at": "2026-09-25T13:40:02",
+      "global_affected": true,
+      "global_sector_score": 37.3,
+      "global_impact": "negative",
+      "global_confidence": 72,
+      "global_sectors": [
+        "光伏",
+        "机器人/自动化"
+      ],
+      "global_drivers": [
+        "美国全球太阳能ETF-Invesco-3.51%",
+        "美国工业ETF-SPDR-0.75%",
+        "美国特斯拉-0.57%",
+        "日本日经225+1.31%",
+        "消息面中性"
+      ]
+    },
+    {
+      "symbol": "000034",
+      "name": "神州数码",
+      "labels": [
+        "煤炭行业",
+        "IT服务Ⅲ",
+        "IT服务Ⅱ",
+        "计算机",
+        "边缘计算",
+        "华为概念",
+        "区块链",
+        "智能驾驶",
+        "人工智能",
+        "阿里概念",
+        "网络安全",
+        "云计算",
+        "物联网",
+        "安防概念",
+        "AI应用",
+        "腾讯云",
+        "DeepSeek概念",
+        "智谱AI概念",
+        "华为海思",
+        "英伟达概念",
+        "数据中心",
+        "存储芯片",
+        "ChatGPT概念",
+        "信创",
+        "机器人概念",
+        "数字经济",
+        "内贸流通",
+        "华为昇腾",
+        "液冷服务器"
+      ],
+      "checked_at": "2026-09-25T13:40:02",
+      "global_affected": true,
+      "global_sector_score": 51.0,
+      "global_impact": "neutral",
+      "global_confidence": 95,
+      "global_sectors": [
+        "半导体",
+        "存储芯片",
+        "人工智能/算力",
+        "软件/互联网",
+        "汽车电子",
+        "机器人/自动化"
+      ],
+      "global_drivers": [
+        "日本Tokyo Electron Limited+4.02%",
+        "韩国Samsung Electronics Co., Ltd.+3.25%",
+        "日本Advantest Corporation+2.36%",
+        "韩国SK hynix Inc.+1.20%",
+        "消息面中性"
+      ]
+    },
+    {
+      "symbol": "601566",
+      "name": "九牧王",
+      "labels": [
+        "服装鞋类",
+        "非运动服装",
+        "服装家纺",
+        "纺织服饰",
+        "2026中报预减",
+        "破发股",
+        "新零售",
+        "IPO受益",
+        "电商概念",
+        "参股券商",
+        "福建板块",
+        "沪股通",
+        "融资融券"
+      ],
+      "checked_at": "2026-09-25T13:40:02",
+      "global_affected": false,
+      "global_sector_score": 50,
+      "global_impact": "neutral",
+      "global_confidence": 0,
+      "global_sectors": [],
+      "global_drivers": []
+    },
+    {
+      "symbol": "600546",
+      "name": "山煤国际",
+      "labels": [
+        "煤炭行业",
+        "煤炭",
+        "动力煤",
+        "煤炭开采",
+        "参股银行",
+        "央国企改革",
+        "超超临界发电",
+        "反内卷概念",
+        "红利股",
+        "小盘价值",
+        "2026中报预增",
+        "内贸流通"
+      ],
+      "checked_at": "2026-09-25T13:40:02",
+      "global_affected": false,
+      "global_sector_score": 50,
+      "global_impact": "neutral",
+      "global_confidence": 0,
+      "global_sectors": [],
+      "global_drivers": []
+    },
+    {
+      "symbol": "600121",
+      "name": "郑州煤电",
+      "labels": [
+        "煤炭行业",
+        "动力煤",
+        "煤炭开采",
+        "煤炭",
+        "破增发价股",
+        "反内卷概念",
+        "央国企改革",
+        "稀缺资源",
+        "参股券商",
+        "河南板块",
+        "昨日高振幅",
+        "沪股通",
+        "融资融券"
+      ],
+      "checked_at": "2026-09-25T13:40:02",
+      "global_affected": false,
+      "global_sector_score": 50,
+      "global_impact": "neutral",
+      "global_confidence": 0,
+      "global_sectors": [],
+      "global_drivers": []
+    },
+    {
+      "symbol": "002718",
+      "name": "友邦吊顶",
+      "labels": [
+        "家具行业",
+        "其他建材Ⅲ",
+        "建筑材料",
+        "装修建材",
+        "2026中报首亏",
+        "拼多多概念",
+        "长江三角",
+        "浙江板块",
+        "深股通"
+      ],
+      "checked_at": "2026-09-25T13:40:02",
+      "global_affected": false,
+      "global_sector_score": 50,
+      "global_impact": "neutral",
+      "global_confidence": 0,
+      "global_sectors": [],
+      "global_drivers": []
+    },
+    {
+      "symbol": "002687",
+      "name": "乔治白",
+      "labels": [
+        "服装鞋类",
+        "非运动服装",
+        "服装家纺",
+        "纺织服饰",
+        "创投",
+        "浙江板块",
+        "昨日高振幅",
+        "QFII重仓"
+      ],
+      "checked_at": "2026-09-25T13:40:02",
+      "global_affected": false,
+      "global_sector_score": 50,
+      "global_impact": "neutral",
+      "global_confidence": 0,
+      "global_sectors": [],
+      "global_drivers": []
+    },
+    {
+      "symbol": "002631",
+      "name": "德尔未来",
+      "labels": [
+        "家具行业",
+        "定制家居",
+        "轻工制造",
+        "家居用品",
+        "趋势股",
+        "柔性屏(折叠屏)",
+        "碳基材料",
+        "C2M概念",
+        "智能家居",
+        "石墨烯",
+        "节能环保"
+      ],
+      "checked_at": "2026-09-25T13:40:02",
+      "global_affected": false,
+      "global_sector_score": 50,
+      "global_impact": "neutral",
+      "global_confidence": 0,
+      "global_sectors": [],
+      "global_drivers": []
+    }
+  ]
+}

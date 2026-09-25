@@ -1,0 +1,11 @@
+[Unit]
+Description=A Share Signal Journal Review
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory=/usr/local/lib/hermes-agent/a_share_alert_template
+ExecStart=/usr/local/lib/hermes-agent/venv/bin/python /usr/local/lib/hermes-agent/a_share_alert_template/journal_review.py
+TimeoutStartSec=180
+Nice=10

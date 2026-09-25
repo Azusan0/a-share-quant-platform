@@ -1,0 +1,16 @@
+[Unit]
+Description=Run Multi-account Portfolio Monitor
+
+[Timer]
+OnCalendar=Mon..Fri *-*-* 08:50:00
+OnCalendar=Mon..Fri *-*-* 09:15/1:00
+OnCalendar=Mon..Fri *-*-* 10:0/5:00
+OnCalendar=Mon..Fri *-*-* 11:00..30/5:00
+OnCalendar=Mon..Fri *-*-* 13..14:0/5:00
+OnCalendar=Mon..Fri *-*-* 15:00..10/5:00
+OnCalendar=Mon..Fri *-*-* 15:20:00
+Persistent=false
+AccuracySec=5s
+
+[Install]
+WantedBy=timers.target

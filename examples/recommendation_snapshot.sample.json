@@ -1,0 +1,1705 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-24T14:56:32",
+  "mode": "shadow",
+  "engine_version": "v7.4",
+  "market_sentiment": {
+    "level": "weak",
+    "label": "偏弱",
+    "score": 39.07,
+    "enter_score_adjustment": 8
+  },
+  "global_market": {
+    "generated_at": "2026-09-24T14:55:02",
+    "stale": false,
+    "global_score": 49.2
+  },
+  "recommendations": [
+    {
+      "symbol": "000034",
+      "name": "神州数码",
+      "direction": "煤炭行业",
+      "recommendation_status": "watch",
+      "status_label": "观察",
+      "recommendation_type": "first_ignition",
+      "state": "ignition",
+      "role": "leader",
+      "bar_time": "2026-09-24T14:55",
+      "state_entered_at": "2026-09-24T14:55",
+      "sector_score": 51.83,
+      "candidate_score": 91.01,
+      "recommendation_score": 79.14,
+      "price": 24.1,
+      "vwap": 23.645,
+      "entry_low": 23.527,
+      "entry_high": 24.172,
+      "max_chase_price": 24.172,
+      "invalid_price": 22.915,
+      "target_price": 24.28,
+      "risk_reward": 0.18,
+      "volume_ratio_5m": 2.19,
+      "change_pct": 3.52,
+      "data_quality": "complete",
+      "data_quality_detail": {
+        "overall": "complete",
+        "actionable": true,
+        "required": {
+          "quote": "complete",
+          "volume": "complete",
+          "technical": "complete"
+        },
+        "missing_data": []
+      },
+      "technical_score": 63.0,
+      "technical_trend": "mixed",
+      "technical_data_quality": "complete",
+      "support_price": 23.459,
+      "resistance_price": 24.45,
+      "support_evidence": [
+        "短期均线多头排列",
+        "距MA20支撑2.7%",
+        "5日涨幅5.0%仍属温和"
+      ],
+      "opposing_evidence": [
+        "距20日高点压力仅1.5%"
+      ],
+      "missing_data": [
+        "多周期技术诊断"
+      ],
+      "fundamental_score": 26.0,
+      "fundamental_risk_level": "high",
+      "fundamental_data_quality": "complete",
+      "fundamental_support_evidence": [
+        "营收同比增长21.4%",
+        "归母净利润同比增长16.3%"
+      ],
+      "fundamental_opposing_evidence": [
+        "ROE仅4.4%",
+        "每股经营现金流为负",
+        "资产负债率79.5%偏高",
+        "2026-07-08 股东减持",
+        "2026-05-06 重大诉讼"
+      ],
+      "event_risks": [
+        {
+          "label": "股东减持",
+          "date": "2026-07-08",
+          "title": "神州数码:关于公司部分董事、高级管理人员减持计划期限届满暨实施情况的公告"
+        },
+        {
+          "label": "重大诉讼",
+          "date": "2026-05-06",
+          "title": "神州数码:重大诉讼的进展公告"
+        }
+      ],
+      "fundamental_hard_risks": [
+        "重大诉讼"
+      ],
+      "goodwill_net_assets_ratio_pct": 12.34,
+      "performance_forecast": null,
+      "major_contracts": [
+        {
+          "label": "项目中标",
+          "impact": "positive",
+          "date": "2026-07-04",
+          "title": "神州数码:关于项目中标的公告",
+          "url": "https://data.eastmoney.com/notices/detail/000034/AN202607031826700177.html",
+          "amount": null,
+          "revenue_ratio_pct": null,
+          "amount_quality": "missing"
+        },
+        {
+          "label": "项目中标",
+          "impact": "positive",
+          "date": "2026-07-03",
+          "title": "神州数码:关于收到中标通知书及签订框架协议的公告",
+          "url": "https://data.eastmoney.com/notices/detail/000034/AN202607021826665949.html",
+          "amount": null,
+          "revenue_ratio_pct": null,
+          "amount_quality": "missing"
+        }
+      ],
+      "fundamental_missing_data": [
+        "基本面与风险事件"
+      ],
+      "concept_tags": [
+        "IT服务Ⅲ",
+        "IT服务Ⅱ",
+        "计算机",
+        "边缘计算",
+        "华为概念",
+        "区块链",
+        "智能驾驶",
+        "人工智能"
+      ],
+      "concept_strength_score": 63.73,
+      "concept_evidence": [
+        "概念机器人概念强度63.7",
+        "概念内贸流通强度61.7"
+      ],
+      "global_affected": true,
+      "global_sector_score": 54.7,
+      "global_impact": "neutral",
+      "global_confidence": 95,
+      "global_sectors": [
+        "半导体",
+        "存储芯片",
+        "人工智能/算力",
+        "软件/互联网",
+        "汽车电子",
+        "机器人/自动化"
+      ],
+      "global_drivers": [
+        "日本Renesas Electronics Corporation+5.47%",
+        "日本Advantest Corporation+3.15%",
+        "韩国Samsung Electronics Co., Ltd.+3.25%",
+        "日本Tokyo Electron Limited+1.52%",
+        "消息面中性"
+      ],
+      "blockers": [
+        "弱市不接受首次启动",
+        "风险收益比不足0.18"
+      ],
+      "reasons": [
+        "同期量比2.19",
+        "突破近期高点",
+        "短期均线多头排列",
+        "营收同比增长21.4%",
+        "概念机器人概念强度63.7",
+        "美日韩映射因子中性54.7分",
+        "日本Renesas Electronics Corporation+5.47%",
+        "日本Advantest Corporation+3.15%",
+        "分时状态ignition"
+      ],
+      "generated_at": "2026-09-24T14:56:32",
+      "expires_at": "2026-09-24T15:26:32",
+      "market_level": "weak"
+    },
+    {
+      "symbol": "601566",
+      "name": "九牧王",
+      "direction": "服装鞋类",
+      "recommendation_status": "watch",
+      "status_label": "观察",
+      "recommendation_type": "confirmation",
+      "state": "confirmation",
+      "role": "core",
+      "bar_time": "2026-09-24T14:55",
+      "state_entered_at": "2026-09-24T14:55",
+      "sector_score": 41.2,
+      "candidate_score": 62.87,
+      "recommendation_score": 63.4,
+      "price": 9.6,
+      "vwap": 9.479,
+      "entry_low": 9.552,
+      "entry_high": 9.648,
+      "max_chase_price": 9.648,
+      "invalid_price": 8.955,
+      "target_price": 9.88,
+      "risk_reward": 0.39,
+      "volume_ratio_5m": 2.45,
+      "change_pct": 6.08,
+      "data_quality": "complete",
+      "data_quality_detail": {
+        "overall": "complete",
+        "actionable": true,
+        "required": {
+          "quote": "complete",
+          "volume": "complete",
+          "technical": "complete"
+        },
+        "missing_data": []
+      },
+      "technical_score": 72.0,
+      "technical_trend": "bullish",
+      "technical_data_quality": "complete",
+      "support_price": 9.499,
+      "resistance_price": 11.5,
+      "support_evidence": [
+        "价格站上上行MA20",
+        "价格站上上行MA60",
+        "距MA20支撑1.1%"
+      ],
+      "opposing_evidence": [
+        "ATR14达6.6%，波动偏高"
+      ],
+      "missing_data": [
+        "多周期技术诊断"
+      ],
+      "fundamental_score": 45.0,
+      "fundamental_risk_level": "medium",
+      "fundamental_data_quality": "partial",
+      "fundamental_support_evidence": [
+        "经营现金流为正",
+        "资产负债率25.6%",
+        "商誉占归母净资产0.0%"
+      ],
+      "fundamental_opposing_evidence": [
+        "归母净利润同比下降77.2%",
+        "ROE仅1.0%"
+      ],
+      "event_risks": [],
+      "fundamental_hard_risks": [],
+      "goodwill_net_assets_ratio_pct": 0.0,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "fundamental_missing_data": [
+        "股权质押比例"
+      ],
+      "concept_tags": [
+        "非运动服装",
+        "服装家纺",
+        "纺织服饰",
+        "2026中报预减",
+        "破发股",
+        "新零售",
+        "IPO受益",
+        "电商概念"
+      ],
+      "concept_strength_score": 65.0,
+      "concept_evidence": [
+        "概念电商概念强度65.0",
+        "概念非运动服装强度61.7"
+      ],
+      "global_affected": false,
+      "global_sector_score": 50,
+      "global_impact": "neutral",
+      "global_confidence": 0,
+      "global_sectors": [],
+      "global_drivers": [],
+      "blockers": [
+        "风险收益比不足0.39"
+      ],
+      "reasons": [
+        "板块中军，流动性与趋势较稳定",
+        "同期量比2.45",
+        "突破近期高点",
+        "价格站上上行MA20",
+        "经营现金流为正",
+        "概念电商概念强度65.0",
+        "分时状态confirmation"
+      ],
+      "generated_at": "2026-09-24T14:56:32",
+      "expires_at": "2026-09-24T15:26:32",
+      "market_level": "weak"
+    },
+    {
+      "symbol": "601088",
+      "name": "中国神华",
+      "direction": "煤炭行业",
+      "recommendation_status": "watch",
+      "status_label": "观察",
+      "recommendation_type": "setup",
+      "state": "setup",
+      "role": "core",
+      "bar_time": "2026-09-24T14:55",
+      "state_entered_at": "2026-09-24T13:35",
+      "sector_score": 51.83,
+      "candidate_score": 75.25,
+      "recommendation_score": 63.19,
+      "price": 48.12,
+      "vwap": 47.826,
+      "entry_low": 48.12,
+      "entry_high": 48.12,
+      "max_chase_price": 48.12,
+      "invalid_price": 46.869,
+      "target_price": 48.16,
+      "risk_reward": 0.03,
+      "volume_ratio_5m": 1.41,
+      "change_pct": 1.93,
+      "data_quality": "complete",
+      "data_quality_detail": {
+        "overall": "complete",
+        "actionable": true,
+        "required": {
+          "quote": "complete",
+          "volume": "complete",
+          "technical": "complete"
+        },
+        "missing_data": []
+      },
+      "technical_score": 67.0,
+      "technical_trend": "mixed",
+      "technical_data_quality": "complete",
+      "support_price": 47.3,
+      "resistance_price": 49.48,
+      "support_evidence": [
+        "价格站上上行MA60",
+        "距MA20支撑1.7%",
+        "5日涨幅3.5%仍属温和"
+      ],
+      "opposing_evidence": [
+        "上方3%内存在高成交量套牢区"
+      ],
+      "missing_data": [
+        "多周期技术诊断"
+      ],
+      "fundamental_score": 63.0,
+      "fundamental_risk_level": "low",
+      "fundamental_data_quality": "complete",
+      "fundamental_support_evidence": [
+        "经营现金流为正",
+        "资产负债率40.3%",
+        "商誉占归母净资产0.0%"
+      ],
+      "fundamental_opposing_evidence": [],
+      "event_risks": [],
+      "fundamental_hard_risks": [],
+      "goodwill_net_assets_ratio_pct": 0.0,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "fundamental_missing_data": [
+        "基本面与风险事件"
+      ],
+      "concept_tags": [
+        "煤炭",
+        "动力煤",
+        "煤炭开采",
+        "煤化工概念",
+        "AH股",
+        "中字头",
+        "稀缺资源",
+        "铁路基建"
+      ],
+      "concept_strength_score": 53.32,
+      "concept_evidence": [
+        "概念行业龙头强度53.3",
+        "概念煤炭强度53.0"
+      ],
+      "global_affected": true,
+      "global_sector_score": 39.5,
+      "global_impact": "negative",
+      "global_confidence": 68,
+      "global_sectors": [
+        "有色/化工"
+      ],
+      "global_drivers": [
+        "美国金矿开采商ETF-VanEck-4.36%",
+        "美国基础材料ETF-SPDR-0.49%",
+        "韩国LG Chem, Ltd.-0.59%"
+      ],
+      "blockers": [
+        "分时状态setup不可执行",
+        "风险收益比不足0.03"
+      ],
+      "reasons": [
+        "板块中军，流动性与趋势较稳定",
+        "同期量比1.41",
+        "突破近期高点",
+        "价格站上上行MA60",
+        "经营现金流为正",
+        "概念行业龙头强度53.3",
+        "美日韩映射因子偏空39.5分",
+        "美国金矿开采商ETF-VanEck-4.36%",
+        "美国基础材料ETF-SPDR-0.49%",
+        "分时状态setup"
+      ],
+      "generated_at": "2026-09-24T14:56:32",
+      "expires_at": "2026-09-24T15:26:32",
+      "market_level": "weak"
+    },
+    {
+      "symbol": "002035",
+      "name": "华帝股份",
+      "direction": "家电行业",
+      "recommendation_status": "reject",
+      "status_label": "拒绝",
+      "recommendation_type": "setup",
+      "state": "failed",
+      "role": "leader",
+      "bar_time": "2026-09-24T14:55",
+      "state_entered_at": "2026-09-24T14:35",
+      "sector_score": 42.58,
+      "candidate_score": 60.96,
+      "recommendation_score": 62.09,
+      "price": 4.83,
+      "vwap": 4.846,
+      "entry_low": 4.83,
+      "entry_high": 4.83,
+      "max_chase_price": 4.83,
+      "invalid_price": 4.597,
+      "target_price": 4.88,
+      "risk_reward": 0.21,
+      "volume_ratio_5m": 3.44,
+      "change_pct": 3.21,
+      "data_quality": "complete",
+      "data_quality_detail": {
+        "overall": "complete",
+        "actionable": true,
+        "required": {
+          "quote": "complete",
+          "volume": "complete",
+          "technical": "complete"
+        },
+        "missing_data": []
+      },
+      "technical_score": 67.0,
+      "technical_trend": "bullish",
+      "technical_data_quality": "complete",
+      "support_price": 4.719,
+      "resistance_price": 4.88,
+      "support_evidence": [
+        "短期均线多头排列",
+        "价格站上上行MA60",
+        "距MA60支撑2.4%",
+        "5日涨幅6.6%仍属温和"
+      ],
+      "opposing_evidence": [
+        "距20日高点压力仅1.0%",
+        "上方3%内存在高成交量套牢区"
+      ],
+      "missing_data": [
+        "多周期技术诊断"
+      ],
+      "fundamental_score": 19.0,
+      "fundamental_risk_level": "high",
+      "fundamental_data_quality": "partial",
+      "fundamental_support_evidence": [
+        "资产负债率40.2%",
+        "商誉占归母净资产2.7%"
+      ],
+      "fundamental_opposing_evidence": [
+        "营收同比下降12.1%",
+        "归母净利润同比下降36.3%",
+        "ROE仅4.5%",
+        "每股经营现金流为负"
+      ],
+      "event_risks": [],
+      "fundamental_hard_risks": [],
+      "goodwill_net_assets_ratio_pct": 2.7,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "fundamental_missing_data": [
+        "股权质押比例"
+      ],
+      "concept_tags": [
+        "家用电器",
+        "厨房电器",
+        "厨卫电器",
+        "新能源",
+        "创投",
+        "光伏概念",
+        "电商概念",
+        "智能家居"
+      ],
+      "concept_strength_score": 65.0,
+      "concept_evidence": [
+        "概念电商概念强度65.0",
+        "概念机器人概念强度63.7"
+      ],
+      "global_affected": true,
+      "global_sector_score": 40.3,
+      "global_impact": "negative",
+      "global_confidence": 62,
+      "global_sectors": [
+        "光伏",
+        "机器人/自动化"
+      ],
+      "global_drivers": [
+        "美国全球太阳能ETF-Invesco-3.12%",
+        "美国特斯拉+0.32%",
+        "日本日经225+0.76%",
+        "美国工业ETF-SPDR-0.10%"
+      ],
+      "blockers": [
+        "分时状态failed不可执行",
+        "风险收益比不足0.21"
+      ],
+      "reasons": [
+        "同期量比3.44",
+        "短期均线多头排列",
+        "资产负债率40.2%",
+        "概念电商概念强度65.0",
+        "美日韩映射因子偏空40.3分",
+        "美国全球太阳能ETF-Invesco-3.12%",
+        "美国特斯拉+0.32%",
+        "分时状态failed"
+      ],
+      "generated_at": "2026-09-24T14:56:32",
+      "expires_at": "2026-09-24T15:26:32",
+      "market_level": "weak"
+    },
+    {
+      "symbol": "002429",
+      "name": "兆驰股份",
+      "direction": "家电行业",
+      "recommendation_status": "reject",
+      "status_label": "拒绝",
+      "recommendation_type": "setup",
+      "state": "dormant",
+      "role": "core",
+      "bar_time": "2026-09-24T14:55",
+      "state_entered_at": "2026-09-24T14:40",
+      "sector_score": 42.58,
+      "candidate_score": 60.82,
+      "recommendation_score": 54.63,
+      "price": 8.3,
+      "vwap": 8.201,
+      "entry_low": 8.3,
+      "entry_high": 8.3,
+      "max_chase_price": 8.3,
+      "invalid_price": 8.01,
+      "target_price": 8.31,
+      "risk_reward": 0.03,
+      "volume_ratio_5m": 1.44,
+      "change_pct": 0.73,
+      "data_quality": "complete",
+      "data_quality_detail": {
+        "overall": "complete",
+        "actionable": true,
+        "required": {
+          "quote": "complete",
+          "volume": "complete",
+          "technical": "complete"
+        },
+        "missing_data": []
+      },
+      "technical_score": 75.0,
+      "technical_trend": "mixed",
+      "technical_data_quality": "complete",
+      "support_price": 8.192,
+      "resistance_price": 8.406,
+      "support_evidence": [
+        "短期均线多头排列",
+        "价格站上上行MA20",
+        "距MA5支撑1.3%",
+        "5日涨幅3.2%仍属温和"
+      ],
+      "opposing_evidence": [
+        "距MA60压力仅1.3%"
+      ],
+      "missing_data": [
+        "多周期技术诊断"
+      ],
+      "fundamental_score": 29.0,
+      "fundamental_risk_level": "high",
+      "fundamental_data_quality": "complete",
+      "fundamental_support_evidence": [
+        "资产负债率37.9%",
+        "商誉占归母净资产3.3%"
+      ],
+      "fundamental_opposing_evidence": [
+        "归母净利润同比下降40.9%",
+        "ROE仅2.2%",
+        "每股经营现金流为负"
+      ],
+      "event_risks": [],
+      "fundamental_hard_risks": [],
+      "goodwill_net_assets_ratio_pct": 3.34,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "fundamental_missing_data": [
+        "基本面与风险事件"
+      ],
+      "concept_tags": [
+        "黑色家电",
+        "彩电",
+        "家用电器",
+        "LED概念",
+        "智能电视",
+        "央国企改革",
+        "小米概念",
+        "超清视频"
+      ],
+      "concept_strength_score": 61.4,
+      "concept_evidence": [
+        "概念家用电器强度61.4",
+        "概念AI应用强度57.3"
+      ],
+      "global_affected": true,
+      "global_sector_score": 49.4,
+      "global_impact": "neutral",
+      "global_confidence": 95,
+      "global_sectors": [
+        "半导体",
+        "人工智能/算力",
+        "消费电子",
+        "软件/互联网"
+      ],
+      "global_drivers": [
+        "日本Renesas Electronics Corporation+5.47%",
+        "日本Advantest Corporation+3.15%",
+        "韩国Samsung Electronics Co., Ltd.+3.25%",
+        "日本Tokyo Electron Limited+1.52%",
+        "消息面中性"
+      ],
+      "blockers": [
+        "分时状态dormant不可执行",
+        "风险收益比不足0.03"
+      ],
+      "reasons": [
+        "板块中军，流动性与趋势较稳定",
+        "同期量比1.44",
+        "短期均线多头排列",
+        "资产负债率37.9%",
+        "概念家用电器强度61.4",
+        "美日韩映射因子中性49.4分",
+        "日本Renesas Electronics Corporation+5.47%",
+        "日本Advantest Corporation+3.15%",
+        "分时状态dormant"
+      ],
+      "generated_at": "2026-09-24T14:56:32",
+      "expires_at": "2026-09-24T15:26:32",
+      "market_level": "weak"
+    },
+    {
+      "symbol": "000910",
+      "name": "大亚圣象",
+      "direction": "家具行业",
+      "recommendation_status": "reject",
+      "status_label": "拒绝",
+      "recommendation_type": "setup",
+      "state": "failed",
+      "role": "core",
+      "bar_time": "2026-09-24T14:55",
+      "state_entered_at": "2026-09-24T14:30",
+      "sector_score": 39.45,
+      "candidate_score": 21.71,
+      "recommendation_score": 42.69,
+      "price": 7.6,
+      "vwap": 7.963,
+      "entry_low": 7.6,
+      "entry_high": 7.6,
+      "max_chase_price": 7.6,
+      "invalid_price": 7.393,
+      "target_price": 8.34,
+      "risk_reward": 3.57,
+      "volume_ratio_5m": 3.65,
+      "change_pct": 0.26,
+      "data_quality": "complete",
+      "data_quality_detail": {
+        "overall": "complete",
+        "actionable": true,
+        "required": {
+          "quote": "complete",
+          "volume": "complete",
+          "technical": "complete"
+        },
+        "missing_data": []
+      },
+      "technical_score": 68.0,
+      "technical_trend": "bullish",
+      "technical_data_quality": "complete",
+      "support_price": 6.318,
+      "resistance_price": null,
+      "support_evidence": [
+        "短期均线多头排列",
+        "价格站上上行MA20",
+        "价格站上上行MA60"
+      ],
+      "opposing_evidence": [
+        "5日累计上涨47.0%，追涨风险高"
+      ],
+      "missing_data": [
+        "多周期技术诊断"
+      ],
+      "fundamental_score": 0,
+      "fundamental_risk_level": "high",
+      "fundamental_data_quality": "complete",
+      "fundamental_support_evidence": [
+        "资产负债率27.2%",
+        "商誉占归母净资产2.9%"
+      ],
+      "fundamental_opposing_evidence": [
+        "营收同比下降1.2%",
+        "归母净利润同比下降643.6%",
+        "ROE仅-3.0%",
+        "每股经营现金流为负",
+        "PE为负，当前处于亏损估值",
+        "股权质押比例33.1%",
+        "2026-07-07 股东减持"
+      ],
+      "event_risks": [
+        {
+          "label": "股东减持",
+          "date": "2026-07-07",
+          "title": "大亚圣象:关于公司董事、高级管理人员提前终止股份减持计划的公告"
+        }
+      ],
+      "fundamental_hard_risks": [],
+      "goodwill_net_assets_ratio_pct": 2.86,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "fundamental_missing_data": [
+        "基本面与风险事件"
+      ],
+      "concept_tags": [
+        "家居用品",
+        "瓷砖地板",
+        "轻工制造",
+        "2026中报首亏",
+        "长江三角",
+        "PCB",
+        "低市净率",
+        "长期破净"
+      ],
+      "concept_strength_score": 53.57,
+      "concept_evidence": [
+        "概念家居用品强度53.6",
+        "概念轻工制造强度53.6"
+      ],
+      "global_affected": false,
+      "global_sector_score": 50,
+      "global_impact": "neutral",
+      "global_confidence": 0,
+      "global_sectors": [],
+      "global_drivers": [],
+      "blockers": [
+        "分时状态failed不可执行",
+        "追涨或过热"
+      ],
+      "reasons": [
+        "板块中军，流动性与趋势较稳定",
+        "同期量比3.65",
+        "突破近期高点",
+        "短期均线多头排列",
+        "资产负债率27.2%",
+        "概念家居用品强度53.6",
+        "分时状态failed"
+      ],
+      "generated_at": "2026-09-24T14:56:32",
+      "expires_at": "2026-09-24T15:26:32",
+      "market_level": "weak"
+    },
+    {
+      "symbol": "600179",
+      "name": "安通控股",
+      "direction": "煤炭行业",
+      "recommendation_status": "reject",
+      "status_label": "拒绝",
+      "recommendation_type": "setup",
+      "state": "dormant",
+      "role": "catch_up",
+      "bar_time": "2026-09-24T14:55",
+      "state_entered_at": "2026-09-24T14:55",
+      "sector_score": 51.83,
+      "candidate_score": 33.6,
+      "recommendation_score": 41.07,
+      "price": 4.46,
+      "vwap": 4.452,
+      "entry_low": 4.46,
+      "entry_high": 4.46,
+      "max_chase_price": 4.46,
+      "invalid_price": 4.363,
+      "target_price": 4.51,
+      "risk_reward": 0.52,
+      "volume_ratio_5m": 1.09,
+      "change_pct": -0.67,
+      "data_quality": "complete",
+      "data_quality_detail": {
+        "overall": "complete",
+        "actionable": true,
+        "required": {
+          "quote": "complete",
+          "volume": "complete",
+          "technical": "complete"
+        },
+        "missing_data": []
+      },
+      "technical_score": 40.0,
+      "technical_trend": "mixed",
+      "technical_data_quality": "complete",
+      "support_price": 4.444,
+      "resistance_price": 4.548,
+      "support_evidence": [
+        "距MA60支撑0.4%"
+      ],
+      "opposing_evidence": [
+        "价格仍在MA20下方",
+        "距MA5压力仅2.0%"
+      ],
+      "missing_data": [
+        "多周期技术诊断"
+      ],
+      "fundamental_score": 73.0,
+      "fundamental_risk_level": "low",
+      "fundamental_data_quality": "complete",
+      "fundamental_support_evidence": [
+        "归母净利润同比增长28.1%",
+        "经营现金流为正",
+        "资产负债率24.4%",
+        "商誉占归母净资产0.0%"
+      ],
+      "fundamental_opposing_evidence": [],
+      "event_risks": [],
+      "fundamental_hard_risks": [],
+      "goodwill_net_assets_ratio_pct": 0.0,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "fundamental_missing_data": [
+        "基本面与风险事件"
+      ],
+      "concept_tags": [
+        "航运",
+        "交通运输",
+        "航运港口",
+        "海南自贸",
+        "统一大市场",
+        "区块链",
+        "央国企改革"
+      ],
+      "concept_strength_score": null,
+      "concept_evidence": [],
+      "global_affected": false,
+      "global_sector_score": 50,
+      "global_impact": "neutral",
+      "global_confidence": 0,
+      "global_sectors": [],
+      "global_drivers": [],
+      "blockers": [
+        "分时状态dormant不可执行",
+        "风险收益比不足0.52"
+      ],
+      "reasons": [
+        "板块补涨角色，优先寻找早期位置",
+        "距MA60支撑0.4%",
+        "归母净利润同比增长28.1%",
+        "分时状态dormant"
+      ],
+      "generated_at": "2026-09-24T14:56:32",
+      "expires_at": "2026-09-24T15:26:32",
+      "market_level": "weak"
+    },
+    {
+      "symbol": "002196",
+      "name": "方正电机",
+      "direction": "纺织机械",
+      "recommendation_status": "reject",
+      "status_label": "拒绝",
+      "recommendation_type": "setup",
+      "state": "dormant",
+      "role": "leader",
+      "bar_time": "2026-09-24T14:55",
+      "state_entered_at": "2026-09-24T14:30",
+      "sector_score": 66.36,
+      "candidate_score": 23.75,
+      "recommendation_score": 40.03,
+      "price": 10.13,
+      "vwap": 10.253,
+      "entry_low": 10.13,
+      "entry_high": 10.13,
+      "max_chase_price": 10.13,
+      "invalid_price": 9.98,
+      "target_price": 10.158,
+      "risk_reward": 0.19,
+      "volume_ratio_5m": 1.07,
+      "change_pct": 0.4,
+      "data_quality": "complete",
+      "data_quality_detail": {
+        "overall": "complete",
+        "actionable": true,
+        "required": {
+          "quote": "complete",
+          "volume": "complete",
+          "technical": "complete"
+        },
+        "missing_data": []
+      },
+      "technical_score": 30.0,
+      "technical_trend": "bearish",
+      "technical_data_quality": "complete",
+      "support_price": 10.106,
+      "resistance_price": 10.158,
+      "support_evidence": [
+        "距MA10支撑0.2%",
+        "5日涨幅1.2%仍属温和"
+      ],
+      "opposing_evidence": [
+        "两个以上周期处于空头结构",
+        "距MA5压力仅0.3%",
+        "上方存在未回补向下缺口"
+      ],
+      "missing_data": [
+        "多周期技术诊断"
+      ],
+      "fundamental_score": 54.0,
+      "fundamental_risk_level": "medium",
+      "fundamental_data_quality": "complete",
+      "fundamental_support_evidence": [
+        "营收同比增长35.8%",
+        "归母净利润同比增长438.7%",
+        "经营现金流为正",
+        "商誉占归母净资产4.4%"
+      ],
+      "fundamental_opposing_evidence": [
+        "ROE仅1.7%",
+        "资产负债率71.9%偏高",
+        "PE(TTM) 95.4偏高"
+      ],
+      "event_risks": [],
+      "fundamental_hard_risks": [],
+      "goodwill_net_assets_ratio_pct": 4.37,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "fundamental_missing_data": [
+        "基本面与风险事件"
+      ],
+      "concept_tags": [
+        "电机Ⅲ",
+        "电力设备",
+        "电机Ⅱ",
+        "2026中报扭亏",
+        "股权分散",
+        "人形机器人",
+        "机器人概念",
+        "新能源车"
+      ],
+      "concept_strength_score": 63.73,
+      "concept_evidence": [
+        "概念机器人概念强度63.7",
+        "概念2026中报扭亏强度54.1"
+      ],
+      "global_affected": true,
+      "global_sector_score": 47.4,
+      "global_impact": "neutral",
+      "global_confidence": 68,
+      "global_sectors": [
+        "新能源车",
+        "机器人/自动化"
+      ],
+      "global_drivers": [
+        "美国锂电池ETF-Global X-2.45%",
+        "韩国Hyundai Motor Company-1.94%",
+        "美国特斯拉+0.32%",
+        "日本日经225+0.76%",
+        "美国工业ETF-SPDR-0.10%"
+      ],
+      "blockers": [
+        "分时状态dormant不可执行",
+        "风险收益比不足0.19"
+      ],
+      "reasons": [
+        "距MA10支撑0.2%",
+        "营收同比增长35.8%",
+        "概念机器人概念强度63.7",
+        "美日韩映射因子中性47.4分",
+        "美国锂电池ETF-Global X-2.45%",
+        "韩国Hyundai Motor Company-1.94%",
+        "分时状态dormant"
+      ],
+      "generated_at": "2026-09-24T14:56:32",
+      "expires_at": "2026-09-24T15:26:32",
+      "market_level": "weak"
+    },
+    {
+      "symbol": "002687",
+      "name": "乔治白",
+      "direction": "服装鞋类",
+      "recommendation_status": "reject",
+      "status_label": "拒绝",
+      "recommendation_type": "setup",
+      "state": "dormant",
+      "role": "catch_up",
+      "bar_time": "2026-09-24T14:55",
+      "state_entered_at": "2026-09-24T14:10",
+      "sector_score": 41.2,
+      "candidate_score": 37.13,
+      "recommendation_score": 39.57,
+      "price": 5.77,
+      "vwap": 5.704,
+      "entry_low": 5.77,
+      "entry_high": 5.77,
+      "max_chase_price": 5.77,
+      "invalid_price": 5.482,
+      "target_price": 5.88,
+      "risk_reward": 0.38,
+      "volume_ratio_5m": 1.08,
+      "change_pct": 3.59,
+      "data_quality": "complete",
+      "data_quality_detail": {
+        "overall": "complete",
+        "actionable": true,
+        "required": {
+          "quote": "complete",
+          "volume": "complete",
+          "technical": "complete"
+        },
+        "missing_data": []
+      },
+      "technical_score": 50.0,
+      "technical_trend": "mixed",
+      "technical_data_quality": "complete",
+      "support_price": 5.751,
+      "resistance_price": 6.163,
+      "support_evidence": [
+        "价格站上上行MA60",
+        "距MA60支撑0.3%"
+      ],
+      "opposing_evidence": [
+        "价格仍在MA20下方",
+        "ATR14达5.6%，波动偏高"
+      ],
+      "missing_data": [
+        "多周期技术诊断"
+      ],
+      "fundamental_score": 19.0,
+      "fundamental_risk_level": "high",
+      "fundamental_data_quality": "partial",
+      "fundamental_support_evidence": [
+        "资产负债率19.7%",
+        "商誉占归母净资产0.6%"
+      ],
+      "fundamental_opposing_evidence": [
+        "营收同比下降0.7%",
+        "归母净利润同比下降20.0%",
+        "ROE仅0.8%",
+        "每股经营现金流为负"
+      ],
+      "event_risks": [],
+      "fundamental_hard_risks": [],
+      "goodwill_net_assets_ratio_pct": 0.56,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "fundamental_missing_data": [
+        "股权质押比例"
+      ],
+      "concept_tags": [
+        "非运动服装",
+        "服装家纺",
+        "纺织服饰",
+        "创投"
+      ],
+      "concept_strength_score": 61.67,
+      "concept_evidence": [
+        "概念非运动服装强度61.7",
+        "概念服装家纺强度61.7"
+      ],
+      "global_affected": false,
+      "global_sector_score": 50,
+      "global_impact": "neutral",
+      "global_confidence": 0,
+      "global_sectors": [],
+      "global_drivers": [],
+      "blockers": [
+        "分时状态dormant不可执行",
+        "风险收益比不足0.38"
+      ],
+      "reasons": [
+        "板块补涨角色，优先寻找早期位置",
+        "价格站上上行MA60",
+        "资产负债率19.7%",
+        "概念非运动服装强度61.7",
+        "分时状态dormant"
+      ],
+      "generated_at": "2026-09-24T14:56:32",
+      "expires_at": "2026-09-24T15:26:32",
+      "market_level": "weak"
+    },
+    {
+      "symbol": "002403",
+      "name": "爱仕达",
+      "direction": "家电行业",
+      "recommendation_status": "reject",
+      "status_label": "拒绝",
+      "recommendation_type": "setup",
+      "state": "dormant",
+      "role": "catch_up",
+      "bar_time": "2026-09-24T14:55",
+      "state_entered_at": "2026-09-24T14:55",
+      "sector_score": 42.58,
+      "candidate_score": 37.37,
+      "recommendation_score": 39.49,
+      "price": 10.33,
+      "vwap": 10.372,
+      "entry_low": 10.33,
+      "entry_high": 10.33,
+      "max_chase_price": 10.33,
+      "invalid_price": 10.02,
+      "target_price": 10.375,
+      "risk_reward": 0.14,
+      "volume_ratio_5m": 0.98,
+      "change_pct": 2.28,
+      "data_quality": "complete",
+      "data_quality_detail": {
+        "overall": "complete",
+        "actionable": true,
+        "required": {
+          "quote": "complete",
+          "volume": "complete",
+          "technical": "complete"
+        },
+        "missing_data": []
+      },
+      "technical_score": 47.0,
+      "technical_trend": "mixed",
+      "technical_data_quality": "complete",
+      "support_price": 10.107,
+      "resistance_price": 10.375,
+      "support_evidence": [
+        "价格站上上行MA60",
+        "距MA10支撑2.2%",
+        "5日涨幅7.2%仍属温和"
+      ],
+      "opposing_evidence": [
+        "价格仍在MA20下方",
+        "ATR14达8.5%，波动偏高",
+        "距MA20压力仅0.4%"
+      ],
+      "missing_data": [
+        "多周期技术诊断"
+      ],
+      "fundamental_score": 0,
+      "fundamental_risk_level": "high",
+      "fundamental_data_quality": "complete",
+      "fundamental_support_evidence": [
+        "商誉占归母净资产1.8%"
+      ],
+      "fundamental_opposing_evidence": [
+        "归母净利润同比下降3441.6%",
+        "ROE仅-6.9%",
+        "每股经营现金流为负",
+        "资产负债率71.8%偏高",
+        "PE为负，当前处于亏损估值",
+        "股权质押比例32.1%"
+      ],
+      "event_risks": [],
+      "fundamental_hard_risks": [],
+      "goodwill_net_assets_ratio_pct": 1.84,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "fundamental_missing_data": [
+        "基本面与风险事件"
+      ],
+      "concept_tags": [
+        "厨房小家电",
+        "小家电",
+        "家用电器",
+        "2026中报首亏",
+        "破发股",
+        "跨境电商",
+        "减速器",
+        "机器人概念"
+      ],
+      "concept_strength_score": 63.73,
+      "concept_evidence": [
+        "概念机器人概念强度63.7",
+        "概念跨境电商强度62.8"
+      ],
+      "global_affected": true,
+      "global_sector_score": 51.6,
+      "global_impact": "neutral",
+      "global_confidence": 62,
+      "global_sectors": [
+        "机器人/自动化"
+      ],
+      "global_drivers": [
+        "美国特斯拉+0.32%",
+        "日本日经225+0.76%",
+        "美国工业ETF-SPDR-0.10%"
+      ],
+      "blockers": [
+        "分时状态dormant不可执行",
+        "风险收益比不足0.14"
+      ],
+      "reasons": [
+        "板块补涨角色，优先寻找早期位置",
+        "价格站上上行MA60",
+        "商誉占归母净资产1.8%",
+        "概念机器人概念强度63.7",
+        "美日韩映射因子中性51.6分",
+        "美国特斯拉+0.32%",
+        "日本日经225+0.76%",
+        "分时状态dormant"
+      ],
+      "generated_at": "2026-09-24T14:56:32",
+      "expires_at": "2026-09-24T15:26:32",
+      "market_level": "weak"
+    },
+    {
+      "symbol": "002640",
+      "name": "跨境通",
+      "direction": "服装鞋类",
+      "recommendation_status": "reject",
+      "status_label": "拒绝",
+      "recommendation_type": "setup",
+      "state": "failed",
+      "role": "leader",
+      "bar_time": "2026-09-24T14:55",
+      "state_entered_at": "2026-09-24T13:50",
+      "sector_score": 41.2,
+      "candidate_score": 37.22,
+      "recommendation_score": 39.15,
+      "price": 3.6,
+      "vwap": 3.586,
+      "entry_low": 3.6,
+      "entry_high": 3.6,
+      "max_chase_price": 3.6,
+      "invalid_price": 3.433,
+      "target_price": 3.704,
+      "risk_reward": 0.62,
+      "volume_ratio_5m": 1.07,
+      "change_pct": 2.56,
+      "data_quality": "complete",
+      "data_quality_detail": {
+        "overall": "complete",
+        "actionable": true,
+        "required": {
+          "quote": "complete",
+          "volume": "complete",
+          "technical": "complete"
+        },
+        "missing_data": []
+      },
+      "technical_score": 72.0,
+      "technical_trend": "bullish",
+      "technical_data_quality": "complete",
+      "support_price": 3.545,
+      "resistance_price": 3.704,
+      "support_evidence": [
+        "价格站上上行MA20",
+        "价格站上上行MA60",
+        "距MA10支撑1.6%"
+      ],
+      "opposing_evidence": [
+        "ATR14达5.2%，波动偏高"
+      ],
+      "missing_data": [
+        "多周期技术诊断"
+      ],
+      "fundamental_score": 7.0,
+      "fundamental_risk_level": "high",
+      "fundamental_data_quality": "complete",
+      "fundamental_support_evidence": [
+        "归母净利润同比增长3240.9%",
+        "ROE 32.1%",
+        "经营现金流为正"
+      ],
+      "fundamental_opposing_evidence": [
+        "营收同比下降2.5%",
+        "资产负债率75.9%偏高",
+        "PE为负，当前处于亏损估值",
+        "PB 8.3偏高",
+        "2026-08-07 重大诉讼",
+        "2026-03-31 商誉减值",
+        "商誉占归母净资产157.6%过高"
+      ],
+      "event_risks": [
+        {
+          "label": "重大诉讼",
+          "date": "2026-08-07",
+          "title": "跨境通:关于重大诉讼的进展公告"
+        },
+        {
+          "label": "商誉减值",
+          "date": "2026-03-31",
+          "title": "跨境通:2025年度商誉减值测试报告"
+        }
+      ],
+      "fundamental_hard_risks": [
+        "高商誉",
+        "重大诉讼"
+      ],
+      "goodwill_net_assets_ratio_pct": 157.56,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "fundamental_missing_data": [
+        "基本面与风险事件"
+      ],
+      "concept_tags": [
+        "跨境电商",
+        "互联网电商",
+        "商贸零售",
+        "婴童概念",
+        "电商概念",
+        "无线耳机",
+        "网红经济",
+        "拼多多概念"
+      ],
+      "concept_strength_score": 65.0,
+      "concept_evidence": [
+        "概念电商概念强度65.0",
+        "概念跨境电商强度62.8"
+      ],
+      "global_affected": true,
+      "global_sector_score": 46.8,
+      "global_impact": "neutral",
+      "global_confidence": 76,
+      "global_sectors": [
+        "消费电子",
+        "软件/互联网"
+      ],
+      "global_drivers": [
+        "韩国Samsung Electronics Co., Ltd.+3.25%",
+        "日本Sony Group Corporation-0.92%",
+        "美国纳斯达克-1.13%",
+        "韩国韩国综合+0.90%",
+        "消息面中性"
+      ],
+      "blockers": [
+        "分时状态failed不可执行",
+        "风险收益比不足0.62"
+      ],
+      "reasons": [
+        "价格站上上行MA20",
+        "归母净利润同比增长3240.9%",
+        "概念电商概念强度65.0",
+        "美日韩映射因子中性46.8分",
+        "韩国Samsung Electronics Co., Ltd.+3.25%",
+        "日本Sony Group Corporation-0.92%",
+        "分时状态failed"
+      ],
+      "generated_at": "2026-09-24T14:56:32",
+      "expires_at": "2026-09-24T15:26:32",
+      "market_level": "weak"
+    },
+    {
+      "symbol": "002631",
+      "name": "德尔未来",
+      "direction": "家具行业",
+      "recommendation_status": "watch",
+      "status_label": "观察",
+      "recommendation_type": "setup",
+      "state": "setup",
+      "role": "leader",
+      "bar_time": "2026-09-24T14:55",
+      "state_entered_at": "2026-09-24T13:35",
+      "sector_score": 39.45,
+      "candidate_score": 31.59,
+      "recommendation_score": 35.31,
+      "price": 13.94,
+      "vwap": 13.806,
+      "entry_low": 13.94,
+      "entry_high": 13.94,
+      "max_chase_price": 13.94,
+      "invalid_price": 13.114,
+      "target_price": 14.09,
+      "risk_reward": 0.18,
+      "volume_ratio_5m": 0.96,
+      "change_pct": 2.5,
+      "data_quality": "complete",
+      "data_quality_detail": {
+        "overall": "complete",
+        "actionable": true,
+        "required": {
+          "quote": "complete",
+          "volume": "complete",
+          "technical": "complete"
+        },
+        "missing_data": []
+      },
+      "technical_score": 60.0,
+      "technical_trend": "bullish",
+      "technical_data_quality": "complete",
+      "support_price": 13.426,
+      "resistance_price": 14.75,
+      "support_evidence": [
+        "短期均线多头排列",
+        "价格站上上行MA20",
+        "价格站上上行MA60"
+      ],
+      "opposing_evidence": [
+        "ATR14达5.8%，波动偏高",
+        "5日累计上涨15.9%，追涨风险高"
+      ],
+      "missing_data": [
+        "多周期技术诊断"
+      ],
+      "fundamental_score": 33.0,
+      "fundamental_risk_level": "high",
+      "fundamental_data_quality": "complete",
+      "fundamental_support_evidence": [
+        "归母净利润同比增长60.8%",
+        "资产负债率34.4%",
+        "商誉占归母净资产0.0%"
+      ],
+      "fundamental_opposing_evidence": [
+        "营收同比下降27.0%",
+        "ROE仅-1.1%",
+        "每股经营现金流为负",
+        "PE为负，当前处于亏损估值"
+      ],
+      "event_risks": [],
+      "fundamental_hard_risks": [],
+      "goodwill_net_assets_ratio_pct": 0.0,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "fundamental_missing_data": [
+        "基本面与风险事件"
+      ],
+      "concept_tags": [
+        "定制家居",
+        "轻工制造",
+        "家居用品",
+        "趋势股",
+        "柔性屏(折叠屏)",
+        "碳基材料",
+        "C2M概念",
+        "智能家居"
+      ],
+      "concept_strength_score": 60.94,
+      "concept_evidence": [
+        "概念智能家居强度60.9",
+        "概念定制家居强度55.8"
+      ],
+      "global_affected": false,
+      "global_sector_score": 50,
+      "global_impact": "neutral",
+      "global_confidence": 0,
+      "global_sectors": [],
+      "global_drivers": [],
+      "blockers": [
+        "分时状态setup不可执行",
+        "风险收益比不足0.18"
+      ],
+      "reasons": [
+        "短期均线多头排列",
+        "归母净利润同比增长60.8%",
+        "概念智能家居强度60.9",
+        "分时状态setup"
+      ],
+      "generated_at": "2026-09-24T14:56:32",
+      "expires_at": "2026-09-24T15:26:32",
+      "market_level": "weak"
+    },
+    {
+      "symbol": "002259",
+      "name": "升达林业",
+      "direction": "家具行业",
+      "recommendation_status": "watch",
+      "status_label": "观察",
+      "recommendation_type": "setup",
+      "state": "setup",
+      "role": "catch_up",
+      "bar_time": "2026-09-24T14:55",
+      "state_entered_at": "2026-09-24T14:50",
+      "sector_score": 39.45,
+      "candidate_score": 15.63,
+      "recommendation_score": 27.29,
+      "price": 4.74,
+      "vwap": 4.701,
+      "entry_low": 4.74,
+      "entry_high": 4.74,
+      "max_chase_price": 4.74,
+      "invalid_price": 4.557,
+      "target_price": 4.78,
+      "risk_reward": 0.22,
+      "volume_ratio_5m": 0.84,
+      "change_pct": -0.84,
+      "data_quality": "complete",
+      "data_quality_detail": {
+        "overall": "complete",
+        "actionable": true,
+        "required": {
+          "quote": "complete",
+          "volume": "complete",
+          "technical": "complete"
+        },
+        "missing_data": []
+      },
+      "technical_score": 80.0,
+      "technical_trend": "bullish",
+      "technical_data_quality": "complete",
+      "support_price": 4.502,
+      "resistance_price": 5.14,
+      "support_evidence": [
+        "短期均线多头排列",
+        "价格站上上行MA20",
+        "价格站上上行MA60"
+      ],
+      "opposing_evidence": [],
+      "missing_data": [
+        "多周期技术诊断"
+      ],
+      "fundamental_score": 55.0,
+      "fundamental_risk_level": "medium",
+      "fundamental_data_quality": "partial",
+      "fundamental_support_evidence": [
+        "归母净利润同比增长536.0%",
+        "ROE 21.1%",
+        "资产负债率34.0%",
+        "商誉占归母净资产0.0%"
+      ],
+      "fundamental_opposing_evidence": [
+        "营收同比下降14.6%",
+        "每股经营现金流为负"
+      ],
+      "event_risks": [],
+      "fundamental_hard_risks": [],
+      "goodwill_net_assets_ratio_pct": 0.0,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "fundamental_missing_data": [
+        "股权质押比例"
+      ],
+      "concept_tags": [
+        "燃气Ⅲ",
+        "燃气Ⅱ",
+        "公用事业",
+        "破增发价股",
+        "油气资源",
+        "最近多板",
+        "天然气",
+        "新能源"
+      ],
+      "concept_strength_score": null,
+      "concept_evidence": [],
+      "global_affected": true,
+      "global_sector_score": 57.7,
+      "global_impact": "neutral",
+      "global_confidence": 46,
+      "global_sectors": [
+        "油气"
+      ],
+      "global_drivers": [
+        "美国能源精选ETF-SPDR+0.96%"
+      ],
+      "blockers": [
+        "分时状态setup不可执行",
+        "风险收益比不足0.22"
+      ],
+      "reasons": [
+        "板块补涨角色，优先寻找早期位置",
+        "短期均线多头排列",
+        "归母净利润同比增长536.0%",
+        "美日韩映射因子中性57.7分",
+        "美国能源精选ETF-SPDR+0.96%",
+        "分时状态setup"
+      ],
+      "generated_at": "2026-09-24T14:56:32",
+      "expires_at": "2026-09-24T15:26:32",
+      "market_level": "weak"
+    },
+    {
+      "symbol": "600610",
+      "name": "中毅达",
+      "direction": "纺织机械",
+      "recommendation_status": "watch",
+      "status_label": "观察",
+      "recommendation_type": "setup",
+      "state": "setup",
+      "role": "core",
+      "bar_time": "2026-09-24T14:55",
+      "state_entered_at": "2026-09-24T13:30",
+      "sector_score": 66.36,
+      "candidate_score": 4.05,
+      "recommendation_score": 25.31,
+      "price": 7.48,
+      "vwap": 7.521,
+      "entry_low": 7.48,
+      "entry_high": 7.48,
+      "max_chase_price": 7.48,
+      "invalid_price": 7.371,
+      "target_price": 7.64,
+      "risk_reward": 1.47,
+      "volume_ratio_5m": 0.58,
+      "change_pct": -1.58,
+      "data_quality": "complete",
+      "data_quality_detail": {
+        "overall": "complete",
+        "actionable": true,
+        "required": {
+          "quote": "complete",
+          "volume": "complete",
+          "technical": "complete"
+        },
+        "missing_data": []
+      },
+      "technical_score": 50.0,
+      "technical_trend": "mixed",
+      "technical_data_quality": "complete",
+      "support_price": 7.423,
+      "resistance_price": 7.719,
+      "support_evidence": [
+        "价格站上上行MA60",
+        "距MA60支撑0.8%"
+      ],
+      "opposing_evidence": [
+        "价格仍在MA20下方",
+        "ATR14达6.1%，波动偏高"
+      ],
+      "missing_data": [
+        "多周期技术诊断"
+      ],
+      "fundamental_score": 13.0,
+      "fundamental_risk_level": "high",
+      "fundamental_data_quality": "partial",
+      "fundamental_support_evidence": [
+        "营收同比增长11.9%",
+        "ROE 25.2%",
+        "经营现金流为正"
+      ],
+      "fundamental_opposing_evidence": [
+        "归母净利润同比下降12.2%",
+        "资产负债率85.7%偏高",
+        "PE(TTM) 174.3偏高",
+        "PB 51.4偏高",
+        "2026-03-28 商誉减值",
+        "商誉占归母净资产102.9%过高"
+      ],
+      "event_risks": [
+        {
+          "label": "商誉减值",
+          "date": "2026-03-28",
+          "title": "中毅达:2025年度商誉减值测试报告"
+        }
+      ],
+      "fundamental_hard_risks": [
+        "高商誉"
+      ],
+      "goodwill_net_assets_ratio_pct": 102.86,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "fundamental_missing_data": [
+        "股权质押比例"
+      ],
+      "concept_tags": [
+        "其他化学原料",
+        "基础化工",
+        "化学原料",
+        "高市净率",
+        "长江三角",
+        "西部大开发",
+        "AB股"
+      ],
+      "concept_strength_score": null,
+      "concept_evidence": [],
+      "global_affected": true,
+      "global_sector_score": 39.5,
+      "global_impact": "negative",
+      "global_confidence": 68,
+      "global_sectors": [
+        "有色/化工"
+      ],
+      "global_drivers": [
+        "美国金矿开采商ETF-VanEck-4.36%",
+        "美国基础材料ETF-SPDR-0.49%",
+        "韩国LG Chem, Ltd.-0.59%"
+      ],
+      "blockers": [
+        "分时状态setup不可执行",
+        "风险收益比不足1.47"
+      ],
+      "reasons": [
+        "板块中军，流动性与趋势较稳定",
+        "价格站上上行MA60",
+        "营收同比增长11.9%",
+        "美日韩映射因子偏空39.5分",
+        "美国金矿开采商ETF-VanEck-4.36%",
+        "美国基础材料ETF-SPDR-0.49%",
+        "分时状态setup"
+      ],
+      "generated_at": "2026-09-24T14:56:32",
+      "expires_at": "2026-09-24T15:26:32",
+      "market_level": "weak"
+    }
+  ],
+  "summary": {
+    "recommend": 0,
+    "watch": 6,
+    "reject": 8
+  },
+  "fundamental": {
+    "generated_at": "2026-09-24T14:55:08",
+    "stale": false,
+    "stocks": 14
+  },
+  "board_strength": {
+    "generated_at": "2026-09-24T14:56:12",
+    "stale": false,
+    "concept_count": 100
+  },
+  "portfolio": {
+    "active_before": 0,
+    "daily_new_before": 1
+  }
+}

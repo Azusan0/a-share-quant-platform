@@ -1,0 +1,62 @@
+{
+  "direction_pool": [
+    {
+      "direction": "半导体",
+      "members": [
+        {"symbol": "512480", "name": "半导体ETF", "type": "etf"},
+        {"symbol": "002371", "name": "北方华创", "type": "stock"},
+        {"symbol": "688981", "name": "中芯国际", "type": "stock"},
+        {"symbol": "603501", "name": "韦尔股份", "type": "stock"}
+      ]
+    },
+    {
+      "direction": "创新药",
+      "members": [
+        {"symbol": "159992", "name": "创新药ETF", "type": "etf"},
+        {"symbol": "600276", "name": "恒瑞医药", "type": "stock"},
+        {"symbol": "688235", "name": "百济神州", "type": "stock"},
+        {"symbol": "300760", "name": "迈瑞医疗", "type": "stock"}
+      ]
+    },
+    {
+      "direction": "机器人",
+      "members": [
+        {"symbol": "159770", "name": "机器人ETF", "type": "etf"},
+        {"symbol": "300124", "name": "汇川技术", "type": "stock"},
+        {"symbol": "002747", "name": "埃斯顿", "type": "stock"},
+        {"symbol": "688169", "name": "石头科技", "type": "stock"}
+      ]
+    }
+  ],
+  "holding_pool": [],
+  "strategy": {
+    "name": "direction_rotation",
+    "history_bars": 60,
+    "rsi_period": 14,
+    "ma_period": 5,
+    "momentum_period": 10,
+    "volume_ma_period": 5,
+    "amount_ma_period": 5,
+    "min_score": 60,
+    "entry_min_score": 66,
+    "entry_min_change_pct": 0.5,
+    "entry_min_close_to_high_ratio": 0.65,
+    "entry_min_volume_ratio": 1.0,
+    "entry_min_amount_ratio": 1.0,
+    "entry_min_ma_bias_pct": 0.5,
+    "top_n": 3,
+    "min_body_to_range_ratio": 0.2,
+    "exit_ma_period": 5,
+    "exit_rsi_threshold": 75,
+    "stop_loss_pct": -5.0,
+    "take_profit_pct": 15.0,
+    "max_drawdown_from_high_pct": -4.0
+  },
+  "delivery": {
+    "mode": "stdout",
+    "jsonl_path": "a_share_alert_template/state/alerts.jsonl"
+  },
+  "cooldown_minutes": 30,
+  "min_interval_seconds": 60,
+  "state_file": "a_share_alert_template/state/runtime_state.json"
+}

@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-08-05T00:23:35",
+  "symbol": "600000",
+  "passed": true,
+  "primary": {
+    "provider": "tencent_m5",
+    "bars": 80,
+    "stale": true
+  },
+  "mode": "simulated_primary_failure_real_fallback",
+  "selected_provider": "sina_m5",
+  "fallback_level": 1,
+  "primary_provider": "tencent_m5",
+  "primary_bars": 80,
+  "fallback_provider": "sina_m5",
+  "fallback_bars": 80,
+  "common_bars": 80,
+  "latest_time_gap_minutes": 0.0,
+  "max_close_diff_pct": 0.1068,
+  "median_close_diff_pct": 0.0,
+  "median_volume_diff_pct": 0.09,
+  "primary_stale": true,
+  "fallback_stale": true,
+  "primary_latest": "2026-08-04T15:00",
+  "fallback_latest": "2026-08-04T15:00"
+}

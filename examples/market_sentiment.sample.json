@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-25T13:40:02",
+  "provider": "cls",
+  "level": "weak",
+  "label": "偏弱",
+  "score": 38.75,
+  "up_count": 1084,
+  "down_count": 4001,
+  "flat_count": 137,
+  "up_ratio_pct": 20.76,
+  "limit_up_count": 51,
+  "limit_down_count": 13,
+  "average_rise_pct": -1.15,
+  "distribution": {
+    "down_10": 45,
+    "down_8": 82,
+    "down_6": 366,
+    "down_4": 1227,
+    "down_2": 2281,
+    "up_2": 770,
+    "up_4": 174,
+    "up_6": 60,
+    "up_8": 17,
+    "up_10": 63
+  }
+}

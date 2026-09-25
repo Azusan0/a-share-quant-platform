@@ -1,0 +1,14 @@
+# 统一以 LF 存储，避免 Linux 部署环境出现 CRLF 问题
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.db binary
+*.woff binary
+*.woff2 binary

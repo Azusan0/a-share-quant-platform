@@ -1,0 +1,11 @@
+[Unit]
+Description=Refresh US Japan Korea Market Factors
+
+[Timer]
+OnCalendar=Mon..Fri *-*-* 05..15:0/5:00
+Persistent=false
+AccuracySec=10s
+
+[Install]
+WantedBy=timers.target
+

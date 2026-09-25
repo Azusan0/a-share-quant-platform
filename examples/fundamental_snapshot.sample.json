@@ -1,0 +1,809 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-25T09:30:09",
+  "source_scope": "dynamic_pool",
+  "pledge_data_date": "2026-09-24",
+  "performance_forecast_period": "20260930",
+  "stocks": [
+    {
+      "symbol": "600121",
+      "name": "郑州煤电",
+      "sector": "煤炭行业",
+      "score_version": "fundamental_v2",
+      "fundamental_score": 0,
+      "risk_level": "high",
+      "report_date": "2026-06-30",
+      "pe_ttm": -5.73,
+      "pb": 9.93,
+      "roe_pct": -44.04,
+      "revenue_yoy_pct": -23.4,
+      "profit_yoy_pct": -51.33,
+      "ocf_per_share": 0.0934,
+      "debt_ratio_pct": 84.52,
+      "gross_margin_pct": 12.93,
+      "pledge_ratio_pct": 25.3,
+      "pledge_date": "2026-09-24",
+      "goodwill": 0.0,
+      "net_assets": 601318711.6,
+      "goodwill_net_assets_ratio_pct": 0.0,
+      "upcoming_unlock": null,
+      "days_to_unlock": null,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "event_risks": [
+        {
+          "label": "业绩预亏",
+          "date": "2026-07-15",
+          "title": "郑州煤电:郑州煤电股份有限公司2026年半年度业绩预亏公告"
+        }
+      ],
+      "hard_risks": [],
+      "support_evidence": [
+        "经营现金流为正",
+        "商誉占归母净资产0.0%"
+      ],
+      "opposing_evidence": [
+        "营收同比下降23.4%",
+        "归母净利润同比下降51.3%",
+        "ROE仅-44.0%",
+        "资产负债率84.5%偏高",
+        "PE为负，当前处于亏损估值",
+        "PB 9.9偏高",
+        "2026-07-15 业绩预亏"
+      ],
+      "missing_data": [],
+      "data_quality": "complete",
+      "providers": [
+        "ths_financial_abstract",
+        "ths_balance_sheet",
+        "tencent_quote",
+        "eastmoney_unlock",
+        "eastmoney_notice"
+      ]
+    },
+    {
+      "symbol": "002403",
+      "name": "爱仕达",
+      "sector": "家电行业",
+      "score_version": "fundamental_v2",
+      "fundamental_score": 0,
+      "risk_level": "high",
+      "report_date": "2026-06-30",
+      "pe_ttm": -11.24,
+      "pb": 2.69,
+      "roe_pct": -6.9,
+      "revenue_yoy_pct": 6.38,
+      "profit_yoy_pct": -3441.57,
+      "ocf_per_share": -0.0742,
+      "debt_ratio_pct": 71.79,
+      "gross_margin_pct": 31.08,
+      "pledge_ratio_pct": 32.12,
+      "pledge_date": "2026-09-24",
+      "goodwill": 24067726.4,
+      "net_assets": 1309961112.91,
+      "goodwill_net_assets_ratio_pct": 1.84,
+      "upcoming_unlock": null,
+      "days_to_unlock": null,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "event_risks": [],
+      "hard_risks": [],
+      "support_evidence": [
+        "商誉占归母净资产1.8%"
+      ],
+      "opposing_evidence": [
+        "归母净利润同比下降3441.6%",
+        "ROE仅-6.9%",
+        "每股经营现金流为负",
+        "资产负债率71.8%偏高",
+        "PE为负，当前处于亏损估值",
+        "股权质押比例32.1%"
+      ],
+      "missing_data": [],
+      "data_quality": "complete",
+      "providers": [
+        "ths_financial_abstract",
+        "ths_balance_sheet",
+        "tencent_quote",
+        "eastmoney_unlock",
+        "eastmoney_notice"
+      ]
+    },
+    {
+      "symbol": "002640",
+      "name": "跨境通",
+      "sector": "服装鞋类",
+      "score_version": "fundamental_v2",
+      "fundamental_score": 7.0,
+      "risk_level": "high",
+      "report_date": "2026-06-30",
+      "pe_ttm": -24.72,
+      "pb": 8.31,
+      "roe_pct": 32.08,
+      "revenue_yoy_pct": -2.51,
+      "profit_yoy_pct": 3240.92,
+      "ocf_per_share": 0.0117,
+      "debt_ratio_pct": 75.94,
+      "gross_margin_pct": 11.9,
+      "pledge_ratio_pct": 2.72,
+      "pledge_date": "2026-09-24",
+      "goodwill": 1062863910.83,
+      "net_assets": 674575365.97,
+      "goodwill_net_assets_ratio_pct": 157.56,
+      "upcoming_unlock": null,
+      "days_to_unlock": null,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "event_risks": [
+        {
+          "label": "重大诉讼",
+          "date": "2026-08-07",
+          "title": "跨境通:关于重大诉讼的进展公告"
+        },
+        {
+          "label": "商誉减值",
+          "date": "2026-03-31",
+          "title": "跨境通:2025年度商誉减值测试报告"
+        }
+      ],
+      "hard_risks": [
+        "高商誉",
+        "重大诉讼"
+      ],
+      "support_evidence": [
+        "归母净利润同比增长3240.9%",
+        "ROE 32.1%",
+        "经营现金流为正"
+      ],
+      "opposing_evidence": [
+        "营收同比下降2.5%",
+        "资产负债率75.9%偏高",
+        "PE为负，当前处于亏损估值",
+        "PB 8.3偏高",
+        "2026-08-07 重大诉讼",
+        "2026-03-31 商誉减值",
+        "商誉占归母净资产157.6%过高"
+      ],
+      "missing_data": [],
+      "data_quality": "complete",
+      "providers": [
+        "ths_financial_abstract",
+        "ths_balance_sheet",
+        "tencent_quote",
+        "eastmoney_unlock",
+        "eastmoney_notice"
+      ]
+    },
+    {
+      "symbol": "002718",
+      "name": "友邦吊顶",
+      "sector": "家具行业",
+      "score_version": "fundamental_v2",
+      "fundamental_score": 8.0,
+      "risk_level": "high",
+      "report_date": "2026-06-30",
+      "pe_ttm": 8459.05,
+      "pb": 12.11,
+      "roe_pct": -0.1,
+      "revenue_yoy_pct": -20.26,
+      "profit_yoy_pct": -108.84,
+      "ocf_per_share": -0.1017,
+      "debt_ratio_pct": 24.92,
+      "gross_margin_pct": 24.47,
+      "pledge_ratio_pct": 15.0,
+      "pledge_date": "2026-09-24",
+      "goodwill": 0.0,
+      "net_assets": 918548844.41,
+      "goodwill_net_assets_ratio_pct": 0.0,
+      "upcoming_unlock": null,
+      "days_to_unlock": null,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "event_risks": [],
+      "hard_risks": [],
+      "support_evidence": [
+        "资产负债率24.9%",
+        "商誉占归母净资产0.0%"
+      ],
+      "opposing_evidence": [
+        "营收同比下降20.3%",
+        "归母净利润同比下降108.8%",
+        "ROE仅-0.1%",
+        "每股经营现金流为负",
+        "PE(TTM) 8459.0偏高",
+        "PB 12.1偏高"
+      ],
+      "missing_data": [],
+      "data_quality": "complete",
+      "providers": [
+        "ths_financial_abstract",
+        "ths_balance_sheet",
+        "tencent_quote",
+        "eastmoney_unlock",
+        "eastmoney_notice"
+      ]
+    },
+    {
+      "symbol": "002687",
+      "name": "乔治白",
+      "sector": "服装鞋类",
+      "score_version": "fundamental_v2",
+      "fundamental_score": 19.0,
+      "risk_level": "high",
+      "report_date": "2026-06-30",
+      "pe_ttm": 35.3,
+      "pb": 1.91,
+      "roe_pct": 0.75,
+      "revenue_yoy_pct": -0.65,
+      "profit_yoy_pct": -20.01,
+      "ocf_per_share": -0.4422,
+      "debt_ratio_pct": 19.72,
+      "gross_margin_pct": 44.69,
+      "pledge_ratio_pct": null,
+      "pledge_date": null,
+      "goodwill": 8489712.25,
+      "net_assets": 1523817178.32,
+      "goodwill_net_assets_ratio_pct": 0.56,
+      "upcoming_unlock": null,
+      "days_to_unlock": null,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "event_risks": [],
+      "hard_risks": [],
+      "support_evidence": [
+        "资产负债率19.7%",
+        "商誉占归母净资产0.6%"
+      ],
+      "opposing_evidence": [
+        "营收同比下降0.7%",
+        "归母净利润同比下降20.0%",
+        "ROE仅0.8%",
+        "每股经营现金流为负"
+      ],
+      "missing_data": [
+        "股权质押比例"
+      ],
+      "data_quality": "partial",
+      "providers": [
+        "ths_financial_abstract",
+        "ths_balance_sheet",
+        "tencent_quote",
+        "eastmoney_unlock",
+        "eastmoney_notice"
+      ]
+    },
+    {
+      "symbol": "002035",
+      "name": "华帝股份",
+      "sector": "家电行业",
+      "score_version": "fundamental_v2",
+      "fundamental_score": 19.0,
+      "risk_level": "high",
+      "report_date": "2026-06-30",
+      "pe_ttm": 20.26,
+      "pb": 1.07,
+      "roe_pct": 4.52,
+      "revenue_yoy_pct": -12.11,
+      "profit_yoy_pct": -36.35,
+      "ocf_per_share": -0.3572,
+      "debt_ratio_pct": 40.22,
+      "gross_margin_pct": 43.46,
+      "pledge_ratio_pct": null,
+      "pledge_date": null,
+      "goodwill": 103751692.39,
+      "net_assets": 3838076023.25,
+      "goodwill_net_assets_ratio_pct": 2.7,
+      "upcoming_unlock": null,
+      "days_to_unlock": null,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "event_risks": [],
+      "hard_risks": [],
+      "support_evidence": [
+        "资产负债率40.2%",
+        "商誉占归母净资产2.7%"
+      ],
+      "opposing_evidence": [
+        "营收同比下降12.1%",
+        "归母净利润同比下降36.3%",
+        "ROE仅4.5%",
+        "每股经营现金流为负"
+      ],
+      "missing_data": [
+        "股权质押比例"
+      ],
+      "data_quality": "partial",
+      "providers": [
+        "ths_financial_abstract",
+        "ths_balance_sheet",
+        "tencent_quote",
+        "eastmoney_unlock",
+        "eastmoney_notice"
+      ]
+    },
+    {
+      "symbol": "600610",
+      "name": "中毅达",
+      "sector": "纺织机械",
+      "score_version": "fundamental_v2",
+      "fundamental_score": 21.0,
+      "risk_level": "high",
+      "report_date": "2026-06-30",
+      "pe_ttm": 174.33,
+      "pb": 51.44,
+      "roe_pct": 25.2,
+      "revenue_yoy_pct": 11.9,
+      "profit_yoy_pct": -12.15,
+      "ocf_per_share": 0.0072,
+      "debt_ratio_pct": 85.65,
+      "gross_margin_pct": 25.19,
+      "pledge_ratio_pct": null,
+      "pledge_date": null,
+      "goodwill": 160029833.62,
+      "net_assets": 155574931.31,
+      "goodwill_net_assets_ratio_pct": 102.86,
+      "upcoming_unlock": null,
+      "days_to_unlock": null,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "event_risks": [],
+      "hard_risks": [
+        "高商誉"
+      ],
+      "support_evidence": [
+        "营收同比增长11.9%",
+        "ROE 25.2%",
+        "经营现金流为正"
+      ],
+      "opposing_evidence": [
+        "归母净利润同比下降12.2%",
+        "资产负债率85.7%偏高",
+        "PE(TTM) 174.3偏高",
+        "PB 51.4偏高",
+        "商誉占归母净资产102.9%过高"
+      ],
+      "missing_data": [
+        "股权质押比例"
+      ],
+      "data_quality": "partial",
+      "providers": [
+        "ths_financial_abstract",
+        "ths_balance_sheet",
+        "tencent_quote",
+        "eastmoney_unlock",
+        "eastmoney_notice"
+      ]
+    },
+    {
+      "symbol": "000034",
+      "name": "神州数码",
+      "sector": "煤炭行业",
+      "score_version": "fundamental_v2",
+      "fundamental_score": 26.0,
+      "risk_level": "high",
+      "report_date": "2026-06-30",
+      "pe_ttm": 41.43,
+      "pb": 2.15,
+      "roe_pct": 4.41,
+      "revenue_yoy_pct": 21.42,
+      "profit_yoy_pct": 16.34,
+      "ocf_per_share": -0.625,
+      "debt_ratio_pct": 79.53,
+      "gross_margin_pct": 3.25,
+      "pledge_ratio_pct": 2.38,
+      "pledge_date": "2026-09-24",
+      "goodwill": 1409797557.68,
+      "net_assets": 11428329382.64,
+      "goodwill_net_assets_ratio_pct": 12.34,
+      "upcoming_unlock": null,
+      "days_to_unlock": null,
+      "performance_forecast": null,
+      "major_contracts": [
+        {
+          "label": "项目中标",
+          "impact": "positive",
+          "date": "2026-07-04",
+          "title": "神州数码:关于项目中标的公告",
+          "url": "https://data.eastmoney.com/notices/detail/000034/AN202607031826700177.html",
+          "amount": null,
+          "revenue_ratio_pct": null,
+          "amount_quality": "missing"
+        },
+        {
+          "label": "项目中标",
+          "impact": "positive",
+          "date": "2026-07-03",
+          "title": "神州数码:关于收到中标通知书及签订框架协议的公告",
+          "url": "https://data.eastmoney.com/notices/detail/000034/AN202607021826665949.html",
+          "amount": null,
+          "revenue_ratio_pct": null,
+          "amount_quality": "missing"
+        }
+      ],
+      "event_risks": [
+        {
+          "label": "股东减持",
+          "date": "2026-07-08",
+          "title": "神州数码:关于公司部分董事、高级管理人员减持计划期限届满暨实施情况的公告"
+        },
+        {
+          "label": "重大诉讼",
+          "date": "2026-05-06",
+          "title": "神州数码:重大诉讼的进展公告"
+        }
+      ],
+      "hard_risks": [
+        "重大诉讼"
+      ],
+      "support_evidence": [
+        "营收同比增长21.4%",
+        "归母净利润同比增长16.3%"
+      ],
+      "opposing_evidence": [
+        "ROE仅4.4%",
+        "每股经营现金流为负",
+        "资产负债率79.5%偏高",
+        "2026-07-08 股东减持",
+        "2026-05-06 重大诉讼"
+      ],
+      "missing_data": [],
+      "data_quality": "complete",
+      "providers": [
+        "ths_financial_abstract",
+        "ths_balance_sheet",
+        "tencent_quote",
+        "eastmoney_unlock",
+        "eastmoney_notice"
+      ]
+    },
+    {
+      "symbol": "002631",
+      "name": "德尔未来",
+      "sector": "家具行业",
+      "score_version": "fundamental_v2",
+      "fundamental_score": 33.0,
+      "risk_level": "high",
+      "report_date": "2026-06-30",
+      "pe_ttm": -59.65,
+      "pb": 5.51,
+      "roe_pct": -1.11,
+      "revenue_yoy_pct": -26.97,
+      "profit_yoy_pct": 60.8,
+      "ocf_per_share": -0.1211,
+      "debt_ratio_pct": 34.4,
+      "gross_margin_pct": 18.04,
+      "pledge_ratio_pct": 20.32,
+      "pledge_date": "2026-09-24",
+      "goodwill": 0.0,
+      "net_assets": 2014769709.41,
+      "goodwill_net_assets_ratio_pct": 0.0,
+      "upcoming_unlock": null,
+      "days_to_unlock": null,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "event_risks": [],
+      "hard_risks": [],
+      "support_evidence": [
+        "归母净利润同比增长60.8%",
+        "资产负债率34.4%",
+        "商誉占归母净资产0.0%"
+      ],
+      "opposing_evidence": [
+        "营收同比下降27.0%",
+        "ROE仅-1.1%",
+        "每股经营现金流为负",
+        "PE为负，当前处于亏损估值"
+      ],
+      "missing_data": [],
+      "data_quality": "complete",
+      "providers": [
+        "ths_financial_abstract",
+        "ths_balance_sheet",
+        "tencent_quote",
+        "eastmoney_unlock",
+        "eastmoney_notice"
+      ]
+    },
+    {
+      "symbol": "300384",
+      "name": "三联虹普",
+      "sector": "纺织机械",
+      "score_version": "fundamental_v2",
+      "fundamental_score": 35.0,
+      "risk_level": "medium",
+      "report_date": "2026-06-30",
+      "pe_ttm": 24.78,
+      "pb": 1.39,
+      "roe_pct": 2.73,
+      "revenue_yoy_pct": -39.81,
+      "profit_yoy_pct": -46.06,
+      "ocf_per_share": 0.0003,
+      "debt_ratio_pct": 16.16,
+      "gross_margin_pct": 46.68,
+      "pledge_ratio_pct": null,
+      "pledge_date": null,
+      "goodwill": 253317811.83,
+      "net_assets": 2808558880.03,
+      "goodwill_net_assets_ratio_pct": 9.02,
+      "upcoming_unlock": null,
+      "days_to_unlock": null,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "event_risks": [],
+      "hard_risks": [],
+      "support_evidence": [
+        "经营现金流为正",
+        "资产负债率16.2%",
+        "商誉占归母净资产9.0%"
+      ],
+      "opposing_evidence": [
+        "营收同比下降39.8%",
+        "归母净利润同比下降46.1%",
+        "ROE仅2.7%"
+      ],
+      "missing_data": [
+        "股权质押比例"
+      ],
+      "data_quality": "partial",
+      "providers": [
+        "ths_financial_abstract",
+        "ths_balance_sheet",
+        "tencent_quote",
+        "eastmoney_unlock",
+        "eastmoney_notice"
+      ]
+    },
+    {
+      "symbol": "601566",
+      "name": "九牧王",
+      "sector": "服装鞋类",
+      "score_version": "fundamental_v2",
+      "fundamental_score": 45.0,
+      "risk_level": "medium",
+      "report_date": "2026-06-30",
+      "pe_ttm": 34.74,
+      "pb": 1.48,
+      "roe_pct": 1.0,
+      "revenue_yoy_pct": 3.92,
+      "profit_yoy_pct": -77.15,
+      "ocf_per_share": 0.2664,
+      "debt_ratio_pct": 25.62,
+      "gross_margin_pct": 66.8,
+      "pledge_ratio_pct": null,
+      "pledge_date": null,
+      "goodwill": 0.0,
+      "net_assets": 3755043305.29,
+      "goodwill_net_assets_ratio_pct": 0.0,
+      "upcoming_unlock": null,
+      "days_to_unlock": null,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "event_risks": [],
+      "hard_risks": [],
+      "support_evidence": [
+        "经营现金流为正",
+        "资产负债率25.6%",
+        "商誉占归母净资产0.0%"
+      ],
+      "opposing_evidence": [
+        "归母净利润同比下降77.2%",
+        "ROE仅1.0%"
+      ],
+      "missing_data": [
+        "股权质押比例"
+      ],
+      "data_quality": "partial",
+      "providers": [
+        "ths_financial_abstract",
+        "ths_balance_sheet",
+        "tencent_quote",
+        "eastmoney_unlock",
+        "eastmoney_notice"
+      ]
+    },
+    {
+      "symbol": "002196",
+      "name": "方正电机",
+      "sector": "纺织机械",
+      "score_version": "fundamental_v2",
+      "fundamental_score": 54.0,
+      "risk_level": "medium",
+      "report_date": "2026-06-30",
+      "pe_ttm": 95.53,
+      "pb": 3.49,
+      "roe_pct": 1.71,
+      "revenue_yoy_pct": 35.77,
+      "profit_yoy_pct": 438.74,
+      "ocf_per_share": 0.0777,
+      "debt_ratio_pct": 71.89,
+      "gross_margin_pct": 12.44,
+      "pledge_ratio_pct": 3.02,
+      "pledge_date": "2026-09-24",
+      "goodwill": 62890414.42,
+      "net_assets": 1438213253.1,
+      "goodwill_net_assets_ratio_pct": 4.37,
+      "upcoming_unlock": null,
+      "days_to_unlock": null,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "event_risks": [],
+      "hard_risks": [],
+      "support_evidence": [
+        "营收同比增长35.8%",
+        "归母净利润同比增长438.7%",
+        "经营现金流为正",
+        "商誉占归母净资产4.4%"
+      ],
+      "opposing_evidence": [
+        "ROE仅1.7%",
+        "资产负债率71.9%偏高",
+        "PE(TTM) 95.5偏高"
+      ],
+      "missing_data": [],
+      "data_quality": "complete",
+      "providers": [
+        "ths_financial_abstract",
+        "ths_balance_sheet",
+        "tencent_quote",
+        "eastmoney_unlock",
+        "eastmoney_notice"
+      ]
+    },
+    {
+      "symbol": "002259",
+      "name": "升达林业",
+      "sector": "家具行业",
+      "score_version": "fundamental_v2",
+      "fundamental_score": 55.0,
+      "risk_level": "medium",
+      "report_date": "2026-06-30",
+      "pe_ttm": 17.21,
+      "pb": 7.58,
+      "roe_pct": 21.06,
+      "revenue_yoy_pct": -14.56,
+      "profit_yoy_pct": 536.04,
+      "ocf_per_share": -0.0179,
+      "debt_ratio_pct": 34.04,
+      "gross_margin_pct": 9.98,
+      "pledge_ratio_pct": null,
+      "pledge_date": null,
+      "goodwill": 0.0,
+      "net_assets": 470728950.62,
+      "goodwill_net_assets_ratio_pct": 0.0,
+      "upcoming_unlock": null,
+      "days_to_unlock": null,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "event_risks": [],
+      "hard_risks": [],
+      "support_evidence": [
+        "归母净利润同比增长536.0%",
+        "ROE 21.1%",
+        "资产负债率34.0%",
+        "商誉占归母净资产0.0%"
+      ],
+      "opposing_evidence": [
+        "营收同比下降14.6%",
+        "每股经营现金流为负"
+      ],
+      "missing_data": [
+        "股权质押比例"
+      ],
+      "data_quality": "partial",
+      "providers": [
+        "ths_financial_abstract",
+        "ths_balance_sheet",
+        "tencent_quote",
+        "eastmoney_unlock",
+        "eastmoney_notice"
+      ]
+    },
+    {
+      "symbol": "603519",
+      "name": "立霸股份",
+      "sector": "家电行业",
+      "score_version": "fundamental_v2",
+      "fundamental_score": 73.0,
+      "risk_level": "low",
+      "report_date": "2026-06-30",
+      "pe_ttm": 26.18,
+      "pb": 4.41,
+      "roe_pct": 8.0,
+      "revenue_yoy_pct": 0.02,
+      "profit_yoy_pct": 29.07,
+      "ocf_per_share": 0.2084,
+      "debt_ratio_pct": 36.94,
+      "gross_margin_pct": 15.62,
+      "pledge_ratio_pct": null,
+      "pledge_date": null,
+      "goodwill": 0.0,
+      "net_assets": 1062585557.93,
+      "goodwill_net_assets_ratio_pct": 0.0,
+      "upcoming_unlock": null,
+      "days_to_unlock": null,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "event_risks": [],
+      "hard_risks": [],
+      "support_evidence": [
+        "归母净利润同比增长29.1%",
+        "经营现金流为正",
+        "资产负债率36.9%",
+        "商誉占归母净资产0.0%"
+      ],
+      "opposing_evidence": [],
+      "missing_data": [
+        "股权质押比例"
+      ],
+      "data_quality": "partial",
+      "providers": [
+        "ths_financial_abstract",
+        "ths_balance_sheet",
+        "tencent_quote",
+        "eastmoney_unlock",
+        "eastmoney_notice"
+      ]
+    },
+    {
+      "symbol": "600546",
+      "name": "山煤国际",
+      "sector": "煤炭行业",
+      "score_version": "fundamental_v2",
+      "fundamental_score": 81.0,
+      "risk_level": "low",
+      "report_date": "2026-06-30",
+      "pe_ttm": 17.41,
+      "pb": 1.59,
+      "roe_pct": 6.06,
+      "revenue_yoy_pct": 21.63,
+      "profit_yoy_pct": 54.13,
+      "ocf_per_share": 1.2916,
+      "debt_ratio_pct": 49.2,
+      "gross_margin_pct": 41.97,
+      "pledge_ratio_pct": null,
+      "pledge_date": null,
+      "goodwill": 0.0,
+      "net_assets": 17334491416.51,
+      "goodwill_net_assets_ratio_pct": 0.0,
+      "upcoming_unlock": null,
+      "days_to_unlock": null,
+      "performance_forecast": null,
+      "major_contracts": [],
+      "event_risks": [],
+      "hard_risks": [],
+      "support_evidence": [
+        "营收同比增长21.6%",
+        "归母净利润同比增长54.1%",
+        "经营现金流为正",
+        "资产负债率49.2%",
+        "商誉占归母净资产0.0%"
+      ],
+      "opposing_evidence": [],
+      "missing_data": [
+        "股权质押比例"
+      ],
+      "data_quality": "partial",
+      "providers": [
+        "ths_financial_abstract",
+        "ths_balance_sheet",
+        "tencent_quote",
+        "eastmoney_unlock",
+        "eastmoney_notice"
+      ]
+    }
+  ],
+  "summary": {
+    "total": 15,
+    "high_risk": 9,
+    "medium_risk": 4,
+    "missing": 0
+  },
+  "source_health": {
+    "financial_ok": 15,
+    "financial_errors": {},
+    "notice_ok": 15,
+    "notice_errors": {},
+    "provider_errors": {},
+    "performance_forecast_ok": 0
+  }
+}

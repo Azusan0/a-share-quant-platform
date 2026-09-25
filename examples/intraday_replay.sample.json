@@ -1,0 +1,4360 @@
+{
+  "generated_at": "2026-09-24T18:10:02",
+  "trade_date": "2026-09-24",
+  "symbols": 80,
+  "summary": {
+    "complete": 18,
+    "partial": 20,
+    "insufficient": 42,
+    "invalid": 0
+  },
+  "fallback_consistent": 64,
+  "idempotent": 64,
+  "results": [
+    {
+      "symbol": "000034",
+      "trade_date": "2026-09-24",
+      "quality": "complete",
+      "bars": 48,
+      "expected_bars": 48,
+      "coverage_pct": 100.0,
+      "missing_count": 0,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "ignition",
+      "transition_count": 12,
+      "provider_counts": {
+        "tencent_m5": 48
+      },
+      "missing_times": [],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:10",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T10:40",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T10:45",
+          "state": "confirmation"
+        },
+        {
+          "time": "2026-09-24T10:55",
+          "state": "pullback"
+        },
+        {
+          "time": "2026-09-24T13:30",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T14:20",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T14:25",
+          "state": "confirmation"
+        },
+        {
+          "time": "2026-09-24T14:30",
+          "state": "pullback"
+        },
+        {
+          "time": "2026-09-24T14:35",
+          "state": "second_ignition"
+        },
+        {
+          "time": "2026-09-24T14:45",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T14:50",
+          "state": "confirmation"
+        },
+        {
+          "time": "2026-09-24T14:55",
+          "state": "ignition"
+        }
+      ]
+    },
+    {
+      "symbol": "000100",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 20,
+      "expected_bars": 48,
+      "coverage_pct": 41.67,
+      "missing_count": 28,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 1,
+      "provider_counts": {
+        "tencent_m5": 20
+      },
+      "missing_times": [
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:00",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "000333",
+      "trade_date": "2026-09-24",
+      "quality": "partial",
+      "bars": 45,
+      "expected_bars": 48,
+      "coverage_pct": 93.75,
+      "missing_count": 3,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 1,
+      "provider_counts": {
+        "tencent_m5": 45
+      },
+      "missing_times": [
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:00",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "000504",
+      "trade_date": "2026-09-24",
+      "quality": "partial",
+      "bars": 24,
+      "expected_bars": 48,
+      "coverage_pct": 50.0,
+      "missing_count": 24,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "overheated",
+      "transition_count": 1,
+      "provider_counts": {
+        "tencent_m5": 24
+      },
+      "missing_times": [
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:15",
+          "state": "overheated"
+        }
+      ]
+    },
+    {
+      "symbol": "000592",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 11,
+      "expected_bars": 48,
+      "coverage_pct": 22.92,
+      "missing_count": 37,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "dormant",
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 11
+      },
+      "missing_times": [
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "000607",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 2,
+      "expected_bars": 48,
+      "coverage_pct": 4.17,
+      "missing_count": 46,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": false,
+      "idempotent": false,
+      "final_state": null,
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 2
+      },
+      "missing_times": [
+        "2026-09-24T09:45",
+        "2026-09-24T09:50",
+        "2026-09-24T09:55",
+        "2026-09-24T10:00",
+        "2026-09-24T10:05",
+        "2026-09-24T10:10",
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "000626",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 1,
+      "expected_bars": 48,
+      "coverage_pct": 2.08,
+      "missing_count": 47,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": false,
+      "idempotent": false,
+      "final_state": null,
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 1
+      },
+      "missing_times": [
+        "2026-09-24T09:40",
+        "2026-09-24T09:45",
+        "2026-09-24T09:50",
+        "2026-09-24T09:55",
+        "2026-09-24T10:00",
+        "2026-09-24T10:05",
+        "2026-09-24T10:10",
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "000651",
+      "trade_date": "2026-09-24",
+      "quality": "partial",
+      "bars": 30,
+      "expected_bars": 48,
+      "coverage_pct": 62.5,
+      "missing_count": 18,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 1,
+      "provider_counts": {
+        "tencent_m5": 30
+      },
+      "missing_times": [
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:05",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "000672",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 1,
+      "expected_bars": 48,
+      "coverage_pct": 2.08,
+      "missing_count": 47,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": false,
+      "idempotent": false,
+      "final_state": null,
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 1
+      },
+      "missing_times": [
+        "2026-09-24T09:40",
+        "2026-09-24T09:45",
+        "2026-09-24T09:50",
+        "2026-09-24T09:55",
+        "2026-09-24T10:00",
+        "2026-09-24T10:05",
+        "2026-09-24T10:10",
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "000877",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 1,
+      "expected_bars": 48,
+      "coverage_pct": 2.08,
+      "missing_count": 47,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": false,
+      "idempotent": false,
+      "final_state": null,
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 1
+      },
+      "missing_times": [
+        "2026-09-24T09:40",
+        "2026-09-24T09:45",
+        "2026-09-24T09:50",
+        "2026-09-24T09:55",
+        "2026-09-24T10:00",
+        "2026-09-24T10:05",
+        "2026-09-24T10:10",
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "000910",
+      "trade_date": "2026-09-24",
+      "quality": "complete",
+      "bars": 48,
+      "expected_bars": 48,
+      "coverage_pct": 100.0,
+      "missing_count": 0,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "failed",
+      "transition_count": 10,
+      "provider_counts": {
+        "tencent_m5": 48
+      },
+      "missing_times": [],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:00",
+          "state": "failed"
+        },
+        {
+          "time": "2026-09-24T10:35",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T10:40",
+          "state": "overheated"
+        },
+        {
+          "time": "2026-09-24T11:05",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T11:30",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T13:05",
+          "state": "failed"
+        },
+        {
+          "time": "2026-09-24T13:25",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T13:40",
+          "state": "failed"
+        },
+        {
+          "time": "2026-09-24T13:55",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T14:00",
+          "state": "failed"
+        }
+      ]
+    },
+    {
+      "symbol": "000921",
+      "trade_date": "2026-09-24",
+      "quality": "partial",
+      "bars": 25,
+      "expected_bars": 48,
+      "coverage_pct": 52.08,
+      "missing_count": 23,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 1,
+      "provider_counts": {
+        "tencent_m5": 25
+      },
+      "missing_times": [
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:15",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "001696",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 1,
+      "expected_bars": 48,
+      "coverage_pct": 2.08,
+      "missing_count": 47,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": false,
+      "idempotent": false,
+      "final_state": null,
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 1
+      },
+      "missing_times": [
+        "2026-09-24T09:40",
+        "2026-09-24T09:45",
+        "2026-09-24T09:50",
+        "2026-09-24T09:55",
+        "2026-09-24T10:00",
+        "2026-09-24T10:05",
+        "2026-09-24T10:10",
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "002005",
+      "trade_date": "2026-09-24",
+      "quality": "partial",
+      "bars": 44,
+      "expected_bars": 48,
+      "coverage_pct": 91.67,
+      "missing_count": 4,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "ignition",
+      "transition_count": 4,
+      "provider_counts": {
+        "tencent_m5": 44
+      },
+      "missing_times": [
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:30",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T13:05",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T13:20",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T14:40",
+          "state": "ignition"
+        }
+      ]
+    },
+    {
+      "symbol": "002035",
+      "trade_date": "2026-09-24",
+      "quality": "complete",
+      "bars": 48,
+      "expected_bars": 48,
+      "coverage_pct": 100.0,
+      "missing_count": 0,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "failed",
+      "transition_count": 8,
+      "provider_counts": {
+        "tencent_m5": 48
+      },
+      "missing_times": [],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:00",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T11:30",
+          "state": "failed"
+        },
+        {
+          "time": "2026-09-24T13:05",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T13:20",
+          "state": "failed"
+        },
+        {
+          "time": "2026-09-24T13:25",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T14:00",
+          "state": "failed"
+        },
+        {
+          "time": "2026-09-24T14:15",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T14:35",
+          "state": "failed"
+        }
+      ]
+    },
+    {
+      "symbol": "002042",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 16,
+      "expected_bars": 48,
+      "coverage_pct": 33.33,
+      "missing_count": 32,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 2,
+      "provider_counts": {
+        "tencent_m5": 16
+      },
+      "missing_times": [
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:20",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T10:25",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "002084",
+      "trade_date": "2026-09-24",
+      "quality": "partial",
+      "bars": 41,
+      "expected_bars": 48,
+      "coverage_pct": 85.42,
+      "missing_count": 7,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "failed",
+      "transition_count": 4,
+      "provider_counts": {
+        "tencent_m5": 41
+      },
+      "missing_times": [
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:00",
+          "state": "failed"
+        },
+        {
+          "time": "2026-09-24T13:25",
+          "state": "overheated"
+        },
+        {
+          "time": "2026-09-24T13:35",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T13:40",
+          "state": "failed"
+        }
+      ]
+    },
+    {
+      "symbol": "002120",
+      "trade_date": "2026-09-24",
+      "quality": "partial",
+      "bars": 45,
+      "expected_bars": 48,
+      "coverage_pct": 93.75,
+      "missing_count": 3,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 1,
+      "provider_counts": {
+        "tencent_m5": 45
+      },
+      "missing_times": [
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:05",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "002124",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 10,
+      "expected_bars": 48,
+      "coverage_pct": 20.83,
+      "missing_count": 38,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "dormant",
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 10
+      },
+      "missing_times": [
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "002173",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 2,
+      "expected_bars": 48,
+      "coverage_pct": 4.17,
+      "missing_count": 46,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": false,
+      "idempotent": false,
+      "final_state": null,
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 2
+      },
+      "missing_times": [
+        "2026-09-24T09:45",
+        "2026-09-24T09:50",
+        "2026-09-24T09:55",
+        "2026-09-24T10:00",
+        "2026-09-24T10:05",
+        "2026-09-24T10:10",
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "002181",
+      "trade_date": "2026-09-24",
+      "quality": "partial",
+      "bars": 25,
+      "expected_bars": 48,
+      "coverage_pct": 52.08,
+      "missing_count": 23,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "dormant",
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 25
+      },
+      "missing_times": [
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "002196",
+      "trade_date": "2026-09-24",
+      "quality": "complete",
+      "bars": 48,
+      "expected_bars": 48,
+      "coverage_pct": 100.0,
+      "missing_count": 0,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 5,
+      "provider_counts": {
+        "tencent_m5": 48
+      },
+      "missing_times": [],
+      "transitions": [
+        {
+          "time": "2026-09-24T13:30",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T14:00",
+          "state": "dormant"
+        },
+        {
+          "time": "2026-09-24T14:20",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T14:30",
+          "state": "dormant"
+        },
+        {
+          "time": "2026-09-24T15:00",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "002238",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 15,
+      "expected_bars": 48,
+      "coverage_pct": 31.25,
+      "missing_count": 33,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "failed",
+      "transition_count": 2,
+      "provider_counts": {
+        "tencent_m5": 15
+      },
+      "missing_times": [
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:05",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T10:35",
+          "state": "failed"
+        }
+      ]
+    },
+    {
+      "symbol": "002259",
+      "trade_date": "2026-09-24",
+      "quality": "complete",
+      "bars": 48,
+      "expected_bars": 48,
+      "coverage_pct": 100.0,
+      "missing_count": 0,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "pullback",
+      "transition_count": 4,
+      "provider_counts": {
+        "tencent_m5": 48
+      },
+      "missing_times": [],
+      "transitions": [
+        {
+          "time": "2026-09-24T11:10",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T14:45",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T14:50",
+          "state": "confirmation"
+        },
+        {
+          "time": "2026-09-24T15:00",
+          "state": "pullback"
+        }
+      ]
+    },
+    {
+      "symbol": "002290",
+      "trade_date": "2026-09-24",
+      "quality": "partial",
+      "bars": 26,
+      "expected_bars": 48,
+      "coverage_pct": 54.17,
+      "missing_count": 22,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 2,
+      "provider_counts": {
+        "tencent_m5": 26
+      },
+      "missing_times": [
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:50",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T11:05",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "002292",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 8,
+      "expected_bars": 48,
+      "coverage_pct": 16.67,
+      "missing_count": 40,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "dormant",
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 8
+      },
+      "missing_times": [
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "002403",
+      "trade_date": "2026-09-24",
+      "quality": "complete",
+      "bars": 48,
+      "expected_bars": 48,
+      "coverage_pct": 100.0,
+      "missing_count": 0,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "dormant",
+      "transition_count": 4,
+      "provider_counts": {
+        "tencent_m5": 48
+      },
+      "missing_times": [],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:05",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T10:20",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T14:15",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T14:40",
+          "state": "dormant"
+        }
+      ]
+    },
+    {
+      "symbol": "002429",
+      "trade_date": "2026-09-24",
+      "quality": "complete",
+      "bars": 47,
+      "expected_bars": 48,
+      "coverage_pct": 97.92,
+      "missing_count": 1,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "confirmation",
+      "transition_count": 9,
+      "provider_counts": {
+        "tencent_m5": 47
+      },
+      "missing_times": [
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T11:10",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T13:25",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T13:30",
+          "state": "confirmation"
+        },
+        {
+          "time": "2026-09-24T13:35",
+          "state": "pullback"
+        },
+        {
+          "time": "2026-09-24T13:40",
+          "state": "second_ignition"
+        },
+        {
+          "time": "2026-09-24T13:45",
+          "state": "pullback"
+        },
+        {
+          "time": "2026-09-24T13:50",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T13:55",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T14:05",
+          "state": "confirmation"
+        }
+      ]
+    },
+    {
+      "symbol": "002432",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 7,
+      "expected_bars": 48,
+      "coverage_pct": 14.58,
+      "missing_count": 41,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "dormant",
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 7
+      },
+      "missing_times": [
+        "2026-09-24T10:10",
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "002612",
+      "trade_date": "2026-09-24",
+      "quality": "partial",
+      "bars": 24,
+      "expected_bars": 48,
+      "coverage_pct": 50.0,
+      "missing_count": 24,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "pullback",
+      "transition_count": 5,
+      "provider_counts": {
+        "tencent_m5": 24
+      },
+      "missing_times": [
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:25",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T10:30",
+          "state": "confirmation"
+        },
+        {
+          "time": "2026-09-24T10:55",
+          "state": "pullback"
+        },
+        {
+          "time": "2026-09-24T11:00",
+          "state": "second_ignition"
+        },
+        {
+          "time": "2026-09-24T11:20",
+          "state": "pullback"
+        }
+      ]
+    },
+    {
+      "symbol": "002624",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 5,
+      "expected_bars": 48,
+      "coverage_pct": 10.42,
+      "missing_count": 43,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": false,
+      "idempotent": false,
+      "final_state": null,
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 5
+      },
+      "missing_times": [
+        "2026-09-24T10:00",
+        "2026-09-24T10:05",
+        "2026-09-24T10:10",
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "002631",
+      "trade_date": "2026-09-24",
+      "quality": "complete",
+      "bars": 48,
+      "expected_bars": 48,
+      "coverage_pct": 100.0,
+      "missing_count": 0,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 4,
+      "provider_counts": {
+        "tencent_m5": 48
+      },
+      "missing_times": [],
+      "transitions": [
+        {
+          "time": "2026-09-24T13:05",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T13:10",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T13:25",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T13:35",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "002640",
+      "trade_date": "2026-09-24",
+      "quality": "complete",
+      "bars": 48,
+      "expected_bars": 48,
+      "coverage_pct": 100.0,
+      "missing_count": 0,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "failed",
+      "transition_count": 7,
+      "provider_counts": {
+        "tencent_m5": 48
+      },
+      "missing_times": [],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:00",
+          "state": "failed"
+        },
+        {
+          "time": "2026-09-24T11:00",
+          "state": "overheated"
+        },
+        {
+          "time": "2026-09-24T11:10",
+          "state": "failed"
+        },
+        {
+          "time": "2026-09-24T13:30",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T13:35",
+          "state": "failed"
+        },
+        {
+          "time": "2026-09-24T13:45",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T13:50",
+          "state": "failed"
+        }
+      ]
+    },
+    {
+      "symbol": "002687",
+      "trade_date": "2026-09-24",
+      "quality": "complete",
+      "bars": 48,
+      "expected_bars": 48,
+      "coverage_pct": 100.0,
+      "missing_count": 0,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "pullback",
+      "transition_count": 4,
+      "provider_counts": {
+        "tencent_m5": 48
+      },
+      "missing_times": [],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:20",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T13:05",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T13:10",
+          "state": "confirmation"
+        },
+        {
+          "time": "2026-09-24T14:45",
+          "state": "pullback"
+        }
+      ]
+    },
+    {
+      "symbol": "300005",
+      "trade_date": "2026-09-24",
+      "quality": "partial",
+      "bars": 33,
+      "expected_bars": 48,
+      "coverage_pct": 68.75,
+      "missing_count": 15,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 3,
+      "provider_counts": {
+        "tencent_m5": 33
+      },
+      "missing_times": [
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:05",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T13:35",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T13:40",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "300133",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 17,
+      "expected_bars": 48,
+      "coverage_pct": 35.42,
+      "missing_count": 31,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "ignition",
+      "transition_count": 2,
+      "provider_counts": {
+        "tencent_m5": 17
+      },
+      "missing_times": [
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:10",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T10:55",
+          "state": "ignition"
+        }
+      ]
+    },
+    {
+      "symbol": "300171",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 6,
+      "expected_bars": 48,
+      "coverage_pct": 12.5,
+      "missing_count": 42,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "dormant",
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 6
+      },
+      "missing_times": [
+        "2026-09-24T10:05",
+        "2026-09-24T10:10",
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "300244",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 12,
+      "expected_bars": 48,
+      "coverage_pct": 25.0,
+      "missing_count": 36,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "dormant",
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 12
+      },
+      "missing_times": [
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "300251",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 12,
+      "expected_bars": 48,
+      "coverage_pct": 25.0,
+      "missing_count": 36,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 1,
+      "provider_counts": {
+        "tencent_m5": 12
+      },
+      "missing_times": [
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:30",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "300291",
+      "trade_date": "2026-09-24",
+      "quality": "partial",
+      "bars": 25,
+      "expected_bars": 48,
+      "coverage_pct": 52.08,
+      "missing_count": 23,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 2,
+      "provider_counts": {
+        "tencent_m5": 25
+      },
+      "missing_times": [
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:00",
+          "state": "failed"
+        },
+        {
+          "time": "2026-09-24T10:15",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "300364",
+      "trade_date": "2026-09-24",
+      "quality": "partial",
+      "bars": 25,
+      "expected_bars": 48,
+      "coverage_pct": 52.08,
+      "missing_count": 23,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "failed",
+      "transition_count": 2,
+      "provider_counts": {
+        "tencent_m5": 25
+      },
+      "missing_times": [
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T11:20",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T11:25",
+          "state": "failed"
+        }
+      ]
+    },
+    {
+      "symbol": "300384",
+      "trade_date": "2026-09-24",
+      "quality": "complete",
+      "bars": 48,
+      "expected_bars": 48,
+      "coverage_pct": 100.0,
+      "missing_count": 0,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 3,
+      "provider_counts": {
+        "tencent_m5": 48
+      },
+      "missing_times": [],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:10",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T10:30",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T10:35",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "300395",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 1,
+      "expected_bars": 48,
+      "coverage_pct": 2.08,
+      "missing_count": 47,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": false,
+      "idempotent": false,
+      "final_state": null,
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 1
+      },
+      "missing_times": [
+        "2026-09-24T09:40",
+        "2026-09-24T09:45",
+        "2026-09-24T09:50",
+        "2026-09-24T09:55",
+        "2026-09-24T10:00",
+        "2026-09-24T10:05",
+        "2026-09-24T10:10",
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "300404",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 12,
+      "expected_bars": 48,
+      "coverage_pct": 25.0,
+      "missing_count": 36,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "dormant",
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 12
+      },
+      "missing_times": [
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "600058",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 1,
+      "expected_bars": 48,
+      "coverage_pct": 2.08,
+      "missing_count": 47,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": false,
+      "idempotent": false,
+      "final_state": null,
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 1
+      },
+      "missing_times": [
+        "2026-09-24T09:40",
+        "2026-09-24T09:45",
+        "2026-09-24T09:50",
+        "2026-09-24T09:55",
+        "2026-09-24T10:00",
+        "2026-09-24T10:05",
+        "2026-09-24T10:10",
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "600121",
+      "trade_date": "2026-09-24",
+      "quality": "complete",
+      "bars": 48,
+      "expected_bars": 48,
+      "coverage_pct": 100.0,
+      "missing_count": 0,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "failed",
+      "transition_count": 3,
+      "provider_counts": {
+        "tencent_m5": 48
+      },
+      "missing_times": [],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:40",
+          "state": "failed"
+        },
+        {
+          "time": "2026-09-24T13:05",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T13:15",
+          "state": "failed"
+        }
+      ]
+    },
+    {
+      "symbol": "600127",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 11,
+      "expected_bars": 48,
+      "coverage_pct": 22.92,
+      "missing_count": 37,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 1,
+      "provider_counts": {
+        "tencent_m5": 11
+      },
+      "missing_times": [
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:00",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "600156",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 2,
+      "expected_bars": 48,
+      "coverage_pct": 4.17,
+      "missing_count": 46,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": false,
+      "idempotent": false,
+      "final_state": null,
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 2
+      },
+      "missing_times": [
+        "2026-09-24T09:45",
+        "2026-09-24T09:50",
+        "2026-09-24T09:55",
+        "2026-09-24T10:00",
+        "2026-09-24T10:05",
+        "2026-09-24T10:10",
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "600179",
+      "trade_date": "2026-09-24",
+      "quality": "complete",
+      "bars": 48,
+      "expected_bars": 48,
+      "coverage_pct": 100.0,
+      "missing_count": 0,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 1,
+      "provider_counts": {
+        "tencent_m5": 48
+      },
+      "missing_times": [],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:00",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "600184",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 1,
+      "expected_bars": 48,
+      "coverage_pct": 2.08,
+      "missing_count": 47,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": false,
+      "idempotent": false,
+      "final_state": null,
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 1
+      },
+      "missing_times": [
+        "2026-09-24T09:40",
+        "2026-09-24T09:45",
+        "2026-09-24T09:50",
+        "2026-09-24T09:55",
+        "2026-09-24T10:00",
+        "2026-09-24T10:05",
+        "2026-09-24T10:10",
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "600188",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 6,
+      "expected_bars": 48,
+      "coverage_pct": 12.5,
+      "missing_count": 42,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "dormant",
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 6
+      },
+      "missing_times": [
+        "2026-09-24T10:05",
+        "2026-09-24T10:10",
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "600233",
+      "trade_date": "2026-09-24",
+      "quality": "partial",
+      "bars": 37,
+      "expected_bars": 48,
+      "coverage_pct": 77.08,
+      "missing_count": 11,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 5,
+      "provider_counts": {
+        "tencent_m5": 37
+      },
+      "missing_times": [
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:40",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T13:05",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T13:10",
+          "state": "confirmation"
+        },
+        {
+          "time": "2026-09-24T13:15",
+          "state": "pullback"
+        },
+        {
+          "time": "2026-09-24T13:20",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "600272",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 16,
+      "expected_bars": 48,
+      "coverage_pct": 33.33,
+      "missing_count": 32,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "failed",
+      "transition_count": 1,
+      "provider_counts": {
+        "tencent_m5": 16
+      },
+      "missing_times": [
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:00",
+          "state": "failed"
+        }
+      ]
+    },
+    {
+      "symbol": "600354",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 9,
+      "expected_bars": 48,
+      "coverage_pct": 18.75,
+      "missing_count": 39,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "failed",
+      "transition_count": 1,
+      "provider_counts": {
+        "tencent_m5": 9
+      },
+      "missing_times": [
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:00",
+          "state": "failed"
+        }
+      ]
+    },
+    {
+      "symbol": "600371",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 11,
+      "expected_bars": 48,
+      "coverage_pct": 22.92,
+      "missing_count": 37,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "failed",
+      "transition_count": 3,
+      "provider_counts": {
+        "tencent_m5": 11
+      },
+      "missing_times": [
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:00",
+          "state": "failed"
+        },
+        {
+          "time": "2026-09-24T10:15",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T10:20",
+          "state": "failed"
+        }
+      ]
+    },
+    {
+      "symbol": "600397",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 23,
+      "expected_bars": 48,
+      "coverage_pct": 47.92,
+      "missing_count": 25,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "failed",
+      "transition_count": 1,
+      "provider_counts": {
+        "tencent_m5": 23
+      },
+      "missing_times": [
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:15",
+          "state": "failed"
+        }
+      ]
+    },
+    {
+      "symbol": "600403",
+      "trade_date": "2026-09-24",
+      "quality": "partial",
+      "bars": 30,
+      "expected_bars": 48,
+      "coverage_pct": 62.5,
+      "missing_count": 18,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 4,
+      "provider_counts": {
+        "tencent_m5": 30
+      },
+      "missing_times": [
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:40",
+          "state": "failed"
+        },
+        {
+          "time": "2026-09-24T11:30",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T13:05",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T13:10",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "600448",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 16,
+      "expected_bars": 48,
+      "coverage_pct": 33.33,
+      "missing_count": 32,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "dormant",
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 16
+      },
+      "missing_times": [
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "600500",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 1,
+      "expected_bars": 48,
+      "coverage_pct": 2.08,
+      "missing_count": 47,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": false,
+      "idempotent": false,
+      "final_state": null,
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 1
+      },
+      "missing_times": [
+        "2026-09-24T09:40",
+        "2026-09-24T09:45",
+        "2026-09-24T09:50",
+        "2026-09-24T09:55",
+        "2026-09-24T10:00",
+        "2026-09-24T10:05",
+        "2026-09-24T10:10",
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "600506",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 7,
+      "expected_bars": 48,
+      "coverage_pct": 14.58,
+      "missing_count": 41,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "ignition",
+      "transition_count": 1,
+      "provider_counts": {
+        "tencent_m5": 7
+      },
+      "missing_times": [
+        "2026-09-24T10:10",
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:05",
+          "state": "ignition"
+        }
+      ]
+    },
+    {
+      "symbol": "600539",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 1,
+      "expected_bars": 48,
+      "coverage_pct": 2.08,
+      "missing_count": 47,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": false,
+      "idempotent": false,
+      "final_state": null,
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 1
+      },
+      "missing_times": [
+        "2026-09-24T09:40",
+        "2026-09-24T09:45",
+        "2026-09-24T09:50",
+        "2026-09-24T09:55",
+        "2026-09-24T10:00",
+        "2026-09-24T10:05",
+        "2026-09-24T10:10",
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "600546",
+      "trade_date": "2026-09-24",
+      "quality": "partial",
+      "bars": 39,
+      "expected_bars": 48,
+      "coverage_pct": 81.25,
+      "missing_count": 9,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 1,
+      "provider_counts": {
+        "tencent_m5": 39
+      },
+      "missing_times": [
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:10",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "600551",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 16,
+      "expected_bars": 48,
+      "coverage_pct": 33.33,
+      "missing_count": 32,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "pullback",
+      "transition_count": 4,
+      "provider_counts": {
+        "tencent_m5": 16
+      },
+      "missing_times": [
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:05",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T10:20",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T10:30",
+          "state": "confirmation"
+        },
+        {
+          "time": "2026-09-24T10:50",
+          "state": "pullback"
+        }
+      ]
+    },
+    {
+      "symbol": "600552",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 1,
+      "expected_bars": 48,
+      "coverage_pct": 2.08,
+      "missing_count": 47,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": false,
+      "idempotent": false,
+      "final_state": null,
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 1
+      },
+      "missing_times": [
+        "2026-09-24T09:40",
+        "2026-09-24T09:45",
+        "2026-09-24T09:50",
+        "2026-09-24T09:55",
+        "2026-09-24T10:00",
+        "2026-09-24T10:05",
+        "2026-09-24T10:10",
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "600587",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 12,
+      "expected_bars": 48,
+      "coverage_pct": 25.0,
+      "missing_count": 36,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 1,
+      "provider_counts": {
+        "tencent_m5": 12
+      },
+      "missing_times": [
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:15",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "600610",
+      "trade_date": "2026-09-24",
+      "quality": "complete",
+      "bars": 48,
+      "expected_bars": 48,
+      "coverage_pct": 100.0,
+      "missing_count": 0,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 3,
+      "provider_counts": {
+        "tencent_m5": 48
+      },
+      "missing_times": [],
+      "transitions": [
+        {
+          "time": "2026-09-24T11:30",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T13:10",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T13:30",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "600630",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 16,
+      "expected_bars": 48,
+      "coverage_pct": 33.33,
+      "missing_count": 32,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 2,
+      "provider_counts": {
+        "tencent_m5": 16
+      },
+      "missing_times": [
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:00",
+          "state": "failed"
+        },
+        {
+          "time": "2026-09-24T10:15",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "600721",
+      "trade_date": "2026-09-24",
+      "quality": "partial",
+      "bars": 25,
+      "expected_bars": 48,
+      "coverage_pct": 52.08,
+      "missing_count": 23,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "failed",
+      "transition_count": 5,
+      "provider_counts": {
+        "tencent_m5": 25
+      },
+      "missing_times": [
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:00",
+          "state": "failed"
+        },
+        {
+          "time": "2026-09-24T10:15",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T10:30",
+          "state": "confirmation"
+        },
+        {
+          "time": "2026-09-24T10:35",
+          "state": "overheated"
+        },
+        {
+          "time": "2026-09-24T11:15",
+          "state": "failed"
+        }
+      ]
+    },
+    {
+      "symbol": "600792",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 8,
+      "expected_bars": 48,
+      "coverage_pct": 16.67,
+      "missing_count": 40,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "dormant",
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 8
+      },
+      "missing_times": [
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "600831",
+      "trade_date": "2026-09-24",
+      "quality": "partial",
+      "bars": 24,
+      "expected_bars": 48,
+      "coverage_pct": 50.0,
+      "missing_count": 24,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "failed",
+      "transition_count": 1,
+      "provider_counts": {
+        "tencent_m5": 24
+      },
+      "missing_times": [
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:20",
+          "state": "failed"
+        }
+      ]
+    },
+    {
+      "symbol": "600877",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 1,
+      "expected_bars": 48,
+      "coverage_pct": 2.08,
+      "missing_count": 47,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": false,
+      "idempotent": false,
+      "final_state": null,
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 1
+      },
+      "missing_times": [
+        "2026-09-24T09:40",
+        "2026-09-24T09:45",
+        "2026-09-24T09:50",
+        "2026-09-24T09:55",
+        "2026-09-24T10:00",
+        "2026-09-24T10:05",
+        "2026-09-24T10:10",
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "601015",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 17,
+      "expected_bars": 48,
+      "coverage_pct": 35.42,
+      "missing_count": 31,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "ignition",
+      "transition_count": 1,
+      "provider_counts": {
+        "tencent_m5": 17
+      },
+      "missing_times": [
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:00",
+          "state": "ignition"
+        }
+      ]
+    },
+    {
+      "symbol": "601088",
+      "trade_date": "2026-09-24",
+      "quality": "complete",
+      "bars": 47,
+      "expected_bars": 48,
+      "coverage_pct": 97.92,
+      "missing_count": 1,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 1,
+      "provider_counts": {
+        "tencent_m5": 47
+      },
+      "missing_times": [
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:05",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "601225",
+      "trade_date": "2026-09-24",
+      "quality": "partial",
+      "bars": 32,
+      "expected_bars": 48,
+      "coverage_pct": 66.67,
+      "missing_count": 16,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 1,
+      "provider_counts": {
+        "tencent_m5": 32
+      },
+      "missing_times": [
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:10",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "601566",
+      "trade_date": "2026-09-24",
+      "quality": "complete",
+      "bars": 48,
+      "expected_bars": 48,
+      "coverage_pct": 100.0,
+      "missing_count": 0,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "confirmation",
+      "transition_count": 6,
+      "provider_counts": {
+        "tencent_m5": 48
+      },
+      "missing_times": [],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:00",
+          "state": "failed"
+        },
+        {
+          "time": "2026-09-24T10:20",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T13:25",
+          "state": "failed"
+        },
+        {
+          "time": "2026-09-24T14:20",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T14:30",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T14:55",
+          "state": "confirmation"
+        }
+      ]
+    },
+    {
+      "symbol": "601699",
+      "trade_date": "2026-09-24",
+      "quality": "complete",
+      "bars": 46,
+      "expected_bars": 48,
+      "coverage_pct": 95.83,
+      "missing_count": 2,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 1,
+      "provider_counts": {
+        "tencent_m5": 46
+      },
+      "missing_times": [
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:00",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "601918",
+      "trade_date": "2026-09-24",
+      "quality": "partial",
+      "bars": 38,
+      "expected_bars": 48,
+      "coverage_pct": 79.17,
+      "missing_count": 10,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "setup",
+      "transition_count": 6,
+      "provider_counts": {
+        "tencent_m5": 38
+      },
+      "missing_times": [
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:10",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T10:15",
+          "state": "setup"
+        },
+        {
+          "time": "2026-09-24T13:05",
+          "state": "ignition"
+        },
+        {
+          "time": "2026-09-24T13:10",
+          "state": "confirmation"
+        },
+        {
+          "time": "2026-09-24T13:15",
+          "state": "pullback"
+        },
+        {
+          "time": "2026-09-24T13:35",
+          "state": "setup"
+        }
+      ]
+    },
+    {
+      "symbol": "603001",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 18,
+      "expected_bars": 48,
+      "coverage_pct": 37.5,
+      "missing_count": 30,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "dormant",
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 18
+      },
+      "missing_times": [
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    },
+    {
+      "symbol": "603519",
+      "trade_date": "2026-09-24",
+      "quality": "complete",
+      "bars": 48,
+      "expected_bars": 48,
+      "coverage_pct": 100.0,
+      "missing_count": 0,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": true,
+      "idempotent": true,
+      "final_state": "failed",
+      "transition_count": 1,
+      "provider_counts": {
+        "tencent_m5": 48
+      },
+      "missing_times": [],
+      "transitions": [
+        {
+          "time": "2026-09-24T10:00",
+          "state": "failed"
+        }
+      ]
+    },
+    {
+      "symbol": "603766",
+      "trade_date": "2026-09-24",
+      "quality": "insufficient",
+      "bars": 1,
+      "expected_bars": 48,
+      "coverage_pct": 2.08,
+      "missing_count": 47,
+      "invalid_count": 0,
+      "duplicate_count": 0,
+      "fallback_consistent": false,
+      "idempotent": false,
+      "final_state": null,
+      "transition_count": 0,
+      "provider_counts": {
+        "tencent_m5": 1
+      },
+      "missing_times": [
+        "2026-09-24T09:40",
+        "2026-09-24T09:45",
+        "2026-09-24T09:50",
+        "2026-09-24T09:55",
+        "2026-09-24T10:00",
+        "2026-09-24T10:05",
+        "2026-09-24T10:10",
+        "2026-09-24T10:15",
+        "2026-09-24T10:20",
+        "2026-09-24T10:25",
+        "2026-09-24T10:30",
+        "2026-09-24T10:35",
+        "2026-09-24T10:40",
+        "2026-09-24T10:45",
+        "2026-09-24T10:50",
+        "2026-09-24T10:55",
+        "2026-09-24T11:00",
+        "2026-09-24T11:05",
+        "2026-09-24T11:10",
+        "2026-09-24T11:15",
+        "2026-09-24T11:20",
+        "2026-09-24T11:25",
+        "2026-09-24T11:30",
+        "2026-09-24T13:05",
+        "2026-09-24T13:10",
+        "2026-09-24T13:15",
+        "2026-09-24T13:20",
+        "2026-09-24T13:25",
+        "2026-09-24T13:30",
+        "2026-09-24T13:35",
+        "2026-09-24T13:40",
+        "2026-09-24T13:45",
+        "2026-09-24T13:50",
+        "2026-09-24T13:55",
+        "2026-09-24T14:00",
+        "2026-09-24T14:05",
+        "2026-09-24T14:10",
+        "2026-09-24T14:15",
+        "2026-09-24T14:20",
+        "2026-09-24T14:25",
+        "2026-09-24T14:30",
+        "2026-09-24T14:35",
+        "2026-09-24T14:40",
+        "2026-09-24T14:45",
+        "2026-09-24T14:50",
+        "2026-09-24T14:55",
+        "2026-09-24T15:00"
+      ],
+      "transitions": []
+    }
+  ]
+}

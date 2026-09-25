@@ -1,0 +1,10 @@
+[Unit]
+Description=Replay Dynamic Exit Advice After Close
+
+[Timer]
+OnCalendar=Mon..Fri *-*-* 18:20:00
+Persistent=true
+AccuracySec=30s
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,2391 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-25T09:31:49",
+  "source_scope": "active_dynamic_pool",
+  "dimensions": {
+    "industry": [
+      {
+        "name": "纺织机械",
+        "code": "",
+        "score": 64.44,
+        "breadth_pct": 62.5,
+        "median_change_pct": 0.43,
+        "main_net_today": 0.0,
+        "main_net_5d": 0.0,
+        "member_count": 3,
+        "persistence": 0
+      },
+      {
+        "name": "家具行业",
+        "code": "",
+        "score": 57.96,
+        "breadth_pct": 50.0,
+        "median_change_pct": 0.1,
+        "main_net_today": 0.0,
+        "main_net_5d": 0.0,
+        "member_count": 3,
+        "persistence": 0
+      },
+      {
+        "name": "煤炭行业",
+        "code": "",
+        "score": 49.69,
+        "breadth_pct": 46.3,
+        "median_change_pct": 0.0,
+        "main_net_today": 0.0,
+        "main_net_5d": 0.0,
+        "member_count": 3,
+        "persistence": 0
+      },
+      {
+        "name": "服装鞋类",
+        "code": "",
+        "score": 40.94,
+        "breadth_pct": 38.8,
+        "median_change_pct": 0.0,
+        "main_net_today": 0.0,
+        "main_net_5d": 0.0,
+        "member_count": 3,
+        "persistence": 0
+      },
+      {
+        "name": "家电行业",
+        "code": "",
+        "score": 40.81,
+        "breadth_pct": 40.5,
+        "median_change_pct": 0.0,
+        "main_net_today": 0.0,
+        "main_net_5d": 0.0,
+        "member_count": 3,
+        "persistence": 0
+      }
+    ],
+    "concept": [
+      {
+        "name": "创投",
+        "code": "",
+        "score": 65.0,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.21,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 3,
+        "members": [
+          {
+            "symbol": "300384",
+            "name": "三联虹普",
+            "change_pct": 2.86
+          },
+          {
+            "symbol": "002687",
+            "name": "乔治白",
+            "change_pct": 3.59
+          },
+          {
+            "symbol": "002035",
+            "name": "华帝股份",
+            "change_pct": 3.21
+          }
+        ]
+      },
+      {
+        "name": "电商概念",
+        "code": "",
+        "score": 65.0,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.21,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 3,
+        "members": [
+          {
+            "symbol": "002640",
+            "name": "跨境通",
+            "change_pct": 2.56
+          },
+          {
+            "symbol": "601566",
+            "name": "九牧王",
+            "change_pct": 6.85
+          },
+          {
+            "symbol": "002035",
+            "name": "华帝股份",
+            "change_pct": 3.21
+          }
+        ]
+      },
+      {
+        "name": "机器人概念",
+        "code": "",
+        "score": 63.73,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.75,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 4,
+        "members": [
+          {
+            "symbol": "002196",
+            "name": "方正电机",
+            "change_pct": 0.4
+          },
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          },
+          {
+            "symbol": "002403",
+            "name": "爱仕达",
+            "change_pct": 2.28
+          },
+          {
+            "symbol": "002035",
+            "name": "华帝股份",
+            "change_pct": 3.21
+          }
+        ]
+      },
+      {
+        "name": "跨境电商",
+        "code": "",
+        "score": 62.8,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.56,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 3,
+        "members": [
+          {
+            "symbol": "002640",
+            "name": "跨境通",
+            "change_pct": 2.56
+          },
+          {
+            "symbol": "002640",
+            "name": "跨境通",
+            "change_pct": 2.56
+          },
+          {
+            "symbol": "002403",
+            "name": "爱仕达",
+            "change_pct": 2.28
+          }
+        ]
+      },
+      {
+        "name": "华为昇腾",
+        "code": "",
+        "score": 61.67,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.3,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 2,
+        "members": [
+          {
+            "symbol": "300384",
+            "name": "三联虹普",
+            "change_pct": 2.86
+          },
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "AI应用",
+        "code": "",
+        "score": 61.67,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.3,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 2,
+        "members": [
+          {
+            "symbol": "300384",
+            "name": "三联虹普",
+            "change_pct": 2.86
+          },
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "华为概念",
+        "code": "",
+        "score": 61.67,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.3,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 2,
+        "members": [
+          {
+            "symbol": "300384",
+            "name": "三联虹普",
+            "change_pct": 2.86
+          },
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "参股券商",
+        "code": "",
+        "score": 61.67,
+        "breadth_pct": 100.0,
+        "median_change_pct": 4.36,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 2,
+        "members": [
+          {
+            "symbol": "600121",
+            "name": "郑州煤电",
+            "change_pct": 1.87
+          },
+          {
+            "symbol": "601566",
+            "name": "九牧王",
+            "change_pct": 6.85
+          }
+        ]
+      },
+      {
+        "name": "非运动服装",
+        "code": "",
+        "score": 61.67,
+        "breadth_pct": 100.0,
+        "median_change_pct": 5.22,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 2,
+        "members": [
+          {
+            "symbol": "601566",
+            "name": "九牧王",
+            "change_pct": 6.85
+          },
+          {
+            "symbol": "002687",
+            "name": "乔治白",
+            "change_pct": 3.59
+          }
+        ]
+      },
+      {
+        "name": "服装家纺",
+        "code": "",
+        "score": 61.67,
+        "breadth_pct": 100.0,
+        "median_change_pct": 5.22,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 2,
+        "members": [
+          {
+            "symbol": "601566",
+            "name": "九牧王",
+            "change_pct": 6.85
+          },
+          {
+            "symbol": "002687",
+            "name": "乔治白",
+            "change_pct": 3.59
+          }
+        ]
+      },
+      {
+        "name": "纺织服饰",
+        "code": "",
+        "score": 61.67,
+        "breadth_pct": 100.0,
+        "median_change_pct": 5.22,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 2,
+        "members": [
+          {
+            "symbol": "601566",
+            "name": "九牧王",
+            "change_pct": 6.85
+          },
+          {
+            "symbol": "002687",
+            "name": "乔治白",
+            "change_pct": 3.59
+          }
+        ]
+      },
+      {
+        "name": "破发股",
+        "code": "",
+        "score": 61.67,
+        "breadth_pct": 100.0,
+        "median_change_pct": 4.56,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 2,
+        "members": [
+          {
+            "symbol": "601566",
+            "name": "九牧王",
+            "change_pct": 6.85
+          },
+          {
+            "symbol": "002403",
+            "name": "爱仕达",
+            "change_pct": 2.28
+          }
+        ]
+      },
+      {
+        "name": "新零售",
+        "code": "",
+        "score": 61.67,
+        "breadth_pct": 100.0,
+        "median_change_pct": 5.03,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 2,
+        "members": [
+          {
+            "symbol": "601566",
+            "name": "九牧王",
+            "change_pct": 6.85
+          },
+          {
+            "symbol": "002035",
+            "name": "华帝股份",
+            "change_pct": 3.21
+          }
+        ]
+      },
+      {
+        "name": "家用电器",
+        "code": "",
+        "score": 61.4,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.28,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 3,
+        "members": [
+          {
+            "symbol": "002403",
+            "name": "爱仕达",
+            "change_pct": 2.28
+          },
+          {
+            "symbol": "603519",
+            "name": "立霸股份",
+            "change_pct": 2.09
+          },
+          {
+            "symbol": "002035",
+            "name": "华帝股份",
+            "change_pct": 3.21
+          }
+        ]
+      },
+      {
+        "name": "拼多多概念",
+        "code": "",
+        "score": 61.29,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.92,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 2,
+        "members": [
+          {
+            "symbol": "002718",
+            "name": "友邦吊顶",
+            "change_pct": 3.29
+          },
+          {
+            "symbol": "002640",
+            "name": "跨境通",
+            "change_pct": 2.56
+          }
+        ]
+      },
+      {
+        "name": "智能家居",
+        "code": "",
+        "score": 60.77,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.82,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 2,
+        "members": [
+          {
+            "symbol": "002631",
+            "name": "德尔未来",
+            "change_pct": 2.43
+          },
+          {
+            "symbol": "002035",
+            "name": "华帝股份",
+            "change_pct": 3.21
+          }
+        ]
+      },
+      {
+        "name": "2026中报首亏",
+        "code": "",
+        "score": 60.59,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.79,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 2,
+        "members": [
+          {
+            "symbol": "002718",
+            "name": "友邦吊顶",
+            "change_pct": 3.29
+          },
+          {
+            "symbol": "002403",
+            "name": "爱仕达",
+            "change_pct": 2.28
+          }
+        ]
+      },
+      {
+        "name": "其他建材Ⅲ",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.29,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002718",
+            "name": "友邦吊顶",
+            "change_pct": 3.29
+          }
+        ]
+      },
+      {
+        "name": "建筑材料",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.29,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002718",
+            "name": "友邦吊顶",
+            "change_pct": 3.29
+          }
+        ]
+      },
+      {
+        "name": "装修建材",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.29,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002718",
+            "name": "友邦吊顶",
+            "change_pct": 3.29
+          }
+        ]
+      },
+      {
+        "name": "IT服务Ⅲ",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "IT服务Ⅱ",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "计算机",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "边缘计算",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "区块链",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "智能驾驶",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "人工智能",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "阿里概念",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "网络安全",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "云计算",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "物联网",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "安防概念",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "腾讯云",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "DeepSeek概念",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "智谱AI概念",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "华为海思",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "英伟达概念",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "数据中心",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "存储芯片",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "ChatGPT概念",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "信创",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "数字经济",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "液冷服务器",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.74,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          }
+        ]
+      },
+      {
+        "name": "2026中报预减",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 6.85,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "601566",
+            "name": "九牧王",
+            "change_pct": 6.85
+          }
+        ]
+      },
+      {
+        "name": "IPO受益",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 6.85,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "601566",
+            "name": "九牧王",
+            "change_pct": 6.85
+          }
+        ]
+      },
+      {
+        "name": "厨房电器",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.21,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002035",
+            "name": "华帝股份",
+            "change_pct": 3.21
+          }
+        ]
+      },
+      {
+        "name": "厨卫电器",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.21,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002035",
+            "name": "华帝股份",
+            "change_pct": 3.21
+          }
+        ]
+      },
+      {
+        "name": "光伏概念",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.21,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002035",
+            "name": "华帝股份",
+            "change_pct": 3.21
+          }
+        ]
+      },
+      {
+        "name": "体育产业",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.21,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002035",
+            "name": "华帝股份",
+            "change_pct": 3.21
+          }
+        ]
+      },
+      {
+        "name": "快手概念",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.21,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002035",
+            "name": "华帝股份",
+            "change_pct": 3.21
+          }
+        ]
+      },
+      {
+        "name": "机器视觉",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.21,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002035",
+            "name": "华帝股份",
+            "change_pct": 3.21
+          }
+        ]
+      },
+      {
+        "name": "净水概念",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.21,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002035",
+            "name": "华帝股份",
+            "change_pct": 3.21
+          }
+        ]
+      },
+      {
+        "name": "空气能热泵",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.21,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002035",
+            "name": "华帝股份",
+            "change_pct": 3.21
+          }
+        ]
+      },
+      {
+        "name": "新型工业化",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.21,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002035",
+            "name": "华帝股份",
+            "change_pct": 3.21
+          }
+        ]
+      },
+      {
+        "name": "小红书概念",
+        "code": "",
+        "score": 58.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 3.21,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002035",
+            "name": "华帝股份",
+            "change_pct": 3.21
+          }
+        ]
+      },
+      {
+        "name": "化学工程",
+        "code": "",
+        "score": 57.63,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.86,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "300384",
+            "name": "三联虹普",
+            "change_pct": 2.86
+          }
+        ]
+      },
+      {
+        "name": "专业工程",
+        "code": "",
+        "score": 57.63,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.86,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "300384",
+            "name": "三联虹普",
+            "change_pct": 2.86
+          }
+        ]
+      },
+      {
+        "name": "建筑装饰",
+        "code": "",
+        "score": 57.63,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.86,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "300384",
+            "name": "三联虹普",
+            "change_pct": 2.86
+          }
+        ]
+      },
+      {
+        "name": "大数据",
+        "code": "",
+        "score": 57.63,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.86,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "300384",
+            "name": "三联虹普",
+            "change_pct": 2.86
+          }
+        ]
+      },
+      {
+        "name": "互联网金融",
+        "code": "",
+        "score": 57.63,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.86,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "300384",
+            "name": "三联虹普",
+            "change_pct": 2.86
+          }
+        ]
+      },
+      {
+        "name": "创业板综",
+        "code": "",
+        "score": 57.63,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.86,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "300384",
+            "name": "三联虹普",
+            "change_pct": 2.86
+          }
+        ]
+      },
+      {
+        "name": "AI智能体",
+        "code": "",
+        "score": 57.63,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.86,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "300384",
+            "name": "三联虹普",
+            "change_pct": 2.86
+          }
+        ]
+      },
+      {
+        "name": "工业互联网",
+        "code": "",
+        "score": 57.63,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.86,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "300384",
+            "name": "三联虹普",
+            "change_pct": 2.86
+          }
+        ]
+      },
+      {
+        "name": "垃圾分类",
+        "code": "",
+        "score": 57.63,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.86,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "300384",
+            "name": "三联虹普",
+            "change_pct": 2.86
+          }
+        ]
+      },
+      {
+        "name": "降解塑料",
+        "code": "",
+        "score": 57.63,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.86,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "300384",
+            "name": "三联虹普",
+            "change_pct": 2.86
+          }
+        ]
+      },
+      {
+        "name": "互联网电商",
+        "code": "",
+        "score": 56.13,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.56,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002640",
+            "name": "跨境通",
+            "change_pct": 2.56
+          }
+        ]
+      },
+      {
+        "name": "商贸零售",
+        "code": "",
+        "score": 56.13,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.56,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002640",
+            "name": "跨境通",
+            "change_pct": 2.56
+          }
+        ]
+      },
+      {
+        "name": "婴童概念",
+        "code": "",
+        "score": 56.13,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.56,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002640",
+            "name": "跨境通",
+            "change_pct": 2.56
+          }
+        ]
+      },
+      {
+        "name": "无线耳机",
+        "code": "",
+        "score": 56.13,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.56,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002640",
+            "name": "跨境通",
+            "change_pct": 2.56
+          }
+        ]
+      },
+      {
+        "name": "网红经济",
+        "code": "",
+        "score": 56.13,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.56,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002640",
+            "name": "跨境通",
+            "change_pct": 2.56
+          }
+        ]
+      },
+      {
+        "name": "消费电子概念",
+        "code": "",
+        "score": 56.13,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.56,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002640",
+            "name": "跨境通",
+            "change_pct": 2.56
+          }
+        ]
+      },
+      {
+        "name": "定制家居",
+        "code": "",
+        "score": 55.48,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.43,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002631",
+            "name": "德尔未来",
+            "change_pct": 2.43
+          }
+        ]
+      },
+      {
+        "name": "轻工制造",
+        "code": "",
+        "score": 55.48,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.43,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002631",
+            "name": "德尔未来",
+            "change_pct": 2.43
+          }
+        ]
+      },
+      {
+        "name": "家居用品",
+        "code": "",
+        "score": 55.48,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.43,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002631",
+            "name": "德尔未来",
+            "change_pct": 2.43
+          }
+        ]
+      },
+      {
+        "name": "趋势股",
+        "code": "",
+        "score": 55.48,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.43,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002631",
+            "name": "德尔未来",
+            "change_pct": 2.43
+          }
+        ]
+      },
+      {
+        "name": "柔性屏(折叠屏)",
+        "code": "",
+        "score": 55.48,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.43,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002631",
+            "name": "德尔未来",
+            "change_pct": 2.43
+          }
+        ]
+      },
+      {
+        "name": "碳基材料",
+        "code": "",
+        "score": 55.48,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.43,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002631",
+            "name": "德尔未来",
+            "change_pct": 2.43
+          }
+        ]
+      },
+      {
+        "name": "C2M概念",
+        "code": "",
+        "score": 55.48,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.43,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002631",
+            "name": "德尔未来",
+            "change_pct": 2.43
+          }
+        ]
+      },
+      {
+        "name": "石墨烯",
+        "code": "",
+        "score": 55.48,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.43,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002631",
+            "name": "德尔未来",
+            "change_pct": 2.43
+          }
+        ]
+      },
+      {
+        "name": "节能环保",
+        "code": "",
+        "score": 55.48,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.43,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002631",
+            "name": "德尔未来",
+            "change_pct": 2.43
+          }
+        ]
+      },
+      {
+        "name": "厨房小家电",
+        "code": "",
+        "score": 54.73,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.28,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002403",
+            "name": "爱仕达",
+            "change_pct": 2.28
+          }
+        ]
+      },
+      {
+        "name": "小家电",
+        "code": "",
+        "score": 54.73,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.28,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002403",
+            "name": "爱仕达",
+            "change_pct": 2.28
+          }
+        ]
+      },
+      {
+        "name": "减速器",
+        "code": "",
+        "score": 54.73,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.28,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002403",
+            "name": "爱仕达",
+            "change_pct": 2.28
+          }
+        ]
+      },
+      {
+        "name": "换电概念",
+        "code": "",
+        "score": 54.73,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.28,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002403",
+            "name": "爱仕达",
+            "change_pct": 2.28
+          }
+        ]
+      },
+      {
+        "name": "土地流转",
+        "code": "",
+        "score": 54.73,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.28,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002403",
+            "name": "爱仕达",
+            "change_pct": 2.28
+          }
+        ]
+      },
+      {
+        "name": "参股保险",
+        "code": "",
+        "score": 54.73,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.28,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002403",
+            "name": "爱仕达",
+            "change_pct": 2.28
+          }
+        ]
+      },
+      {
+        "name": "2026中报扭亏",
+        "code": "",
+        "score": 54.07,
+        "breadth_pct": 100.0,
+        "median_change_pct": 1.48,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 2,
+        "members": [
+          {
+            "symbol": "002196",
+            "name": "方正电机",
+            "change_pct": 0.4
+          },
+          {
+            "symbol": "002640",
+            "name": "跨境通",
+            "change_pct": 2.56
+          }
+        ]
+      },
+      {
+        "name": "股权分散",
+        "code": "",
+        "score": 54.07,
+        "breadth_pct": 100.0,
+        "median_change_pct": 1.48,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 2,
+        "members": [
+          {
+            "symbol": "002196",
+            "name": "方正电机",
+            "change_pct": 0.4
+          },
+          {
+            "symbol": "002640",
+            "name": "跨境通",
+            "change_pct": 2.56
+          }
+        ]
+      },
+      {
+        "name": "家电零部件Ⅲ",
+        "code": "",
+        "score": 53.78,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.09,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "603519",
+            "name": "立霸股份",
+            "change_pct": 2.09
+          }
+        ]
+      },
+      {
+        "name": "家电零部件Ⅱ",
+        "code": "",
+        "score": 53.78,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.09,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "603519",
+            "name": "立霸股份",
+            "change_pct": 2.09
+          }
+        ]
+      },
+      {
+        "name": "碳化硅",
+        "code": "",
+        "score": 53.78,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.09,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "603519",
+            "name": "立霸股份",
+            "change_pct": 2.09
+          }
+        ]
+      },
+      {
+        "name": "第三代半导体",
+        "code": "",
+        "score": 53.78,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.09,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "603519",
+            "name": "立霸股份",
+            "change_pct": 2.09
+          }
+        ]
+      },
+      {
+        "name": "国产芯片",
+        "code": "",
+        "score": 53.78,
+        "breadth_pct": 100.0,
+        "median_change_pct": 2.09,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "603519",
+            "name": "立霸股份",
+            "change_pct": 2.09
+          }
+        ]
+      },
+      {
+        "name": "稀缺资源",
+        "code": "",
+        "score": 52.68,
+        "breadth_pct": 100.0,
+        "median_change_pct": 1.87,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "600121",
+            "name": "郑州煤电",
+            "change_pct": 1.87
+          }
+        ]
+      },
+      {
+        "name": "破增发价股",
+        "code": "",
+        "score": 52.33,
+        "breadth_pct": 75.0,
+        "median_change_pct": 2.21,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 4,
+        "members": [
+          {
+            "symbol": "300384",
+            "name": "三联虹普",
+            "change_pct": 2.86
+          },
+          {
+            "symbol": "002259",
+            "name": "升达林业",
+            "change_pct": -0.84
+          },
+          {
+            "symbol": "600121",
+            "name": "郑州煤电",
+            "change_pct": 1.87
+          },
+          {
+            "symbol": "002640",
+            "name": "跨境通",
+            "change_pct": 2.56
+          }
+        ]
+      },
+      {
+        "name": "内贸流通",
+        "code": "",
+        "score": 51.13,
+        "breadth_pct": 66.7,
+        "median_change_pct": 2.56,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 3,
+        "members": [
+          {
+            "symbol": "000034",
+            "name": "神州数码",
+            "change_pct": 3.74
+          },
+          {
+            "symbol": "600546",
+            "name": "山煤国际",
+            "change_pct": -0.07
+          },
+          {
+            "symbol": "002640",
+            "name": "跨境通",
+            "change_pct": 2.56
+          }
+        ]
+      },
+      {
+        "name": "长江三角",
+        "code": "",
+        "score": 47.95,
+        "breadth_pct": 75.0,
+        "median_change_pct": 1.34,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 4,
+        "members": [
+          {
+            "symbol": "002196",
+            "name": "方正电机",
+            "change_pct": 0.4
+          },
+          {
+            "symbol": "600610",
+            "name": "中毅达",
+            "change_pct": -1.71
+          },
+          {
+            "symbol": "002718",
+            "name": "友邦吊顶",
+            "change_pct": 3.29
+          },
+          {
+            "symbol": "002403",
+            "name": "爱仕达",
+            "change_pct": 2.28
+          }
+        ]
+      },
+      {
+        "name": "电机Ⅲ",
+        "code": "",
+        "score": 45.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 0.4,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002196",
+            "name": "方正电机",
+            "change_pct": 0.4
+          }
+        ]
+      },
+      {
+        "name": "电力设备",
+        "code": "",
+        "score": 45.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 0.4,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002196",
+            "name": "方正电机",
+            "change_pct": 0.4
+          }
+        ]
+      },
+      {
+        "name": "电机Ⅱ",
+        "code": "",
+        "score": 45.33,
+        "breadth_pct": 100.0,
+        "median_change_pct": 0.4,
+        "main_net_today": 0.0,
+        "main_pct_today": 0.0,
+        "main_net_5d": 0.0,
+        "persistence": 0,
+        "member_count": 1,
+        "members": [
+          {
+            "symbol": "002196",
+            "name": "方正电机",
+            "change_pct": 0.4
+          }
+        ]
+      }
+    ]
+  },
+  "stock_concepts": [
+    {
+      "symbol": "300384",
+      "concept_tags": [
+        "化学工程",
+        "专业工程",
+        "建筑装饰",
+        "创投",
+        "大数据",
+        "互联网金融",
+        "创业板综",
+        "AI智能体",
+        "工业互联网",
+        "垃圾分类",
+        "降解塑料",
+        "华为昇腾",
+        "AI应用",
+        "破增发价股",
+        "华为概念"
+      ]
+    },
+    {
+      "symbol": "002196",
+      "concept_tags": [
+        "电机Ⅲ",
+        "电力设备",
+        "电机Ⅱ",
+        "2026中报扭亏",
+        "股权分散",
+        "人形机器人",
+        "机器人概念",
+        "新能源车",
+        "一带一路",
+        "无人机",
+        "央国企改革",
+        "特斯拉概念",
+        "长江三角"
+      ]
+    },
+    {
+      "symbol": "600610",
+      "concept_tags": [
+        "其他化学原料",
+        "基础化工",
+        "化学原料",
+        "高市净率",
+        "长江三角",
+        "西部大开发",
+        "AB股"
+      ]
+    },
+    {
+      "symbol": "002631",
+      "concept_tags": [
+        "定制家居",
+        "轻工制造",
+        "家居用品",
+        "趋势股",
+        "柔性屏(折叠屏)",
+        "碳基材料",
+        "C2M概念",
+        "智能家居",
+        "石墨烯",
+        "节能环保"
+      ]
+    },
+    {
+      "symbol": "002718",
+      "concept_tags": [
+        "其他建材Ⅲ",
+        "建筑材料",
+        "装修建材",
+        "2026中报首亏",
+        "拼多多概念",
+        "长江三角"
+      ]
+    },
+    {
+      "symbol": "002259",
+      "concept_tags": [
+        "燃气Ⅲ",
+        "燃气Ⅱ",
+        "公用事业",
+        "破增发价股",
+        "油气资源",
+        "最近多板",
+        "天然气",
+        "新能源"
+      ]
+    },
+    {
+      "symbol": "000034",
+      "concept_tags": [
+        "IT服务Ⅲ",
+        "IT服务Ⅱ",
+        "计算机",
+        "边缘计算",
+        "华为概念",
+        "区块链",
+        "智能驾驶",
+        "人工智能",
+        "阿里概念",
+        "网络安全",
+        "云计算",
+        "物联网",
+        "安防概念",
+        "AI应用",
+        "腾讯云",
+        "DeepSeek概念",
+        "智谱AI概念",
+        "华为海思",
+        "英伟达概念",
+        "数据中心",
+        "存储芯片",
+        "ChatGPT概念",
+        "信创",
+        "机器人概念",
+        "数字经济",
+        "内贸流通",
+        "华为昇腾",
+        "液冷服务器"
+      ]
+    },
+    {
+      "symbol": "600121",
+      "concept_tags": [
+        "动力煤",
+        "煤炭开采",
+        "煤炭",
+        "破增发价股",
+        "反内卷概念",
+        "央国企改革",
+        "稀缺资源",
+        "参股券商"
+      ]
+    },
+    {
+      "symbol": "600546",
+      "concept_tags": [
+        "煤炭",
+        "动力煤",
+        "煤炭开采",
+        "参股银行",
+        "央国企改革",
+        "超超临界发电",
+        "反内卷概念",
+        "红利股",
+        "小盘价值",
+        "2026中报预增",
+        "内贸流通"
+      ]
+    },
+    {
+      "symbol": "002640",
+      "concept_tags": [
+        "跨境电商",
+        "互联网电商",
+        "商贸零售",
+        "婴童概念",
+        "电商概念",
+        "无线耳机",
+        "网红经济",
+        "拼多多概念",
+        "跨境电商",
+        "消费电子概念",
+        "破增发价股",
+        "股权分散",
+        "2026中报扭亏",
+        "内贸流通"
+      ]
+    },
+    {
+      "symbol": "601566",
+      "concept_tags": [
+        "非运动服装",
+        "服装家纺",
+        "纺织服饰",
+        "2026中报预减",
+        "破发股",
+        "新零售",
+        "IPO受益",
+        "电商概念",
+        "参股券商"
+      ]
+    },
+    {
+      "symbol": "002687",
+      "concept_tags": [
+        "非运动服装",
+        "服装家纺",
+        "纺织服饰",
+        "创投"
+      ]
+    },
+    {
+      "symbol": "002403",
+      "concept_tags": [
+        "厨房小家电",
+        "小家电",
+        "家用电器",
+        "2026中报首亏",
+        "破发股",
+        "跨境电商",
+        "减速器",
+        "机器人概念",
+        "换电概念",
+        "土地流转",
+        "参股保险",
+        "长江三角"
+      ]
+    },
+    {
+      "symbol": "603519",
+      "concept_tags": [
+        "家电零部件Ⅲ",
+        "家电零部件Ⅱ",
+        "家用电器",
+        "碳化硅",
+        "第三代半导体",
+        "国产芯片"
+      ]
+    },
+    {
+      "symbol": "002035",
+      "concept_tags": [
+        "家用电器",
+        "厨房电器",
+        "厨卫电器",
+        "新能源",
+        "创投",
+        "光伏概念",
+        "电商概念",
+        "智能家居",
+        "体育产业",
+        "新零售",
+        "快手概念",
+        "机器视觉",
+        "净水概念",
+        "机器人概念",
+        "空气能热泵",
+        "新型工业化",
+        "小红书概念"
+      ]
+    }
+  ],
+  "summary": {
+    "industry_count": 5,
+    "concept_count": 128,
+    "stocks": 15,
+    "concept_errors": 0
+  },
+  "source_health": {
+    "errors": {},
+    "flow_errors": {
+      "today": "HTTPError: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=200&po=1&np=1&fltt=2&invt=2&fid=f62&fs=m%3A90%2Bt%3A3&fields=f12%2Cf",
+      "5d": "HTTPError: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=200&po=1&np=1&fltt=2&invt=2&fid=f164&fs=m%3A90%2Bt%3A3&fields=f12%2C"
+    },
+    "concept_flow_today": 0,
+    "concept_flow_5d": 0
+  }
+}

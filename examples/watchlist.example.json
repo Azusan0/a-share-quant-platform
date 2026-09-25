@@ -1,0 +1,30 @@
+{
+  "holdings": [
+    {
+      "symbol": "512480",
+      "name": "半导体ETF",
+      "type": "etf",
+      "quantity": 1000,
+      "buy_price": 1.0,
+      "buy_date": "2026-07-16",
+      "highest_price": 1.0,
+      "target_price": 1.15,
+      "stop_price": 0.95,
+      "added_at": "2026-07-16T10:31:51",
+      "source": "watchlist_cli"
+    },
+    {
+      "symbol": "002371",
+      "name": "北方华创",
+      "type": "stock",
+      "quantity": 200,
+      "buy_price": 100.0,
+      "buy_date": "2026-08-03",
+      "highest_price": 100.0,
+      "target_price": 115.0,
+      "stop_price": 95.0,
+      "added_at": "2026-08-03T09:36:48",
+      "source": "watchlist_cli"
+    }
+  ]
+}

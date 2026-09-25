@@ -1,0 +1,74 @@
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+venv/
+.venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ── 本机 / 编辑器 ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ── 真实配置与凭证：绝不入库 ──────────────────────────────────
+# 只允许 examples/*.example.json 与 deploy/*.env.example
+runtime_config.json
+config.json
+a_share_alert_runtime_config.json
+a_share_account_routes.json
+a_share_watchlist.json
+*.env
+!.env.example
+!*.env.example
+*service*.pem
+*.pem
+*.key
+*.crt
+credentials*
+secrets*
+
+# ── 运行时状态与数据：体积大且随运行变化 ───────────────────────
+a_share_alert_runtime_state.json
+.a_share_alert_runtime_state.json.*
+a_share_signal_journal.json
+a_share_dynamic_pool.json
+a_share_dynamic_pool.preview.json
+a_share_market_snapshots.db
+a_share_recommendation_snapshot.json
+a_share_shadow_snapshot.json
+a_share_pipeline_manifest.json
+a_share_board_strength_snapshot.json
+a_share_fundamental_snapshot.json
+a_share_global_market_factor.json
+a_share_intraday_replay.json
+a_share_market_sentiment.json
+a_share_failover_drill.json
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+state/
+logs/
+*.log
+*.jsonl
+
+# ── 备份产物 ──────────────────────────────────────────────────
+*.bak
+*.bak_*
+*.backup
+*.before_*
+*.codex_backup*
+*_backup_*
+backup_*/
+codex_backups/
